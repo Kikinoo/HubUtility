@@ -1,0 +1,114 @@
+
+Gui:
+  General:
+    Nom: "&3Chapeaux"
+    Fond: 
+      Style:
+        Ligne1: "@@-@@@-@@"
+        Ligne2: "@---@---@"
+        Ligne3: "@@-@@@-@@"
+        Ligne4: "@@-@@@-@@"
+        Ligne5: "@---@---@"
+        Ligne6: "@@-@@@-@@"
+    Remplissage:
+      Item1:
+        Symbole: "@"
+        Item: red stained glass pane
+        Name: "&6Choisissez vos particules."
+        Lore: "&7Choisissez vos particules."
+      Item2:
+        Symbole: "-"
+        Item: white stained glass pane
+        Name: "&6Choisissez vos particules."
+        Lore: "&7Choisissez vos particules."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+
+
+
+
+  Selection:
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever les particules"
+      Slot: 53
+
+    
+
+    Alphabet:
+      Stat: true
+      Item: flint and steel 
+      Name: "&6Alphabet"
+      Lore: "&7Cliquez pour afficher le ||&7menu des chapeaux alphabets||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 0
+
+    Animals:
+      Stat: true
+      Item: diamond horse armor
+      Name: "&6Animaux"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux animaux||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 8
+
+    Blocks:
+      Stat: true
+      Item: stone
+      Name: "&6Blocks"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux blocks||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 4
+
+    Decoration:
+      Stat: true
+      Item: red carpet
+      Name: "&6Decoration"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux décoration||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot: 11
+
+    FoodAndDrinks:
+      Stat: true
+      Item: bread
+      Name: "&6Nourriture et Boissons"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux nourritures et boissons||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot: 15
+    Humanoid:
+      Stat: true
+      Item: armor stand
+      Name: "&6Humanoide"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux Humanoides||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot:  31
+
+    Humans:
+      Stat: true
+      Item: player head
+      Name: "&6Humains"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux humains||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot: 22
+
+    
+
+    Monsters:
+      Stat: true
+      Item: skeleton head
+      Name: "&6Monstres"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux monstres||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot: 42
+
+    Plants:
+      Stat: true
+      Item: red tulip
+      Name: "&6Plantes"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux plantes||&7Vous possédez [CountJoueur] sur [CountTotal]" 
+      Slot: 38
+
+   

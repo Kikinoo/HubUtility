@@ -1,0 +1,867 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Plantes"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+   
+    Hazelnut:
+      Stat: true
+      Obtenu:
+        Name: "&6Hazelnut"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hazelnut"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hazelnut"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"431494f9-da6e-43fd-86dd-ff14ee1a820b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNkNmNkMmMzNjY2NTUyNDM2YjhjN2FmYmE5MDhlMmM0YmMxNjFiZThiODY1M2U0NWU4MmY3OTViM2YxIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 10
+
+
+    Pomme:
+      Stat: true
+      Obtenu:
+        Name: "&6Pomme"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pomme"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pomme"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"ebd81954-37b1-49f4-aaa1-8e79e2e3a856",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNlODY1OTQ3OGRkMjhiMWFkZTZlYmU3ZDNlMWQ2NzU4ZTIxOWY0MzhkYjc4NGE1YWRkZWRhODZlZDFhMzhhIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 11
+
+    Salade:
+      Stat: true
+      Obtenu:
+        Name: "&6Salade"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Salade"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Salade"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f96757e1-a8b9-0375-43cb-66fd85e09575",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk3OWZlN2IzMmZiN2ZjOTc0NmUxNTc0NzFmOTc1ZjMxYWZjYjU4ZmQ4YjVhY2I4YmY1M2VjMzUwZjRkNWMyIn19fQ=="}]}}}'
+      Page: 1 
+      Slot: 12
+
+    Citron:
+      Stat: true
+      Obtenu:
+        Name: "&6Citron"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Citron"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Citron"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"40dc7ddf-5ec7-1738-b5e7-0e99c99b9d1e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI5ZTlhZTkyODhkMDk0NWE3ZjhhMTc4Y2NkMTNiZjZkN2Q1M2IxMWY1Y2U3Mjc1OGZmNjFlZjc4NGNhNCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    Orange:
+      Stat: true
+      Obtenu:
+        Name: "&6Orange"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Orange"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Orange"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"6c974ad9-3e92-2781-acf0-70bff78bd4f1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxNTk3MzExMGQ1ODNkZjQ3YWYwYThhZWE1ZWFjOTMxYTg2YWE2MmUzY2EwODc4YTk2ZGE0NGQ2M2RiZjgifX19"}]}}}'
+      Page: 1
+      Slot: 14
+
+    Kiwi:
+      Stat: true
+      Obtenu:
+        Name: "&6Kiwi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kiwi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kiwi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a73dd194-1d0b-4ee8-b46a-3910492002ab",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1MGEwNjdkZWZhZTBmNjY0ZWM1OGVlNjhjZDM2MTFkYTM0ZjA2NWI2MTk4ZTk2OWI0N2UxYWQyZjRjMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15
+
+    RaisinVert:
+      Stat: true
+      Obtenu:
+        Name: "&6RaisinVert"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4RaisinVert"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4RaisinVert"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"aba29735-1e36-460c-87a3-8ae6caa6b7df",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE3YTkyMTgyYzZmOWFjMGY4ZjA1YjhkM2M2MjBlNjE5YjBjNjFmNGEyZjZhZGU1MmMxYmZmYTM5OWQzYTk5In19fQ=="}]}}}'
+      Page: 1
+      Slot: 16
+
+    RaisinNoir:
+      Stat: true
+      Obtenu:
+        Name: "&6RaisinNoir"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4RaisinNoir"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4RaisinNoir"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"87efaa92-a99d-44d7-96fb-7fbdfaa7fea9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhhMTFiNGNjNmY2OTJmOWI1NjA3ZDA4MWNhNjJiY2UyNmY0Y2ZiMmMzY2JkNDUyYTg3NjkzMTVkOTg0ZCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+
+    Strawberry:
+      Stat: true
+      Obtenu:
+        Name: "&6Strawberry"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Strawberry"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Strawberry"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"244cd9a9-445e-4800-b6ac-4753bbb035a1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJjZDYzYmE5NzNmNjE2ZThhMWJmYTQyNzgxOGU2ZjcxM2RmMTk2MTRiZTFjNTBhNTQ2ZDRjNjdhZWVhZiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 20
+
+    Rose:
+      Stat: true
+      Obtenu:
+        Name: "&6Rose"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Rose"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Rose"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c50be1a1-334b-4a6a-99b6-74766a9117db",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZmYjliM2UzZjY1MGI3YjI1OGMwNGZmY2I4NWMxYjVkY2FjOTJiODFlNTJkOTkyYzUxMjRiNjcwZmU4ZDYifX19"}]}}}'
+      Page: 1
+      Slot: 21
+
+    Citrouille:
+      Stat: true
+      Obtenu:
+        Name: "&6Citrouille"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Citrouille"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Citrouille"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"7e152955-f5f5-43c6-9a7c-e8db43f1404f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 22
+
+    Oignon:
+      Stat: true
+      Obtenu:
+        Name: "&6Oignon"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Oignon"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Oignon"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b471714b-3330-4a38-bd5c-ce964a034cb7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjEzNGFiMTQ1YmQxNzY3NmFjMTBhNmY1YjY1NTRkZDQxMjU2Y2UzYjgyMzlmODdjMDU5MWIxMDVhYTllMDg2In19fQ=="}]}}}'
+      Page: 1
+      Slot: 23
+
+    Feuilles:
+      Stat: true
+      Obtenu:
+        Name: "&6Feuilles"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Feuilles"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Feuilles"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d390e386-4a65-4c1f-83ae-d06d7d948f52",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMzNmM4NjI3ZDBjNzc2ZmFlZDdhM2Y0ZDIwN2U1ZmY4OWJlMzVkZTZjMzNlMWU1OTYyYTZkMzQxOTEzIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 24
+
+    ChampignonBleu:
+      Stat: true
+      Obtenu:
+        Name: "&6ChampignonBleu"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4ChampignonBleu"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4ChampignonBleu"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"223bd82b-3331-4021-9eb0-014b850ec957",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjZDMxMWM5OTc0YzY1YmYzZjk2OWYxNmZjMjMwOTE5NzExMTAyMWU2MWM0NmQxNDJhZmEzYjU2ZmI2YmM5ZiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 25
+
+    Banane:
+      Stat: true
+      Obtenu:
+        Name: "&6Banane"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Banane"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Banane"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1ce39bca-7699-4908-a7a5-8c5d9f556ba4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjliZGFlNTFmNTc2YjIzYTZmMGQyNjk1ZWQxZmQ1NzM5ODEyYzNiYTgzMjUyZjBjODc2ODQ0ZDI4YTEzYyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28
+
+
+    MelonMiel:
+      Stat: true
+      Obtenu:
+        Name: "&6MelonMiel"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4MelonMiel"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4MelonMiel"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"5bce33f8-dfb8-4ac9-985e-66a312319987",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViOGEzMzY3YTllYWE0NjdjZDRmZTljNWEzYzMwZmI3OTMzNWQyZmFhMjRiODhhNGFhMWJkMzM1NWJmYjI0NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 29
+
+    Carotte:
+      Stat: true
+      Obtenu:
+        Name: "&6Carotte"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Carotte"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Carotte"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"ecfac31a-a9f0-43e9-a444-4f8037c90a88",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQzYTZiZDk4YWMxODMzYzY2NGM0OTA5ZmY4ZDJkYzYyY2U4ODdiZGNmM2NjNWIzODQ4NjUxYWU1YWY2YiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    Cactus:
+      Stat: true
+      Obtenu:
+        Name: "&6Cactus"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cactus"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cactus"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3dca54c0-01cc-4ab8-b812-440af3fa26d3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk3MTM4ZmY1YTc0ZmI3Mzc5Y2NjYTc5NzI2Njk4NzFiMjA5YjkxYmY2YzdiMDdlNzY5MjkyODVjOGZiMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 31
+
+    NoixCoco:
+      Stat: true
+      Obtenu:
+        Name: "&6NoixCoco"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4NoixCoco"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4NoixCoco"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2c5caf98-fd49-4206-8c11-fd962af2739e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMxZjI0ZDFiNWU2Y2ViYjY1YTY3YWQzYjJmM2YyZmM5Y2EyOWZiMDczN2FhNjJiNWQ3M2JmMzM4ZDIxNDFmNSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    Poire:
+      Stat: true
+      Obtenu:
+        Name: "&6Poire"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Poire"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Poire"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"8a1a7bb7-6022-4efe-b529-7e923f186449",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgzMzcwZTA3MTc0YWJiN2M3YWYxOGM0ZWNkN2RhMWQ4MTNhYTM5NGYxNjEwODU0Mjk3YmQ1ZGU3ZDJmNDg5In19fQ=="}]}}}'
+      Page: 1
+      Slot: 33
+
+    Tomate:
+      Stat: true
+      Obtenu:
+        Name: "&6Tomate"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tomate"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tomate"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"45e30ff8-17c4-4778-a2df-b215ba53f8c7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY1NTE3MTZkNWQxZjE2NTc3MTY2N2E3YjQ4MmM5M2RiM2ViNDQ0ZTczZGVlNzMzZmYxOTFjZWY4OWI5YTQxIn19fQ=="}]}}}'
+      Page: 1
+      Slot:  34
+
+    Mangue:
+      Stat: true
+      Obtenu:
+        Name: "&6Mangue"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mangue"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mangue"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"7b980ac2-15c9-4128-8e9d-55b17a48df46",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTllMWFlMjM4MWE5MjhlNmZmN2UxZDE3NmUyN2EzMWRjMmUxYmMyNTg4NmY3NzMxYTNhYmNhNjk3N2E4MiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 10
+
+
+    PineApple:
+      Stat: true
+      Obtenu:
+        Name: "&6PineApple"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4PineApple"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4PineApple"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f0a7a8e2-1188-b578-1ea7-1ec6951094d0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdkN2M1NzNlZDU2MDc3MjU1ZDJhOWY1ODNmMTIxNjg0N2E4ZDQ1NTM3NzVjOGY1ODkzM2M0NWJmODZhOWVjIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 11
+
+    GoldenApple:
+      Stat: true
+      Obtenu:
+        Name: "&6GoldenApple"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4GoldenApple"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4GoldenApple"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2763b400-72da-4682-af70-189fdd989a32",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTlhNzlkN2U1ZDFiYTczOWFiNDQ3MTY0M2U3NDRlZjc4MWY3YzFkNGVhNTJlZmM5OTE2OGQ2Y2I1NzMyMzI2In19fQ=="}]}}}'
+      Page: 2 
+      Slot: 12
+
+    Peche:
+      Stat: true
+      Obtenu:
+        Name: "&6Peche"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Peche"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Peche"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"94e379d6-bea9-4daf-8773-620f5b3346a0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZiNGQyN2JjMWI0NjZlM2FiNDEyM2NiZTI0MTk3NGE4MTM1NzNhN2MzNmM1ZTViOGRhZjljODVhNWNlMCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    CanneaSucre:
+      Stat: true
+      Obtenu:
+        Name: "&6Canne à Sucre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Canne à Sucre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Canne à Sucre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b88ed1c6-662a-48fc-817e-261d4ceeffea",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYyNGJhY2I1ZjE5ODZlNjQ3N2FiY2U0YWU3ZGNhMTgyMGE1MjYwYjYyMzNiNTViYTFkOWJhOTM2Yzg0YiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 14
+
+    Mais:
+      Stat: true
+      Obtenu:
+        Name: "&6Mais"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mais"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mais"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{/give @p skull 1 3 {display:{Name:"Corn"},SkullOwner:{Id:"e6620e47-8b33-00f1-717c-742d7931da8d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5MWRmZmJlYTJmYzNmMmFkNzhhNjIzZjQ5YmY3ZTExMjE2OTQxMTJjMzc1OWZlZWQ0MTU2ZmMyYmE0NmMwIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 15
+
+    Patate:
+      Stat: true
+      Obtenu:
+        Name: "&6Patate"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Patate"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Patate"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c0426078-1c65-4071-8a7b-eeab3c2d5071",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJmYjZkNGE1NGMxN2UyNzQ4NDM3YWNjNzA5OGZiYjFhM2ExMmE0MDdmNTFiM2U0OTU0MjMzMjcxNDg0NmZkOCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 16
+
+    Coton:
+      Stat: true
+      Obtenu:
+        Name: "&6Coton"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Coton"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Coton"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"16337d3c-25d2-bddb-e2fd-582ab0d99a2d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEzOTJjNjhiZThkYzllYjYyYjMxNjFiODA2MmMyOTRjNGNiN2Y2NjIzMzBmYmVjMmQzMTQ4OGJmZjYwNWQ5MCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 19
+
+
+    OliveVerte:
+      Stat: true
+      Obtenu:
+        Name: "&6Olive Verte"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Olive Verte"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Olive Verte"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"aa26a4e4-fd34-4518-8b96-52af0ea2f7ea",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3NWMwOTIyZmE0NDc2MzI4OTYzNjY4MWQ4ZWMyZDRiMjVkYzIyODY3YThkODJiMmFlOWVjMzRiNDlkYTQifX19"}]}}}'
+      Page: 2
+      Slot: 20
+
+    OliveNoire:
+      Stat: true
+      Obtenu:
+        Name: "&6Olive Noire"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Olive Noire"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Olive Noire"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"37df321a-0a9b-4a74-aeb7-ade17a8b5fad",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1MjJmNzM0ZGJiNTYwOTA5ZWIxNGY3MTUyYzQwNmRhNWUwZDE3OWQ3ZmYxZTEwZjM1YjY5ZTE1NjcwIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 21
+
+    Arbre:
+      Stat: true
+      Obtenu:
+        Name: "&6Arbre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Arbre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Arbre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"39da816a-8983-4325-8420-fcea26119847",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc5M2UyNDM5MTcyYTY3OGNkZjE3MjJmZjhkZTY4MTFmOTNiNjU4NGViM2ZlY2U4MDYwNDFlZTNkNzJhZDNkIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Avocat:
+      Stat: true
+      Obtenu:
+        Name: "&6Avocat"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Avocat"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Avocat"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4bea29f8-a9ae-4cd0-8a76-493dc55ccdbf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFmMmJmMzJiYjg5MzdhNWFhZGZiZjZkOGRjNTZhMjFlZjY1ZjY4ODRkYjY3MjA2MjgwZmExZTE0OWY4YzRiIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 23
+
+    ChampignonRouge:
+      Stat: true
+      Obtenu:
+        Name: "&6Champignon Rouge"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Champignon Rouge"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Champignon Rouge"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"7227f88c-b851-48d3-90e7-32808be1378b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1YTg3ZGYxMDQ4OTM3NWVhYzYzZjZjYmUyNDIyZWQ2Zjc0N2ViODgxYzk0YmJjZGZjN2NmYTdiNmFkNSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    GoldenCarotte:
+      Stat: true
+      Obtenu:
+        Name: "&6Golden Carotte"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Golden Carotte"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Golden Carotte"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b5c0cc3f-802b-403d-a000-2217182f2109",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU1YjQ4OTg2NDJiZDQ4M2I2NzM2MTM2NjFhZmQ2N2U0ZDE0ZTQ0NGUzMjZjNGYzNjMxNTY0NWE0ZDMxMyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 25
+
+    Litchi:
+      Stat: true
+      Obtenu:
+        Name: "&6Litchi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Litchi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Litchi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d90f1c77-f06b-460c-9aaa-1bde19084d1c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2IxOGE4ODU4NDRjOWYxZGZlOGQyZGIxOGIzOTkyZTMwMjJiNjhhY2M5ZDE5ZjVmZTk3NDcyMDhjMjAyZGY3In19fQ=="}]}}}'
+      Page: 2
+      Slot: 28
+
+
+    MaisNonMure:
+      Stat: true
+      Obtenu:
+        Name: "&6Maïs Non Mûre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Maïs Non Mûre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Maïs Non Mûre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"274dca87-5a1d-40e0-8057-0ff828d1412e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBlMWE1YWFkZjNmYTc1NjcyNGMyZjkxNmVhOWM1MmFjNzlmOGIxM2EyY2ZmZTkxNDg1MjFlZTNjYmJmYSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 29
+
+    TomateVerte:
+      Stat: true
+      Obtenu:
+        Name: "&6Tomate Verte"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tomate Verte"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tomate Verte"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a11b2733-6d11-4c92-bda4-50418f410b40",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc3YWQ3YjBlYmZiM2MyZWVhM2Y5Y2Q0NTI5ZTExNTMxOWFiYTNlNzEyZTMzMzU1MGM5OWQ1Y2YyNGIwODkifX19"}]}}}'
+      Page: 2
+      Slot: 30
+
+    FleurRouge:
+      Stat: true
+      Obtenu:
+        Name: "&6Fleur Rouge"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Fleur Rouge"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Fleur Rouge"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c2f405b8-66e3-4ed9-883c-a64f97474498",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMzMTFjZTQ4MDdlZmNmMzk5Mjk5ZmFkYzk1ZjMyYjQzOGY1MTBjOThlZmRmNjM5Y2U5MTdmMjdlYjVlMDg0OSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 31
+
+    Pasteque:
+      Stat: true
+      Obtenu:
+        Name: "&6Pastèque"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pastèque"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pastèque"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c5b8bab1-6a47-4a7a-9cf5-21dbc1d127c9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU4NjcwNTUxZjdmZjEzYWZhYjIzOTMxOGExMGJhZDIzMjdlZTc0MmUxNTc4MzdlYTE3ODVlZjQ0M2QzYTU3NiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 32
+
+    Trefle:
+      Stat: true
+      Obtenu:
+        Name: "&6Trèfle"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Trèfle"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Trèfle"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a12a287a-8329-4082-87f7-96c0a6f3402b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0NTAxZGI3NWY5YTUwZTczYmNmODEwMzgyNjg2ZTY0OTU3ZTkwZGU2NDZlODZmZGQ4ZTMxZDZmZDRiMGEwZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 33
+
+    SeaPickles:
+      Stat: true
+      Obtenu:
+        Name: "&6Sea Pickles"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sea Pickles"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sea Pickles"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f1a318d5-9d31-468f-8eaa-b4512ddcbd04",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhlMWZkZWYwOTY4YjNkMTk1ZGUxMmI5Y2FhNjZjYmIwOTI1ODNmZmIxMWVlMjVjZDY5OGJhZTliZWZhNDczNyJ9fX0="}]}}}'
+      Page: 2
+      Slot:  34
+    
+Message:
+  Activer:
+    Hazelnut: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHazelnut&7."
+    Pomme: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePomme&7."
+    Salade: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSalade&7."
+    Citron: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCitron&7."
+    Orange: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOrange&7."
+    Kiwi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKiwi&7."
+    RaisinVert: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRaisin Vert&7."
+    RaisinNoir: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRaison Noir&7."
+    Strawberry: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eStrawberry&7."
+    Rose: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRose&7."
+    Citrouille: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCitrouille&7."
+    Oignon: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOignon&7."
+    Feuilles: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFeuilles&7."
+    ChampignonBleu: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChampignon Bleu&7."
+    Banane: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBanane&7."
+    MelonMiel: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMelon Miel&7."
+    Carotte: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCarotte&7."
+    Cactus: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCactus&7."
+    NoixCoco: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eNoix de Coco&7."
+    Poire: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePoire&7."
+    Tomate: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTomate&7."
+    Mangue: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMangue&7."
+    PineApple: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePine Apple&7."
+    GoldenApple: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGolden Apple&7."
+    Peche: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePêche&7."
+    CanneaSucre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCanne à Sucre&7."
+    Mais: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMaïs&7."
+    Patate: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePatate&7."
+    Coton: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCoton&7."
+    OliveVerte: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOlive Verte&7."
+    OliveNoire: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOlive Noire&7."
+    Arbre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eArbre&7."
+    Avocat: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAvocat&7."
+    ChampignonRouge: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChampignon Rouge&7."
+    GoldenCarotte: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGolden Carotte&7."
+    Litchi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLitchi&7."
+    MaisNonMure: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMaïs Non Mûre&7."
+    TomateVerte: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTomate Verte&7."
+    FleurRouge: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFleur Rouge&7."
+    Pasteque: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePastèque&7."
+    Trefle: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTrèfle&7."
+    SeaPickles: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSea Pickles&7."

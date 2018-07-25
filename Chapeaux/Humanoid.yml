@@ -1,0 +1,994 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Humanoides"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+   
+    KingDice:
+      Stat: true
+      Obtenu:
+        Name: "&6King Dice"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4King Dice"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4King Dice"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"6f5fd79c-7274-46c2-aed3-ea82139d156c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRkMGYyMjM4MzA4YTIwMDVmZTY1MzI0ZmQ3OTIyZmU3OTEwZDg1Y2MyMWY5Yjk1YTAxNTRhNWZjNGFhYTY1MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 10
+
+
+    BeppiTheClown:
+      Stat: true
+      Obtenu:
+        Name: "&6Beppi The Clown"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Beppi The Clown"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Beppi The Clown"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"723b515b-c053-458c-b8b7-3feaf5660c96",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlMjUzN2ZmZGMyYmRmMGNhZjI5NzE1OWVlZmI1YTE4ZjhmNzQwYzliOTAzMzcxOTIwMjIwZmNhZmZjYzcwMSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 11
+
+    CagneyCarnation:
+      Stat: true
+      Obtenu:
+        Name: "&6Cagney Carnation"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cagney Carnation"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cagney Carnation"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"116f10ea-dc67-47c6-8050-fa0e825589f5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFhZjRlMDRkODI2ZThmYmQ1YjcwNmEyZmE4MWEwNjZlYmNlYTJkZDAwYTJmYzJhMDA2ZDYwOWM3ZDNjYjAyYyJ9fX0="}]}}}'
+      Page: 1 
+      Slot: 12
+
+    Strelizia:
+      Stat: true
+      Obtenu:
+        Name: "&6Strelizia"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Strelizia"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Strelizia"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"876f2dcf-a71d-4339-9ea7-41747039d0b6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRiNGUwNjI5NzkzOTE2M2Q5Y2EyMjllN2NmZmVkNGQ4Nzk4ODhiM2U1OTIzOTVkYzQ5ZWJkMzNhYTE4N2M1NCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    IggyKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Iggy Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Iggy Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Iggy Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e56fa695-3c79-4bd8-a770-3d2f30f15304",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZiMDg0ODRjYjM3YmI5MjdlM2EwNmYzMWQ0ZDIwOTQ4Y2E2YjAwN2IwOWQ0MzZhNjM2NzlhY2Q5ZWY1MTY3MiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 14
+
+    LarryKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Larry Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Larry Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Larry Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"6d63d7ac-82ae-4830-a16f-2dba29eea528",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlkYjg4ODY2ZDQzOTBmMTI1YjE0YmQ1NGYxYTVmZTBiZTNlNjVkY2ZmZTFiYTY1MWE2OThlZGM2YjE3YTZiMiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15
+
+    LemmyKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Lemmy Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lemmy Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lemmy Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"41dbbf6b-3ccb-4006-b039-e994c95c7166",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRiYmI0NGU4YzVmNTkxYzE1ZjJjZjRjMDllYWY5ZDFjMTVmOWY5ZjdiYTk4MjI3MmNlZWRmOGRlMzczMGE2NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 16
+
+    LudwigVonKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Ludwig Von Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ludwig Von Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ludwig Von Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e4d56cd2-2571-4f5f-bc38-b19cfc8b0cdc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZhZWQwNDMwOGZhYjY2ODkyZDlmYjllYmU5NjI0MjlmMWI2ODQ3MzE4M2E3M2E0MWZhZTk1Y2MxN2M0MmYwNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+
+    MortonKoopaJr:
+      Stat: true
+      Obtenu:
+        Name: "&6Morton Koopa Jr."
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Morton Koopa Jr."
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Morton Koopa Jr."
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9eb90a0b-c728-4fe4-9f1e-1b2b1557ce12",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBhYTJjOWQ5ZGIyZjA5MzM2ZTAxYTIzYzk3N2NjZTM4YzNjNzRhYzNkODVkYmY0MjdkYmE4ODU4MDYxYmE2MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 20
+
+    RoyKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Roy Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Roy Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Roy Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4335555e-c858-4d74-af25-4fb54e4fa8ad",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJhMTg2NGUzNTBlMzhkOTE0ZGNmN2Q1ZTg0NThhYzllNDA0Mzk5YTg0N2YzYjA4Y2ZiZTY5YWU1ZWI3ZTJjNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 21
+
+    WendyOKoopa:
+      Stat: true
+      Obtenu:
+        Name: "&6Wendy O. Koopa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Wendy O. Koopa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Wendy O. Koopa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"bb2ea4bd-55f3-4c7b-ba47-7384e14c1b5a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRmZTM3ZTI1MTNjYzhlY2MwNWI5NzhlY2JhZjgzMjFlMWY0YjI3ODA5YzM1NzdhNmU4NjAxYWUyOWY5MDA2YiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 22
+
+    Sebastian:
+      Stat: true
+      Obtenu:
+        Name: "&6Sebastian"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sebastian"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sebastian"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3bb3c788-5b46-4ab1-8976-8bec094cbb25",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmZDdlZjUwNDVkZDQ4YmY0OTcyYzAwMzZkYTEyMDFlMjdhYmIzNmMzMWQ3NGVkOGEzNWU2YWIzYjFiMDQ3NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 23
+
+    RobotSanta:
+      Stat: true
+      Obtenu:
+        Name: "&6Robot Santa"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Robot Santa"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Robot Santa"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9332a0b7-1f30-449b-869f-558ab37432db",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTllYzgyNTE0ZDNjY2RhMzhmNzI5OTcxYjA5MzNmNzQzMGIyNDVmMWQyOWVkMTU5ZjdmNDQwNGY1ZTIwY2Q3MCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 24
+
+    Savitar:
+      Stat: true
+      Obtenu:
+        Name: "&6Savitar"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Savitar"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Savitar"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"29551eeb-6d78-4b06-96a8-0a684cc6324d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhZDk1NDBlYzYxNmMwZDMyY2ZhOGFhMGMwZTk5YzAwZTc0NDNhYzZlODFhNWI0YzBjNmViNjYwMmRmZjNlNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 25
+
+    Ares:
+      Stat: true
+      Obtenu:
+        Name: "&6Ares"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ares"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ares"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"48414049-5b1c-4e73-bf35-ad7dce50dd8f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYyOGFkZDU2NDBkMjY0YjEwNDA5NWMyMDZjMzU3YjY1MmY3ODJkOWFlMTU2MWFjZjgzOWVhNTdlMTBlY2ZjNSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28
+    Braniac:
+      Stat: true
+      Obtenu:
+        Name: "&6Braniac"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Braniac"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Braniac"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d28ebba9-82f3-4ec4-abce-225a6be2ab99",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjNGI4MjZlZDVjMTkwNGNlOTFkNzNiNDYyNWE2Y2VhNzk5ZDBkNDNmZTc3MjUyYzk3NmI1ZjA3Mzk2ZDc0NCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 29
+
+    DonaldDuck:
+      Stat: true
+      Obtenu:
+        Name: "&6Donald Duck"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Donald Duck"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Donald Duck"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"68257c47-714f-428d-8144-4496dc273e02",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjFhZjI4ODJmYTI4NTBmZjk1ZGMzNmRhNTFkNmUwYjI0ZjFmNjY3ZTQ0ODI1ZDI4YjQwYmE5Mzk1YTY3NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    Robot:
+      Stat: true
+      Obtenu:
+        Name: "&6Robot"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Robot"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Robot"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b9c57d3c-2b4b-47e4-8d80-b027327b6133",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUyOWQ0Y2NmNjU5YTU4ZjA3NTIzMjU5MDFjZDkzMjIxODA0NTVlZTIwNDI1M2Y5OTdjYTg2ZmFkZmYwMzQwMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 31
+
+    Demon:
+      Stat: true
+      Obtenu:
+        Name: "&6Demon"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Demon"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Demon"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"43c65861-23e7-458d-a1d1-faf0583a515d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMzYjg2MzBmN2RiM2Q1ODM1NzY3MWU2NGNlODMxZGRmNDRlNmI5MzhjODYwNzIwYmQ3NjRlMDkyMjg1MDU5MCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    Ene:
+      Stat: true
+      Obtenu:
+        Name: "&6Ene"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ene"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ene"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f377ee53-660c-4007-b896-5d195a4f3567",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFjYmFjOGFiZTg0MGM0MDg0ODQyM2FkMDg5NDQ4M2FmY2M2NTQyZTZlNDlkNGI0ZGViMDhlMDU3YjdkMGNlNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 33
+
+    Daroach:
+      Stat: true
+      Obtenu:
+        Name: "&6Daroach"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Daroach"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Daroach"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9fcab92b-e52b-4c5b-82e4-b2f81caa1c01",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ViYjllMWMxYTExNmVjYmQ1NGIzNDJmMzI1NWI3MzI4YmZjM2IyZDFkY2JjOTdmMzNiZTE5MmM2M2RlZTU0ZSJ9fX0="}]}}}'
+      Page: 1
+      Slot:  34
+
+    PrincesseHilda:
+      Stat: true
+      Obtenu:
+        Name: "&6Princesse Hilda"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Princesse Hilda"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Princesse Hilda"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"82cd073b-ecbe-4964-99b1-d5f739d0968e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4YTc2MjIwODMwOTg5YzU2ZTlmODhkZjNjMjgxNWI1Y2NiYmM5ZWEzZjQ5ZjIwZDJjZDE2MjNkMmZiNDcyYSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 10
+
+
+    Link:
+      Stat: true
+      Obtenu:
+        Name: "&6Link"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Link"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Link"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1f0bcad8-18a1-4a9d-b052-c1b7e7e46ae1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkxYzdkYTA2YzIyYTU5MTRiNjYyMDdjN2NmN2YwY2VmMThlZWRiY2VhOTQwZDEzODY2YWUwYTg4ODI0MDk2NyJ9fX0="}]}}'
+      Page: 2
+      Slot: 11
+
+    Sheik:
+      Stat: true
+      Obtenu:
+        Name: "&6Sheik"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sheik"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sheik"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f0776313-10a5-4b41-86fe-aae712d912a6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZlNmU3YjE4MGMxMGRjMjcxNTc2ZGI0ZjM0Y2EzNjkwNjM3NjYzY2UxOTY2NGZlNzc1NzNiYmNkZDU0ZWQ5MyJ9fX0="}]}}}'
+      Page: 2 
+      Slot: 12
+
+    Djinn:
+      Stat: true
+      Obtenu:
+        Name: "&6Djinn"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Djinn"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Djinn"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"884dd984-61fb-465b-9eeb-39f7c7478320",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJjNzExZmI0NmY0YjI2MGI5NjEzYjlmNjA2ZjY3OTVkMmUzMmYyYTNiNDBiMWVkOWEzODM0NjJjZmQzYjk3NyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    Charley:
+      Stat: true
+      Obtenu:
+        Name: "&6Charley"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Charley"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Charley"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"21e34545-4efb-4751-9c3c-7bbf5bfddb81",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNhNjljOGZkYTRjY2Y3MTZjMzgxMDMyMDlhZTNjM2Q1ZWUyMzYwYTMwZjNhYzNhYTcxOTg5NzAyZmY4YjdhZSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 14
+
+    DavyJones:
+      Stat: true
+      Obtenu:
+        Name: "&6Davy Jones"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Davy Jones"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Davy Jones"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f1c31cd3-fbd9-4801-a558-ccfc844e47bf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ0OTU5ZTYyOTU0M2MzMTg3Y2E1OGVmODYyNjgxODMyYzBhMTQzNzYyNzI0MzA2MzQyZmFiZDk5NzE0N2I1YSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 15
+
+    InklingGirl:
+      Stat: true
+      Obtenu:
+        Name: "&6Inkling Girl"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Inkling Girl"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Inkling Girl"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"43e5ac06-cfb3-4058-8f6b-cd72a78f902a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmZDkzNzM5ZTRlMTY0NmZiZDE5ZTY4ZmExYjBiMmE4YTgxZmNjZDZiYjIzNmZlMDgyMjdhYzEwZDQ5MDE2NCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 16
+
+    Frankenstein:
+      Stat: true
+      Obtenu:
+        Name: "&6Frankenstein"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Frankenstein"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Frankenstein"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"63196dc2-3a9c-4115-99f7-ac5d4f618b70",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQyNTljYTI0OGVhZTFlMzlmNDVkYzdmYzc3MjAxNDYzYmY0OWY3MTY1OGFkYTA4ZmIwNzU2NWE2MjA2YTJjOCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 19
+
+
+    Toothless:
+      Stat: true
+      Obtenu:
+        Name: "&6Toothless"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Toothless"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Toothless"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f9bc23ec-22e3-4c22-8077-69fd7b997693",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThkZjAwOTViMDlhMGZkNTJjOTQyZTI0ZTA5MGU0Njg5YmY3NjA2ODljMDZhZDFlMTUzNmJmMjVhOTI3M2M1ZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 20
+
+    Mystique:
+      Stat: true
+      Obtenu:
+        Name: "&6Mystique"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mystique"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mystique"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"542d9380-618a-4617-975a-9f4543565bef",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y0M2QxMDc0YzQxN2I0MTY1YThmOTUxYjdiOGI3NDUwMWNhYTYyOTI3OTgxZWEwM2NmNDk4N2M0YTQwNzMyMSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 21
+
+    IceMan:
+      Stat: true
+      Obtenu:
+        Name: "&6Ice Man"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ice Man"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ice Man"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"ce386972-1f22-4ff0-83fa-774bab1d0bd8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4MmVhMzgyZGJmOTZhNjg2MTY4OTViYjFiZjVjZTc2YmViZWRkODI5NDY5YjZiYmU1YzZkNzA5MjMyMTQ4NCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Nebula:
+      Stat: true
+      Obtenu:
+        Name: "&6Nebula"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Nebula"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Nebula"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fc8913c7-1330-4a21-9d12-e3f4724aa212",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4NWI0NjRhZmJkZWY0YjE3YWM2MTg3ODljNTI2ODk3NTQyZjgzOWM0MWRlYmQ5YjQwMWM3MTlkM2UzNmY1NSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 23
+
+    Venom:
+      Stat: true
+      Obtenu:
+        Name: "&6Venom"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Venom"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Venom"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"442c2f35-59e2-4938-ab68-758d83ee9525",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQwYWZjNTNlNDcyNWUyYmM3NDNkZmVkMmQxYmQyNmIxZjQyZjg5ZGEwODlkNzFlYzAxMjA2NDUyOTNkYmQ4NCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    Lynx17:
+      Stat: true
+      Obtenu:
+        Name: "&6Lynx 17"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lynx 17"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lynx 17"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a6bebf4f-e3b1-40cd-b79b-eaf792512834",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzllNjMyNzU4Njc4ZjA4NjhlZTI1MDJiNjY2OWVmZGY2ZmM2NjcyZTNjZDgwODVlYTIwM2UyZmVmZmFiNmQzIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 25
+
+    Warlock:
+      Stat: true
+      Obtenu:
+        Name: "&6Warlock"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Warlock"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Warlock"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"ca4b0eba-8b44-4ae5-8edd-dd6b6195deef",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI2MDIxNDBkOWU1NjE2NmUxNTE4NjczZDEyODcxOWE4Y2Y4NmY0ZGQxMjExOGQ0ZTg4ZTFhYzA4ZTFjODE2NyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 28
+
+
+    Osiris:
+      Stat: true
+      Obtenu:
+        Name: "&6Osiris"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Osiris"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Osiris"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000  
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d7ec8b78-a01a-4d40-9c23-b15f6a548d72",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU5YmRjNTc1NTIxNGY5YThiOGY4N2M3NzllMjhmYmRlZWM1ZmRlNWZjYWRmYzBlMmYxZTI0OGE1YzFlN2VkNiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 29
+
+    Titan:
+      Stat: true
+      Obtenu:
+        Name: "&6Titan"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Titan"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Titan"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3882c277-3268-4057-8871-d72b055cf34f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZGMwNWJhZDg1MWVmYmVkMGQzZThiOTQ1ZGJmMGRkNDkwYzA1MTQ4N2IyZTg2YmMxNWJiMmJjOWJjMjBhOSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 30
+
+    Garnet:
+      Stat: true
+      Obtenu:
+        Name: "&6Garnet"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Garnet"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Garnet"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f51c1669-a286-463b-b313-576899ecacf8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmZDRmZDNiNjRhOWE1YmQ3ZTMzYjk0ZGY5YzZlYTIyYTNjNTM5MTIyODRiNmM5YzIzOTk5NDdjODM4ZDM2MyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 31
+
+    Amethyst:
+      Stat: true
+      Obtenu:
+        Name: "&6Amethyst"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Amethyst"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Amethyst"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4ee847c5-fd40-43ca-ba6e-3f057420ba6b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRiN2EwZmUzZTBkMmFmN2U0NTg0NTZlNDUxZmNjZTRjMzQwZjhiNDY1YTU5YTliNDZkODY3YmFiNjhiYzE0MCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 32
+
+    Pearl:
+      Stat: true
+      Obtenu:
+        Name: "&6Pearl"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pearl"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pearl"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"bacef80c-4643-4d3e-b8ce-5b13f8b6f60b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNjZmM1ZjQ1Y2E4MDUyODAwMDA1NWYyMWVmNTI0Y2Q5NjU4MzBlZjA0YjMxN2Y3ZGJmMzI2ODk1MDExMzFiOSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 33
+
+    RoseQuartz:
+      Stat: true
+      Obtenu:
+        Name: "&6Rose Quartz"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Rose Quartz"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Rose Quartz"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c6a95c01-f76e-445d-8d4b-62c3a0b73194",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBmNDg0YWYyNzIwMDdiNjM5MTcwMzI3MmVkMTNiY2JmZGZiYjg0NWUwMzkyYmIyOTYyN2U5M2M2NzQ4M2YzNSJ9fX0="}]}}}'
+      Page: 2
+      Slot:  34
+    
+Message:
+  Activer:
+    KingDice: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKing Dice&7."
+    BeppiTheClown: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBeppi The Clown&7."
+    CagneyCarnation: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCagney Carnation&7."
+    Strelizia: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eStrelizia&7."
+    IggyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eIggy Koopa&7."
+    LarryKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLarry Koopa&7."
+    LemmyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLemmy Koopa&7."
+    LudwigVonKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLudwig Von Koopa&7."
+    MortonKoopaJr: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMorton Koopa Jr.&7."
+    RoyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRoy Koopa&7."
+    WendyOKoopa: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eWendy O. Koopa&7."
+    Sebastian: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSebastian&7."
+    RobotSanta: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRobot Santa&7."
+    Savitar: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSavitar&7."
+    Ares: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAres&7."
+    Braniac: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBraniac&7."
+    DonaldDuck: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDonald Duck&7."
+    Robot: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRobot&7."
+    Demon: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDemon&7."
+    Ene: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eEne&7."
+    Daroach: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDaroach&7."
+    PrincesseHilda: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePrincesse Hilda&7."
+    Link: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLink&7."
+    Sheik: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSheik&7."
+    Djinn: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDjinn&7."
+    Charley: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCharley&7."
+    DavyJones: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDavy Jones&7."
+    InklingGirl: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eInkling Girl&7."
+    Frankenstein: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFrankenstein&7."
+    Toothless: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eToothless&7."
+    Mystique: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMystique&7."
+    IceMan: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eIce Man&7."
+    Nebula: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eNebula&7."
+    Venom: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eVenom&7."
+    Lynx17: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLynx 17&7."
+    Warlock: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eWarlock&7."
+    Osiris: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOsiris&7."
+    Titan: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTitan&7."
+    Garnet: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGarnet&7."
+    Amethyst: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAmethyst&7."
+    Pearl: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePearl&7."
+    RoseQuartz: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRose Quartz&7."
+
+  Desactiver:
+    KingDice: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKing Dice&7."
+    BeppiTheClown: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBeppi The Clown&7."
+    CagneyCarnation: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCagney Carnation&7."
+    Strelizia: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eStrelizia&7."
+    IggyKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eIggy Koopa&7."
+    LarryKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLarry Koopa&7."
+    LemmyKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLemmy Koopa&7."
+    LudwigVonKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLudwig Von Koopa&7."
+    MortonKoopaJr: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMorton Koopa Jr.&7."
+    RoyKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRoy Koopa&7."
+    WendyOKoopa: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eWendy O. Koopa&7."
+    Sebastian: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSebastian&7."
+    RobotSanta: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRobot Santa&7."
+    Savitar: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSavitar&7."
+    Ares: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAres&7."
+    Braniac: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBraniac&7."
+    DonaldDuck: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDonald Duck&7."
+    Robot: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRobot&7."
+    Demon: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDemon&7."
+    Ene: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eEne&7."
+    Daroach: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDaroach&7."
+    PrincesseHilda: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePrincesse Hilda&7."
+    Link: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLink&7."
+    Sheik: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSheik&7."
+    Djinn: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDjinn&7."
+    Charley: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCharley&7."
+    DavyJones: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDavy Jones&7."
+    InklingGirl: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eInkling Girl&7."
+    Frankenstein: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eFrankenstein&7."
+    Toothless: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eToothless&7."
+    Mystique: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMystique&7."
+    IceMan: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eIce Man&7."
+    Nebula: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eNebula&7."
+    Venom: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eVenom&7."
+    Lynx17: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLynx 17&7."
+    Warlock: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eWarlock&7."
+    Osiris: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eOsiris&7."
+    Titan: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTitan&7."
+    Garnet: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eGarnet&7."
+    Amethyst: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAmethyst&7."
+    Pearl: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePearl&7."
+    RoseQuartz: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRose Quartz&7."
+
+  AchatPossible:
+    KingDice: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKing Dice&7."
+    BeppiTheClown: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBeppi The Clown&7."
+    CagneyCarnation: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCagney Carnation&7."
+    Strelizia: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eStrelizia&7."
+    IggyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eIggy Koopa&7."
+    LarryKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLarry Koopa&7."
+    LemmyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLemmy Koopa&7."
+    LudwigVonKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLudwig Von Koopa&7."
+    MortonKoopaJr: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMorton Koopa Jr.&7."
+    RoyKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRoy Koopa&7."
+    WendyOKoopa: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eWendy O. Koopa&7."
+    Sebastian: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSebastian&7."
+    RobotSanta: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRobot Santa&7."
+    Savitar: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSavitar&7."
+    Ares: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAres&7."
+    Braniac: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBraniac&7."
+    DonaldDuck: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDonald Duck&7."
+    Robot: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRobot&7."
+    Demon: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDemon&7."
+    Ene: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eEne&7."
+    Daroach: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDaroach&7."
+    PrincesseHilda: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePrincesse Hilda&7."
+    Link: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLink&7."
+    Sheik: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSheik&7."
+    Djinn: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDjinn&7."
+    Charley: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCharley&7."
+    DavyJones: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDavy Jones&7."
+    InklingGirl: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eInkling Girl&7."
+    Frankenstein: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eFrankenstein&7."
+    Toothless: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eToothless&7."
+    Mystique: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMystique&7."
+    IceMan: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eIce Man&7."
+    Nebula: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eNebula&7."
+    Venom: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eVenom&7."
+    Lynx17: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLynx 17&7."
+    Warlock: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eWarlock&7."
+    Osiris: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eOsiris&7."
+    Titan: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTitan&7."
+    Garnet: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eGarnet&7."
+    Amethyst: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAmethyst&7."
+    Pearl: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePearl&7."
+    RoseQuartz: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRose Quartz&7."
+
+  AchatImpossible:
+    KingDice: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKing Dice&7."
+    BeppiTheClown: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBeppi The Clown&7."
+    CagneyCarnation: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCagney Carnation&7."
+    Strelizia: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eStrelizia&7."
+    IggyKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eIggy Koopa&7."
+    LarryKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLarry Koopa&7."
+    LemmyKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLemmy Koopa&7."
+    LudwigVonKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLudwig Von Koopa&7."
+    MortonKoopaJr: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMorton Koopa Jr.&7."
+    RoyKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRoy Koopa&7."
+    WendyOKoopa: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eWendy O. Koopa&7."
+    Sebastian: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSebastian&7."
+    RobotSanta: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRobot Santa&7."
+    Savitar: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSavitar&7."
+    Ares: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAres&7."
+    Braniac: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBraniac&7."
+    DonaldDuck: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDonald Duck&7."
+    Robot: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRobot&7."
+    Demon: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDemon&7."
+    Ene: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eEne&7."
+    Daroach: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDaroach&7."
+    PrincesseHilda: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePrincesse Hilda&7."
+    Link: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLink&7."
+    Sheik: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSheik&7."
+    Djinn: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDjinn&7."
+    Charley: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCharley&7."
+    DavyJones: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDavy Jones&7."
+    InklingGirl: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eInkling Girl&7."
+    Frankenstein: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eFrankenstein&7."
+    Toothless: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eToothless&7."
+    Mystique: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMystique&7."
+    IceMan: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eIce Man&7."
+    Nebula: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eNebula&7."
+    Venom: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eVenom&7."
+    Lynx17: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLynx 17&7."
+    Warlock: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eWarlock&7."
+    Osiris: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eOsiris&7."
+    Titan: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTitan&7."
+    Garnet: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eGarnet&7."
+    Amethyst: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAmethyst&7."
+    Pearl: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePearl&7."
+    RoseQuartz: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRose Quartz&7."

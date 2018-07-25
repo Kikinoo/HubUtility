@@ -1,0 +1,1006 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Alphabet"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+   
+    Boeuf:
+      Stat: true
+      Obtenu:
+        Name: "&6Boeuf"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Boeuf"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Boeuf"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"80464bee-ef85-42ca-bb43-4c8507706cf5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhkZTc2ODg2ODJjODkwOGRlYmZmYzM4ZTE2MDJlZjI1ODU1NzhjN2U1YmI5ZjM5ZmVmMzUyZTIyN2IxZTQ2MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 10
+
+    Chien:
+      Stat: true
+      Obtenu:
+        Name: "&6Chien"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chien"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chien"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9f984d08-cff9-4b48-87bf-8515bb62bed2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDllOThiODc3ZWI2NDg4NThiN2VkZjk0MjU5M2E0YTc3Y2RhNjU5NTU4OGM3ZDNmN2Y5ZmIxOTk4ODU5MmEyMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 11
+
+    PandaRoux:
+      Stat: true
+      Obtenu:
+        Name: "&6Panda Roux"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Panda Roux"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Panda Roux"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"316100c1-caae-4b7d-90d5-5c0d5cbbfabb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMmMyMjdiMDc1ZmYzYmIxMDQ2NWI0ZWNkNzc5NjhlYzM5NTVmMTVjZjc1OTlmNjkyOGM4NjkwNmM5MmUwYyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 12
+
+    Chat:
+      Stat: true
+      Obtenu:
+        Name: "&6Chat"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chat"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chat"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c92c7786-0d1b-459f-b1aa-e51c75075a0d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjcyZDhlZWU1OTAwNzEwOTAyYzdhNDhmZmM3Yjg1ZGYwNWI5ZTBmMTNlMzJmYWEwZTEwNWI1NWM5NmMwODE3MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    Panda:
+      Stat: true
+      Obtenu:
+        Name: "&6Panda"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Panda"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Panda"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c3706de5-4298-4cb3-ad95-716d21d9c05f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwMDg1ODkyNmNkOGNkZjNmMWNmNzFlMjEwY2RlNWRhZjg3MDgzMjA1NDdiZDZkZjU3OTU4NTljNjhkOWIzZiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 14
+
+    PoissonClown:
+      Stat: true
+      Obtenu:
+        Name: "&6Poisson Clown"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Poisson Clown"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Poisson Clown"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d93c1bf6-616f-401a-af6e-f9b9803a0024",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15
+
+    Ours:
+      Stat: true
+      Obtenu:
+        Name: "&6Ours"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ours"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ours"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"54eba42c-39f4-46c5-b8ed-700f352e79b1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjEwODQxYzIwOGM2MDIwYWI0MWNiMmU3NDk4ZjdjYWVhOGU3NDNiNzNiZTcyNDU4MDEzNThkZTI3Nzc2NTE0YyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 16
+
+    Tigre:
+      Stat: true
+      Obtenu:
+        Name: "&6Tigre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tigre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tigre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d31a6846-f265-4550-93b1-c3ffd80b583e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwNzc2NzA0NzlkNmRiYzc1NGU1NGY0NmU2NjFmOWQ3ZmQ4ZTEyYmQxM2RjNDVjZTJmNWQwMjg5OWRhNjBlMiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+    OursPolaire:
+      Stat: true
+      Obtenu:
+        Name: "&6Ours Polaire"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ours Polaire"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ours Polaire"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"eaec492f-5d2c-44c2-b2c3-60c080e48639",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMwNzZiY2U4OTllNWEyMmFhYzA4MGIyY2FkNzljN2Q2YTcyZDI0NDhhZjY2Mzg2ZTBlMDc2YmZmYWM5ZTExMiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 20
+
+    Pingouin:
+      Stat: true
+      Obtenu:
+        Name: "&6Pingouin"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pingouin"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pingouin"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"7099e3c8-0028-498b-96e8-7d4daf927c83",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMzYTU4Zjg4YjMzODk5MmRlNTYzZjBlNDZkODJjNGJiZDQ4MjU2MWZhZWE3YjZmMjcxYzFhMzE0ZDBjNjA1NCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 21
+
+    Kiwi:
+      Stat: true
+      Obtenu:
+        Name: "&6Kiwi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kiwi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kiwi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"47c8f773-1a4c-48ac-ac90-eec1558a59bf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ2OTFjNGIxNjI0MzBjMmY2MTAyM2NmNjJjYTA3NTIwNDdlNjJlMmRkOGIxN2U0OThmYTgwZjQ4MmM3NTA3NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 22
+
+    Perroquet:
+      Stat: true
+      Obtenu:
+        Name: "&6Perroquet"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Perroquet"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Perroquet"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e8a39c6c-f325-49fe-a585-38114d6331a9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY3NjJhOGUzZjBmMGIwYjJhNTQ3YTUwMmVmNWY3Y2MyZjBmOGFkODZhNTBhMTUwMWU3ZjgzNTA5ZDlhMjQ1MyJ9fX0="}]}}}' 
+      Page: 1
+      Slot: 23
+
+    Ane:
+      Stat: true
+      Obtenu:
+        Name: "&6Ane"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ane"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ane"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"26f49e8e-2414-40e4-be79-fcf921ad1d12",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNhOTc2YzA0N2Y0MTJlYmM1Y2IxOTcxMzFlYmVmMzBjMDA0YzBmYWY0OWQ4ZGQ0MTA1ZmNhMTIwN2VkYWZmMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 24
+
+    Tortue:
+      Stat: true
+      Obtenu:
+        Name: "&6Tortue"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tortue"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tortue"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"245f22b4-2c7c-4a9c-86fa-9ec64c54e4fa",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 25
+
+    Poulet:
+      Stat: true
+      Obtenu:
+        Name: "&6Poulet"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Poulet"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Poulet"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1564b732-8991-4dcb-a724-320e3e58b726",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVlZWFlNTI0NThjMjY0OTdiNmMxOGI1MWVlOTNhNzM2ZjJjNTEzNjRmZTc2ODNiYmYxNDA1OTJlZWM2ZSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28   
+
+
+    Abeille:
+      Stat: true
+      Obtenu:
+        Name: "&6Abeille"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Abeille"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Abeille"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"873da8d2-af63-4cc8-ad46-281a5064fc45",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdkYjlhNjA0N2QyOTlhNjk0NWZhMzYwMjk5ZTEyYTEzNzM2ZDU2ZjFmZGZjMTkyZWMyMGYyOWNmNDY4MThjIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 29
+
+    Lapin:
+      Stat: true
+      Obtenu:
+        Name: "&6Lapin"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lapin"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lapin"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt:  '{SkullOwner:{Id:"15908cee-0f9c-45ca-bf9c-fad9b05edded",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTMxN2VjNWMxZWQ3Nzg4Zjg5ZTdmMWE2YWYzZDJlZWI5MmQxZTk4NzljMDUzNDNjNTdmOWQ4NjNkZTEzMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    Renard:
+      Stat: true
+      Obtenu:
+        Name: "&6Renard"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Renard"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Renard"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fab8c8a6-136b-4fb7-9f0a-bb43fd5317ce",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdjZmM4MzI5NTdiZDU4NTczODA4YWE3ZjdkZTc1MWY1ZGM5NWIzNDU2MTkxNmE4YjgzOTU3N2M1YjVjMTAifX19"}]}}}'
+      Page: 1
+      Slot: 31
+
+    Requin:
+      Stat: true
+      Obtenu:
+        Name: "&6Requin"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Requin"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Requin"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"5f72a126-ec61-40dd-be9f-0981a98b9232",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE4ZmI1YTk2YWI3ZjFjOTQ4OGNhNjA3NGUyOGQ5NGIyZWM3ZTMxMzZjYmRiMjJmMWYyODQ5YjkyZmVjNCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    Dauphin:
+      Stat: true
+      Obtenu:
+        Name: "&6Dauphin"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Dauphin"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Dauphin"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"8b7ccd6d-36de-47e0-8d5a-6f6799c6feb8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 33
+
+    Souris:
+      Stat: true
+      Obtenu:
+        Name: "&6Souris"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Souris"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Souris"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"65cc0e11-9f62-4e8c-b99d-34036436e92e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNkN2RiZWEwMTI1ZjBiYjYyYThiMTE3OWVmNGVkNTVmZjk0ODFkYjVlMGE4YzNjZjRhNDBjOTcwZmFjYyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 34
+
+
+    Salamandre:
+      Stat: true
+      Obtenu:
+        Name: "&6Salamandre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Salamandre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Salamandre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2c202ea9-1180-4ad2-8643-4920b58d860b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQxOTY5MjFjYjljZGE0YjgxZjM4ODgwZDljMzIzOWY5YmRmOGNjNWY1ZjJlNzUyMDE2ZjU3ZTgzMTFmNDkifX19"}]}}}'
+      Page:  2
+      Slot: 10
+
+    Loup:
+      Stat: true
+      Obtenu:
+        Name: "&6Loup"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Loup"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Loup"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"95ac4665-6022-4188-98f8-8a4e640f32c9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1OTUzN2MxNTUzNGY2MWMxY2Q4ODZiYzExODc3NGVkMjIyODBlN2NkYWI2NjEzODcwMTYwYWFkNGNhMzkifX19"}]}}}'
+      Page: 2
+      Slot: 11
+
+    Hiboux:
+      Stat: true
+      Obtenu:
+        Name: "&6Hiboux"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hiboux"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hiboux"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1593bc52-90f7-410e-b38c-3ab30ca41b03",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE1OGJmN2E3MTQ2ZGFhYjczNDgzNWJiNDZkNDNiODZiNTRiYjVhMzJiZWQyODY4YzJmNzk2NjE0MTgwZTEifX19"}]}}}'
+      Page: 2
+      Slot: 12
+
+    Cheval:
+      Stat: true
+      Obtenu:
+        Name: "&6Cheval"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cheval"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cheval"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9de809d7-9545-446e-8eba-0f6fa61176ff",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q0MTI4Mjg0M2EyZTEyNjZmNWIwYzYyZmQzZDgwMzU4ZDcxOTc0ZDEzOTQ2MWNhYjJjMTFjYWIzMTE4YyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    Phoenix:
+      Stat: true
+      Obtenu:
+        Name: "&6Phoenix"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Phoenix"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Phoenix"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"aea56ee3-3b94-4790-9fc0-741241ea03f9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUyOGJlZmUzM2U4ODAyYjY2YjhjZDEyOGI0NzkyMzljN2EzYTRjMTg4Zjg2MTc5NjdmZWU3ZGI2NDYyNGYifX19"}]}}}'
+      Page: 2
+      Slot: 14
+
+    Singe:
+      Stat: true
+      Obtenu:
+        Name: "&6Singe"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Singe"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Singe"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d6fada7f-dcb2-40f7-84f2-2b390b827bd8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA0MmM3ZDY1NTIyYmZlOGI4ODgxMDc2NTRkN2QyMTA2MGI4ODcyZWZhZTJiN2RhYmExNzVjNmUzZWIyZmUyIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 15
+
+    Elephant:
+      Stat: true
+      Obtenu:
+        Name: "&6Elephant"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Elephant"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Elephant"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"36f83ea8-37dc-4bbf-adb3-fff40f3e091e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA1OTlmMmFkYTdjYmQ5NmRjYWZhN2JlODI4ZGE1NWY0ZDE3ZWRjY2Q3MGE3MjdiZmQ5NGJjMzUzOTdmNGM5In19fQ=="}]}}}'
+      Page: 2
+      Slot: 16
+
+    Alligator:
+      Stat: true
+      Obtenu:
+        Name: "&6Alligator"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Alligator"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Alligator"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f24d017a-34fc-4959-8ac7-41c8095ff22f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZiYzcyZGYyNDhiNzZjM2MwYTQ3MDUxYTU4OGU3YTJjZTQ1MGNhZWVjYjVmOWJmYmViMmM5ZTk5NWY1OTAifX19"}]}}}'
+      Page: 2
+      Slot: 19
+
+    Crabe:
+      Stat: true
+      Obtenu:
+        Name: "&6Crabe"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Crabe"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Crabe"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3ee4c0c8-6059-4ef6-9a9b-887ce9dc6cfb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZiODEyYWU5Zjg5MzI2YWUyNGY4NzJjODFhYjIzMjliYTYzYmRiYzk2MjBmMGIxOWRhMmFjODYxNTQ2OWUyIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 20
+
+    TigreBlanc:
+      Stat: true
+      Obtenu:
+        Name: "&6Tigre Blanc"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tigre Blanc"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tigre Blanc"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fc9af067-16d0-4536-9b59-5e0c4908ae36",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhmYTJiMzU1ZTkwNjQzNzEwMjhjYjZjOWQ0OWM5MGFhYWRmNmFjMTFmYWQ3NDhjMjRiYThkYjA2N2FjZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 21
+
+    Zebre:
+      Stat: true
+      Obtenu:
+        Name: "&6Zebre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Zebre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Zebre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f931eea7-ed8d-4406-9934-e0397d80ad40",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc0YmNlOTc4MWUzODUxOTdjZjM5YTk2MTkzZTljMjQzZGZiMTRmZWVmNzIyYzg3YmVhY2Q2Yjk5MzI5YjE1NSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Vache:
+      Stat: true
+      Obtenu:
+        Name: "&6Vache"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Vache"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Vache"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"26110ea1-b9fc-4e30-8e15-82ea3d058873",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkNTU4MzhjNGM0Yjk1MWJmYjQ1NDgyNzU2YjcyYjgwNjhiZTRkOGQxNWUyMzU5N2Q4YjJkZGMxMDU3YTIifX19"}]}}}'
+      Page: 2
+      Slot: 23
+
+    Lion:
+      Stat: true
+      Obtenu:
+        Name: "&6Lion"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lion"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lion"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b9d567c2-defd-4564-bbd4-7cad114beda1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjAxYWY5NzNjYzhkOGI1ZWE2YjQ4ZDhjNDk0ZWVmODM5NGMzY2ZhNmUyYjQ0ZjQzZjhlOWIzYjcwZmIxMCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    Lezard:
+      Stat: true
+      Obtenu:
+        Name: "&6Lezard"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lezard"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lezard"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4a86133d-7521-4936-9be2-1c14734b0d68",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdmYzM1MWE2M2YyZjMwNDI4ZmVlYzJiZjMxODJlZTMxYmU0YTJmYzQwNDY1YTM2NGI0Y2Y5MTU2MDRiIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 25
+
+    Coccinelle:
+      Stat: true
+      Obtenu:
+        Name: "&6Coccinelle"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Coccinelle"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Coccinelle"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"14c5d8a0-4b74-41b7-94fd-acdcb4de1dd4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBmNDI4OGFlMDhhMzhkMmFiOWNmMzQzMTQxNjQ3ZTRmM2JlMTZjNWE5MjdlNzIyNGEzYjFkZWNhY2ZmMjU5In19fQ=="}]}}}'
+      Page: 2
+      Slot: 28    
+
+
+    BebeMouton:
+      Stat: true
+      Obtenu:
+        Name: "&6Bébé Mouton"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Bébé Mouton"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Bébé Mouton"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"efc900f1-82df-48d4-be42-8a2ad575095f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3MTllYzllZTZmNTNjMTdiMWY2Zjc0Nzg2NmIzMTIxNDAxZDM1Zjc3YTM5ODU5ZjEyMmQ0NzI4NjNlNDhlIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 29
+
+    Herisson:
+      Stat: true
+      Obtenu:
+        Name: "&6Herisson"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Herisson"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Herisson"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b7160a68-e47d-4335-8d43-8895b06427ea",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkyOWMwMzc3Zjg5ZjVjM2U3ZTlmMTVjNWRjZDllZmZjNjExZjRmZDFlZTE3MDNhN2ZkYjhiNDQ0MjFiODQ3NiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 30
+
+    Koala:
+      Stat: true
+      Obtenu:
+        Name: "&6Koala"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Koala"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Koala"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"719e39f7-5ca2-460a-8364-8e0624ebf8b9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjOWQ1MWU5OGJlM2U2ODlmNmM2OWRjN2ZkNDU0ZDk1OTYyOWE1MDU1OWJlZDE2ZWFiY2Q3YTM4Zjk4MWYifX19"}]}}}'
+      Page: 2
+      Slot: 31
+
+    ChauveSouris:
+      Stat: true
+      Obtenu:
+        Name: "&6Chauve Souris"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chauve Souris"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chauve Souris"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"75ae49c4-a381-41ee-ab08-5617116c0df4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIyZDc3NzkyMmZlZTg2NTg4OTM4ZTMxOTNjZjNmNDU0Y2NmODg5ZmQzMTE3MmI0ZjhjMTViZTQ5ZjQzMzg4In19fQ=="}]}}}'
+      Page: 2
+      Slot: 32
+
+    Grenouille:
+      Stat: true
+      Obtenu:
+        Name: "&6Grenouille"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Grenouille"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Grenouille"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"ce649e79-9da2-49b3-8e72-6614b7abf17c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdlYmNlZjQ2ODNjZGI3MTYzZTk2OWU0ZTIyNjlmMzY3M2E1ZDVlNmI3OGUwNmZhZWU0NWJjZjdjNDljMzk3In19fQ=="}]}}}'
+      Page: 2
+      Slot: 33
+
+    Lama:
+      Stat: true
+      Obtenu:
+        Name: "&6Lama"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lama"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lama"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"221c13f4-0497-4276-92f7-5a52855acd01",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI4YTgyNWI5M2UxZTdlM2ZmNGEzOGNlNGQzODhkMThmOGRjNzI0OTQyOTY5OTA0MTI2OTE2MWJjZjk4MjNlIn19fQ=="}]}}}'
+      Page: 2
+      Slot: 34
+
+
+
+
+Message:
+  Activer:
+    Boeuf: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBoeuf&7."
+    Chien: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChien&7."
+    PandaRoux: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePanda Roux&7."
+    Chat: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChat&7."
+    Panda: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePanda&7."
+    PoissonClown: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePoisson Clown&7."
+    Ours: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOurs&7."
+    Tigre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTigre&7."
+    OursPolaire: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOurs Polaire&7."
+    Pingouin: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePingouin&7."
+    Kiwi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKiwi&7."
+    Perroquet: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePerroquet&7."
+    Ane: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAne&7."
+    Tortue: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTortue&7."
+    Poulet: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePoulet&7."
+    Abeille: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAbeille&7."
+    Lapin: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLapin&7."
+    Renard: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRenard&7."
+    Requin: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRequin&7."
+    Dauphin: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDauphin&7."
+    Souris: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSouris&7."
+    Salamandre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSalamandre&7."
+    Loup: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLoup&7."
+    Hiboux: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHiboux&7."
+    Cheval: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCheval&7."
+    Phoenix: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ëPhoenix&7."
+    Singe: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSinge&7."
+    Elephant: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eElephant&7."
+    Alligator: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAlligator&7."
+    Crabe: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCrabe&7."
+    TigreBlanc: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTigre Blanc&7."
+    Zebre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eZèbre&7."
+    Vache: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eVache&7."
+    Lion: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLion&7."
+    Lezard: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLézard&7."
+    Coccinelle: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCoccinelle&7."
+    BebeMouton: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBébé Mouton&7."
+    Herisson: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHerisson&7."
+    Koala: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKoala&7."
+    ChauveSouris: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChauve-Souris&7."
+    Grenouille: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGrenouille&7."
+    Lama: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLama&7."
+
+  Desactiver:
+    Boeuf: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBoeuf&7."
+    Chien: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChien&7."
+    PandaRoux: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePanda Roux&7."
+    Chat: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChat&7."
+    Panda: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePanda&7."
+    PoissonClown: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePoisson Clown&7."
+    Ours: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eOurs&7."
+    Tigre: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTigre&7."
+    OursPolaire: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eOurs Polaire&7."
+    Pingouin: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePingouin&7."
+    Kiwi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKiwi&7."
+    Perroquet: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePerroquet&7."
+    Ane: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAne&7."
+    Tortue: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTortue&7."
+    Poulet: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePoulet&7."
+    Abeille: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAbeille&7."
+    Lapin: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLapin&7."
+    Renard: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRenard&7."
+    Requin: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRequin&7."
+    Dauphin: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDauphin&7."
+    Souris: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSouris&7."
+    Salamandre: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSalamandre&7."
+    Loup: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLoup&7."
+    Hiboux: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHiboux&7."
+    Cheval: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCheval&7."
+    Phoenix: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ëPhoenix&7."
+    Singe: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSinge&7."
+    Elephant: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eElephant&7."
+    Alligator: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAlligator&7."
+    Crabe: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCrabe&7."
+    TigreBlanc: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTigre Blanc&7."
+    Zebre: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eZèbre&7."
+    Vache: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eVache&7."
+    Lion: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLion&7."
+    Lezard: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLézard&7."
+    Coccinelle: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCoccinelle&7."
+    BebeMouton: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBébé Mouton&7."
+    Herisson: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHerisson&7."
+    Koala: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKoala&7."
+    ChauveSouris: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChauve-Souris&7."
+    Grenouille: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eGrenouille&7."
+    Lama: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLama&7."
+
+  AchatPossible:
+    Boeuf: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBoeuf&7."
+    Chien: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChien&7."
+    PandaRoux: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePanda Roux&7."
+    Chat: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChat&7."
+    Panda: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePanda&7."
+    PoissonClown: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePoisson Clown&7."
+    Ours: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eOurs&7."
+    Tigre: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTigre&7."
+    OursPolaire: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eOurs Polaire&7."
+    Pingouin: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePingouin&7."
+    Kiwi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKiwi&7."
+    Perroquet: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePerroquet&7."
+    Ane: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAne&7."
+    Tortue: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTortue&7."
+    Poulet: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePoulet&7."
+    Abeille: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAbeille&7."
+    Lapin: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLapin&7."
+    Renard: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRenard&7."
+    Requin: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRequin&7."
+    Dauphin: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDauphin&7."
+    Souris: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSouris&7."
+    Salamandre: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSalamandre&7."
+    Loup: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLoup&7."
+    Hiboux: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHiboux&7."
+    Cheval: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCheval&7."
+    Phoenix: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ëPhoenix&7."
+    Singe: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSinge&7."
+    Elephant: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eElephant&7."
+    Alligator: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAlligator&7."
+    Crabe: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCrabe&7."
+    TigreBlanc: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTigre Blanc&7."
+    Zebre: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eZèbre&7."
+    Vache: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eVache&7."
+    Lion: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLion&7."
+    Lezard: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLézard&7."
+    Coccinelle: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCoccinelle&7."
+    BebeMouton: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBébé Mouton&7."
+    Herisson: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHerisson&7."
+    Koala: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKoala&7."
+    ChauveSouris: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChauve-Souris&7."
+    Grenouille: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eGrenouille&7."
+    Lama: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLama&7."
+
+
+
+  AchatImpossible:
+    Boeuf: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBoeuf&7."
+    Chien: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChien&7."
+    PandaRoux: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePanda Roux&7."
+    Chat: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChat&7."
+    Panda: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePanda&7."
+    PoissonClown: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePoisson Clown&7."
+    Ours: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eOurs&7."
+    Tigre: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTigre&7."
+    OursPolaire: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eOurs Polaire&7."
+    Pingouin: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePingouin&7."
+    Kiwi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKiwi&7."
+    Perroquet: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePerroquet&7."
+    Ane: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAne&7."
+    Tortue: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTortue&7."
+    Poulet: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePoulet&7."
+    Abeille: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAbeille&7."
+    Lapin: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLapin&7."
+    Renard: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRenard&7."
+    Requin: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRequin&7."
+    Dauphin: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDauphin&7."
+    Souris: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSouris&7."
+    Salamandre: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSalamandre&7."
+    Loup: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLoup&7."
+    Hiboux: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHiboux&7."
+    Cheval: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCheval&7."
+    Phoenix: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ëPhoenix&7."
+    Singe: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSinge&7."
+    Elephant: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eElephant&7."
+    Alligator: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAlligator&7."
+    Crabe: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCrabe&7."
+    TigreBlanc: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTigre Blanc&7."
+    Zebre: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eZèbre&7."
+    Vache: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eVache&7."
+    Lion: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLion&7."
+    Lezard: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLézard&7."
+    Coccinelle: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCoccinelle&7."
+    BebeMouton: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBébé Mouton&7."
+    Herisson: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHerisson&7."
+    Koala: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKoala&7."
+    ChauveSouris: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChauve-Souris&7."
+    Grenouille: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eGrenouille&7."
+    Lama: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLama&7."
+
+
+
+
+

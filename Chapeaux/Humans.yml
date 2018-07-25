@@ -1,0 +1,1002 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Humains"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+   
+    CapitaineBrineybear:
+      Stat: true
+      Obtenu:
+        Name: "&6Capitaine Brineybear"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Capitaine Brineybear"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Capitaine Brineybear"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4d2c6077-32ca-4ee3-9d18-0306d1bc5b4b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU0ODNmODcwM2ZlMDBkYzY1M2RhOWUyYTk2ZTUyMTI0NjgxZWM4YmFiYjAxMGRiMWE4ZTBiZDI5NWRmZDBhMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 10
+
+
+    Mineur:
+      Stat: true
+      Obtenu:
+        Name: "&6Mineur"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mineur"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mineur"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c4facbc0-cdba-4ff4-b169-54777187e83e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4ODcwY2E3N2FhNjk5ZDAxNzA5M2I4Mjc3OWQwYTU5OGRjNGYzZjQ5ZDM1MTUzMmFlNGQ5NjMzZGNjMmE1YSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 11
+
+    UekiyaEngeika:
+      Stat: true
+      Obtenu:
+        Name: "&6Uekiya Engeika"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Uekiya Engeika"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Uekiya Engeika"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"21ccde88-22e0-4081-bce8-887114da4e0e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxZjRmOTg2Njg1Y2NkYzM3NjExN2M3YmU2M2M0MWMzZjE3MWUwNjQ5ZDIwYWYyMDdlMDM1ZTg5ZmUyOGRlYSJ9fX0="}]}}}'
+      Page: 1 
+      Slot: 12
+
+    SumireSuzuki:
+      Stat: true
+      Obtenu:
+        Name: "&6Sumire Suzuki"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sumire Suzuki"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sumire Suzuki"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"cb54f8f8-5ed9-49d5-8688-9e8d46d44630",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y1MDU2ZGI1NjY0ZTYyZWIyNTNlYzM5NzdmMDI5NDc0MWJkYzA0MDQ1N2JlNzAyZDliMzg3YWQ3NjgxZTY2NCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    DafuniBureiku:
+      Stat: true
+      Obtenu:
+        Name: "&6Dafuni Bureiku"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Dafuni Bureiku"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Dafuni Bureiku"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"738f5695-c9de-411b-84a1-30bff408af85",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhMDUxZTNjZGU5MTdkYjZhZDE1NzdhNjM0NDA0NzkwYjc5NzAwMDkwZmU1NWMwZWUzNTM0Njk3NTNmYzYxZCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 14
+
+    TakamiChika:
+      Stat: true
+      Obtenu:
+        Name: "&6Takami Chika"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Takami Chika"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Takami Chika"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"65391b85-bbd1-4bff-9185-05e541e3720b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBiMmRkNTFiODIxNDY1ZjkwYWQ0ZDI5OTU3YzYzNjRjYzBhNmIxZWM3ZTI0YTk2MmI0MDZkODVhYzU4YzczMSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15
+
+    HonokaKousaka:
+      Stat: true
+      Obtenu:
+        Name: "&6Honoka Kousaka"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Honoka Kousaka"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Honoka Kousaka"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f65c5c41-067c-4987-bdec-e7fb28e2428c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFjMTRlMDY3ODcwZjk2ZDhmZTFkNzVmODA3ZmU1Nzc3ZWM4OTVjMWEwMDU5ZmNmM2YxYzViYWJhZjhjMmFkYiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 16
+
+    KotoriMinami:
+      Stat: true
+      Obtenu:
+        Name: "&6Kotori Minami"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kotori Minami"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kotori Minami"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d30451dd-fa37-4b74-b130-aac2fb3bb5b9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGExZGRmMzdlOTQ3YmU5ZGNmYzY1YTcwNWNkOWQxN2FlYmYzNzI0OWNjMTZkY2QyODg1Nzg3ZmYyZmRlOGYzNSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+
+    MakiNishikino:
+      Stat: true
+      Obtenu:
+        Name: "&6Maki Nishikino"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Maki Nishikino"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Maki Nishikino"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"0fadc5a7-760a-42c5-a27e-0009e418311b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E3MTA0NmJlOWZlNmUyYzBlNjIzMTZhODVjZTA4M2UxNjBhZWUwZjcwYTNhYjc2NzQyOTgwNDc2OTFkNDczNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 20
+
+    RinHoshizora:
+      Stat: true
+      Obtenu:
+        Name: "&6Rin Hoshizora"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Rin Hoshizora"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Rin Hoshizora"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1b77d840-52e3-4184-8064-a49c77a3150b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE5OWNmZmJmYTgyOGQ0MTQyOTk0YThjMjg1YmNhZWJiNWU1MzgxMzNlY2IzN2NhY2M4NjgyNjA1MzgwMjlhZSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 21
+
+    HanayoKoizumi:
+      Stat: true
+      Obtenu:
+        Name: "&6Hanayo Koizumi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hanayo Koizumi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hanayo Koizumi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4f443478-273e-40d8-bc31-f886771d61d9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRmZWY2NDg0MzY0YzJiYjIzNTVmMzRlZTg2NWZlNWI1NjVhZWFjOWVhODMzNTdmN2Y0ZThiNjM2NmViYzhkMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 22
+
+    EliAyase:
+      Stat: true
+      Obtenu:
+        Name: "&6Eli Ayase"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Eli Ayase"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Eli Ayase"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1960938e-c671-458a-9687-4d709f997f3a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThkOGI5MjhmY2RmMDUwMjU4ZWI4ZTRhZTQ4Yjk3MjdjMzg5MTRmYjE2MDllYjYwN2RmMzQ0YTI3YzI4YjE3YiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 23
+
+    SoniaNevermind:
+      Stat: true
+      Obtenu:
+        Name: "&6Sonia Nevermind"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sonia Nevermind"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sonia Nevermind"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3bcf2e08-f4d3-4ada-8dff-65f90c4a6e0d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU5ODYzODIzNjhiMjcyMGZkMWMwMzE3MmRlMmViN2I0MDEwZjQ2ODYwYjgzNDhhYTZjZjExNDUzMzcxMmU4In19fQ=="}]}}}'
+      Page: 1
+      Slot: 24
+
+    GundhamTanaka:
+      Stat: true
+      Obtenu:
+        Name: "&6Gundham Tanaka"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Gundham Tanaka"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Gundham Tanaka"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4f93cd98-e090-4f55-b2bd-161eb0d2e68a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgyMTRmMTI1N2M1MGQxZjA2YjkxOTEyNzJkOTI2MGU0ZGY1ZTcxM2ExNzk3OGZjYzAzNWQ1NTQxNzVhNmNiZCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 25
+
+    RentaroSatomi:
+      Stat: true
+      Obtenu:
+        Name: "&6Rentaro Satomi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Rentaro Satomi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Rentaro Satomi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"8865d744-c8b4-47a3-a2f2-039428799642",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyYWI1MDdhNGMyOGRmZTEyMDIxM2MzNzljYTgwYWViMjdkMzgxYTE1MGM0MjBjNTVhODYzN2M4MTQ2MGQ3NCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28
+
+
+    KagetaneHiruko:
+      Stat: true
+      Obtenu:
+        Name: "&6Kagetane Hiruko"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kagetane Hiruko"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kagetane Hiruko"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3f7daabe-feed-4d61-bac0-27ef11bcb11e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg3MjE0NDM2MGYyYWVmMzQzZTcxZDllM2U0YjdhYjY1NWMyMmI5ZDJkNzFiMTIzZTM5NzNjYzdiODEwYWRkOCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 29
+
+    ReiAyanami:
+      Stat: true
+      Obtenu:
+        Name: "&6Rei Ayanami"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Rei Ayanami"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Rei Ayanami"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e098e36a-fb88-4d76-8146-6b06def027eb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVlZjk5ODFkZDY5MDQzYWY4M2IwNmU0NWEyYWUyMzg0YTJkOTZjZTdiNGNiNTg1YzJhYTBlZGE0NjJlYjljNSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    AsukaLangley:
+      Stat: true
+      Obtenu:
+        Name: "&6Asuka Langley"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Asuka Langley"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Asuka Langley"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c4d97013-74aa-4dda-b541-12ae53560450",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU5ZTdmNmZhMmM0MmJmY2ZmOWFmMTIwOWUwYzAxYmUyNjc2YzdjOGJiN2ZhNDlmZWI2NDllZTM2NzEyYjMyMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 31
+
+    ShinjiIkari:
+      Stat: true
+      Obtenu:
+        Name: "&6Shinji Ikari"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Shinji Ikari"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Shinji Ikari"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d55db4b4-f2ac-4443-91c0-edc7b1da4c18",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU4OTQ3Y2YwOTE2MDZhNzlkMTZkYjlkYWI4ZTE1NGE0M2M3ZDM5MWUwZjIyNzZiYmEzNWFlZTBkYTJmMTUxYyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    MondoOowda:
+      Stat: true
+      Obtenu:
+        Name: "&6Mondo Oowda"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mondo Oowda"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mondo Oowda"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e1165eee-7b2b-4d09-9484-2b6be0586a28",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgzNTAzNjAwYjk4NDJjY2I1YmFhYjMyYTI1M2Y1NDI5Y2U3OTc4OTZmYWUzYmY2ZmUyYTVjNWMxNjQzMDExYiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 33
+
+    EnjuAihara:
+      Stat: true
+      Obtenu:
+        Name: "&6Enju Aihara"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Enju Aihara"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Enju Aihara"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c7da1074-0eff-4434-9992-636352a8ca01",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYyZjQ2ODA2M2JjMGM3OTU4OTBkOWYwNWRmNDY2NWJmZTBiOGQxY2M5NTFmNTcxZDNiNmYzYWQxNGRkYzI2NiJ9fX0="}]}}}'
+      Page: 1
+      Slot:  34
+
+    TsubakiUesugi:
+      Stat: true
+      Obtenu:
+        Name: "&6Tsubaki Uesugi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tsubaki Uesugi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tsubaki Uesugi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c280d2d7-75b9-42c7-bf8a-3f33f3c9036a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBjOTc4ZDQzMmJmOGVkOTJjYTA2NGQ2ZjhiYTFjOTliYWQ3ZTc3YTcxOTllZDBhNGYzMzhhNjUxMTZlMDAyMSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 10
+
+
+    YusakuKitamura:
+      Stat: true
+      Obtenu:
+        Name: "&6Yusaku Kitamura"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Yusaku Kitamura"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Yusaku Kitamura"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"cfd3a36f-3c79-40ea-aecc-d8b5d6760edb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYwYmRjMGRkMTU3MzlkYzM5OWFlYmMxYjNhNTllZjYzZWYwNjhhZjBkMjEzOGM3YWM1MGUyZTMxYThhNDc3MCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 11
+
+    AmiKawashima:
+      Stat: true
+      Obtenu:
+        Name: "&6Ami Kawashima"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ami Kawashima"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ami Kawashima"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"72325283-8ab7-46ab-80cc-82316573be5a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YmUxNzVlZjA3ZTFiN2ExZTgyOWY4ODI5NmQ2OGNiZGJmOTZiMWU1N2YyZWQwZGVlNGU2NjYwMGMxNWY4MSJ9fX0="}]}}}'
+      Page: 2 
+      Slot: 12
+
+    RyuujiTakasu:
+      Stat: true
+      Obtenu:
+        Name: "&6Ryuuji Takasu"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ryuuji Takasu"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ryuuji Takasu"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"98eb571e-d5a9-4fd2-b9af-1d219fc7f3e2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0YzdiOGE3MjdlMjk3YTIwODBiNDI5NTg5ZWY0M2RkMGYyYmI2YjAxNzJmOTc1YTdiYTQ5ZGUxMWRlNGFiZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    MinoriKushieda:
+      Stat: true
+      Obtenu:
+        Name: "&6Minori Kushieda"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Minori Kushieda"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Minori Kushieda"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2e61a0b8-0651-4767-a4fe-c2a062091875",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBmNDkyOTM1NDI1OTU1NDhhZTgwOTRhNzNhM2IwMDc3ZjQzYmI5YzM0NDdhMjQ5MDFkYWIzNmU1ZGVkYzYxNCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 14
+
+    TanyaDergurechaff:
+      Stat: true
+      Obtenu:
+        Name: "&6Tanya Dergurechaff"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tanya Dergurechaff"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tanya Dergurechaff"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"5c597536-dc37-4257-829b-cab2a7092900",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlZDIwNTg2YjJmMjkyMDYxMTFhOTc5MzdjYzJkZTQ3ZDljZmM3ZGQzOGE1ZDIwMGI4OTVjYjAxYTNlYTU0YiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 15
+
+    HatsuneMiku:
+      Stat: true
+      Obtenu:
+        Name: "&6Hatsune Miku"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hatsune Miku"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hatsune Miku"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"490140b5-c62d-4534-869b-d59b4500738e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzMjI2NTM5MzZiMzFlZjUyZDEwNDYyYjgzNmE2ZWFiOTJmNTYxZDFiYjYzMWU3ZGFkMjBiOGFhYTY1ZDMyZiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 16
+
+    KenKaneki:
+      Stat: true
+      Obtenu:
+        Name: "&6Ken Kaneki"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ken Kaneki"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ken Kaneki"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c6caaeea-b795-48d0-bbec-add1b14f77da",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VhMmNiYjlmZDNiNWZjMjBjYTVkMDIwMTAwZGM5MjE5NWQ0ODJmMGFiNjZlYmQ3YmViMGIwODBkMzRkZWJjZiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 19
+
+
+    LeviAckerman:
+      Stat: true
+      Obtenu:
+        Name: "&6Levi Ackerman"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Levi Ackerman"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Levi Ackerman"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b7dcd483-e8ca-47b7-bd4b-7cd9c0fc31f6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRhNWJlM2I3MDVmMzFiNDUxYTQ2MTExMGQ0YTkwMGVjN2MwZGZiMmZlMjI5NmFmYWY0YmMyNjNiNGRiNDI2NSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 20
+
+    HimariFujita:
+      Stat: true
+      Obtenu:
+        Name: "&6Himari Fujita"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Himari Fujita"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Himari Fujita"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"27b3bd9d-73ad-4250-8a7d-e9556aa3de45",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJkNjQ4NzZjYThlNGU1OWZjMjMyNGYxZDlmNjk3MjljMzI1NzM0MGI0NjUyMmNiZWQxNTY3YzViZmYyOWVmYiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 21
+
+    Grifter:
+      Stat: true
+      Obtenu:
+        Name: "&6Grifter"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Grifter"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Grifter"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e1ef7864-6123-4ca6-9d01-f689397ed354",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIwN2Y0YWFjOTE2YmQyZTA0YzA3MGRlZTE5ZjcyMTk3YTQwMGE0ZGJhNTBmNWIyMDcxYTc1M2RhYWM3NzI3MSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Deadshot:
+      Stat: true
+      Obtenu:
+        Name: "&6Deadshot"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Deadshot"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Deadshot"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"060da16e-0e77-4196-bfbd-58e2bf3505f1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEwMzhiODFiOWRlOTBlOWEzZDk1ZWExM2M5MGYxNjk4ZGJlOGY1NzU0MzAyMzRiNDdjMGFhMjYyNDUyMDJlMiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 23
+
+    Flash:
+      Stat: true
+      Obtenu:
+        Name: "&6Flash"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Flash"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Flash"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4809110d-2e93-4b4f-bb11-e9b243f7f2cc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVjYjEwNjg1NTMxOTNiNDRkZmE4YzNhZWZlOTM4ZDEwMGZiYTNjNmM5Yjg4N2QyZmVhYjY5ZDJmYThhZmFmZSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    Zatanna:
+      Stat: true
+      Obtenu:
+        Name: "&6Zatanna"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Zatanna"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Zatanna"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3fd58f2d-8d0b-4760-a369-2336fe48b2e5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNhZmQwNTdmYWI2MTZjYzdlNzFmNWUzYmFiZWVlOWQ0ZTA0OGJlMDBkYzYwOGE0NjU0NDQ5YTk3ZmQ3MGMwMSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 25
+
+    Shintaro:
+      Stat: true
+      Obtenu:
+        Name: "&6Shintaro"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Shintaro"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Shintaro"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"828876cd-7441-417b-82b7-56157ebb8bb9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFlYmRhZTNmN2M0ZDBjOWUxOGZkZWFiZWIwMzFhZDQwMTI4YTMyZThkNzQyY2YxODE3YTMyNDI5YTBmMTBkMiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 28
+
+
+    Kano:
+      Stat: true
+      Obtenu:
+        Name: "&6Kano"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kano"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kano"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"35867d88-9032-4776-9f4a-9c813c0a917a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjYzEwNDZjNTAzMTZkOWIyYjBkNjE2ZjkwNGIzMjM0NDRjMzQ0MTMxNTA1NGVkYmMwMTBkNzYxNDNkZWNhYSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 29
+
+    Momo:
+      Stat: true
+      Obtenu:
+        Name: "&6Momo"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Momo"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Momo"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9635a355-21f1-4f80-a080-c898b4aed320",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ3NTY3MjU4NGVhOWZhMGUzZThlOGY0ZjhhZmM4YTAyNDRjOWQ1MGVjOGRlZGUzNWJhZTc3N2U4MWVmZTViZSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 30
+
+    Seto:
+      Stat: true
+      Obtenu:
+        Name: "&6Seto"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Seto"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Seto"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"28d9342c-53e0-4b5f-88d1-2901f6f79c82",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQyMTExYzJlYjI1MTVhOWFjMjQ2ZTFkMGRmNTdhYzY4YmU3YjFmMGI5NDE3NjQ4N2QyOTA1ZGI0NDlkMWM4YSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 31
+
+    Ayano:
+      Stat: true
+      Obtenu:
+        Name: "&6Ayano"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ayano"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ayano"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"20e58762-c69f-432a-bbc7-b520a2db5419",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyOTlkNjFlNDA3Yzk1ZTBhMTM4ODg0MWZmMjI5MDAzOWRjYjdmZmY5YmJjODY5ZGM5YzFiZjFmNGUxOThhOSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 32
+
+    Takane:
+      Stat: true
+      Obtenu:
+        Name: "&6Takane"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Takane"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Takane"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"47e53dff-939d-4ec7-8635-0cc3e6016d9b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk0YTU4NDRkMWM4YTZjN2QyNDE0ZTgxNmI3ZmU4N2ZiNGY3NGJkYThhYTM4ZTVhYzkxODRlOGVjMWQwYjc5OCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 33
+
+    Kratos:
+      Stat: true
+      Obtenu:
+        Name: "&6Kratos"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Kratos"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Kratos"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"8eaaa876-7666-424f-8639-05039fc6bf7c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYxMjBlZTA5NDQ3ZGYxOGMzOWRhOTc2N2ZjMzI3NjVjMjAxYmM0MzExMzQwNmY5OTEzZTg5M2FhNzM1MTQxYyJ9fX0="}]}}}'
+      Page: 2
+      Slot:  34
+    
+
+
+Message:
+  Activer:
+    CapitaineBrineybear: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCapitaine Brineybear&7."
+    Mineur: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMineur&7."
+    UekiyaEngeika: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eUekiya Engeika&7."
+    SumireSuzuki: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSumire Suzuki&7."
+    DafuniBureiku: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDafuni Bureiku&7."
+    TakamiChika: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTakami Chika&7."
+    HonokaKousaka: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHonoka Kousaka&7."
+    KotoriMinami: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKotori Minami&7."
+    MakiNishikino: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMaki Nishikino&7."
+    RinHoshizora: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRin Hoshizora&7."
+    HanayoKoizumi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHanay Koizumi&7."
+    EliAyase: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eEli Ayase&7."
+    SoniaNevermind: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSonia Nevermind&7."
+    GundhamTanaka: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGundham Tanaka&7."
+    RentaroSatomi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRentaro Satomi&7."
+    KagetaneHiruko: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKagetane Hiruko&7."
+    ReiAyanami: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRei Ayanami&7."
+    AsukaLangley: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAsuka Langley&7."
+    ShinjiIkari: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eShinji Ikari&7."
+    MondoOowda: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMondo Oowda&7."
+    EnjuAihara: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eEnju Aihara&7."
+    TsubakiUesugi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTsubali Uesugi&7."
+    YusakuKitamura: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eYusaku Kitamura&7."
+    AmiKawashima: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAmi Kawashima&7."
+    RyuujiTakasu: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRyuuji Takasu&7."
+    MinoriKushieda: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMinori Kushieda&7."
+    TanyaDergurechaff: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTanya Dergurechaff&7."
+    HatsuneMiku: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHatsune Miku&7."
+    KenKaneki: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKen Kaneki&7."
+    LeviAckerman: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLevi Ackerman&7."
+    HimariFujita: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eHimari Fujita&7."
+    Grifter: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGrifter&7."
+    Deadshot: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDeadshot&7."
+    Flash: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFlash&7."
+    Zatanna: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eZatanna&7."
+    Shintaro: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eShintaro&7."
+    Kano: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKano&7."
+    Momo: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMomo&7."
+    Seto: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSeto&7."
+    Ayano: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eAyano&7."
+    Takane: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTakane&7."
+    Kratos: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eKratos&7."
+
+  Desactiver:
+    CapitaineBrineybear: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCapitaine Brineybear&7."
+    Mineur: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMineur&7."
+    UekiyaEngeika: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eUekiya Engeika&7."
+    SumireSuzuki: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSumire Suzuki&7."
+    DafuniBureiku: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDafuni Bureiku&7."
+    TakamiChika: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTakami Chika&7."
+    HonokaKousaka: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHonoka Kousaka&7."
+    KotoriMinami: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKotori Minami&7."
+    MakiNishikino: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMaki Nishikino&7."
+    RinHoshizora: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRin Hoshizora&7."
+    HanayoKoizumi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHanay Koizumi&7."
+    EliAyase: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eEli Ayase&7."
+    SoniaNevermind: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSonia Nevermind&7."
+    GundhamTanaka: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eGundham Tanaka&7."
+    RentaroSatomi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRentaro Satomi&7."
+    KagetaneHiruko: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKagetane Hiruko&7."
+    ReiAyanami: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRei Ayanami&7."
+    AsukaLangley: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAsuka Langley&7."
+    ShinjiIkari: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eShinji Ikari&7."
+    MondoOowda: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMondo Oowda&7."
+    EnjuAihara: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eEnju Aihara&7."
+    TsubakiUesugi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTsubali Uesugi&7."
+    YusakuKitamura: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eYusaku Kitamura&7."
+    AmiKawashima: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAmi Kawashima&7."
+    RyuujiTakasu: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRyuuji Takasu&7."
+    MinoriKushieda: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMinori Kushieda&7."
+    TanyaDergurechaff: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTanya Dergurechaff&7."
+    HatsuneMiku: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHatsune Miku&7."
+    KenKaneki: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKen Kaneki&7."
+    LeviAckerman: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLevi Ackerman&7."
+    HimariFujita: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eHimari Fujita&7."
+    Grifter: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eGrifter&7."
+    Deadshot: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDeadshot&7."
+    Flash: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eFlash&7."
+    Zatanna: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eZatanna&7."
+    Shintaro: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eShintaro&7."
+    Kano: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKano&7."
+    Momo: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMomo&7."
+    Seto: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSeto&7."
+    Ayano: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eAyano&7."
+    Takane: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTakane&7."
+    Kratos: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eKratos&7."
+
+  AchatPossible:
+    CapitaineBrineybear: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCapitaine Brineybear&7."
+    Mineur: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMineur&7."
+    UekiyaEngeika: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eUekiya Engeika&7."
+    SumireSuzuki: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSumire Suzuki&7."
+    DafuniBureiku: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDafuni Bureiku&7."
+    TakamiChika: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTakami Chika&7."
+    HonokaKousaka: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHonoka Kousaka&7."
+    KotoriMinami: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKotori Minami&7."
+    MakiNishikino: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMaki Nishikino&7."
+    RinHoshizora: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRin Hoshizora&7."
+    HanayoKoizumi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHanay Koizumi&7."
+    EliAyase: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eEli Ayase&7."
+    SoniaNevermind: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSonia Nevermind&7."
+    GundhamTanaka: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eGundham Tanaka&7."
+    RentaroSatomi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRentaro Satomi&7."
+    KagetaneHiruko: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKagetane Hiruko&7."
+    ReiAyanami: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRei Ayanami&7."
+    AsukaLangley: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAsuka Langley&7."
+    ShinjiIkari: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eShinji Ikari&7."
+    MondoOowda: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMondo Oowda&7."
+    EnjuAihara: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eEnju Aihara&7."
+    TsubakiUesugi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTsubali Uesugi&7."
+    YusakuKitamura: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eYusaku Kitamura&7."
+    AmiKawashima: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAmi Kawashima&7."
+    RyuujiTakasu: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRyuuji Takasu&7."
+    MinoriKushieda: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMinori Kushieda&7."
+    TanyaDergurechaff: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTanya Dergurechaff&7."
+    HatsuneMiku: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHatsune Miku&7."
+    KenKaneki: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKen Kaneki&7."
+    LeviAckerman: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLevi Ackerman&7."
+    HimariFujita: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eHimari Fujita&7."
+    Grifter: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eGrifter&7."
+    Deadshot: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDeadshot&7."
+    Flash: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eFlash&7."
+    Zatanna: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eZatanna&7."
+    Shintaro: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eShintaro&7."
+    Kano: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKano&7."
+    Momo: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMomo&7."
+    Seto: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSeto&7."
+    Ayano: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eAyano&7."
+    Takane: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTakane&7."
+    Kratos: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eKratos&7."
+
+  AchatImpossible:
+    CapitaineBrineybear: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCapitaine Brineybear&7."
+    Mineur: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMineur&7."
+    UekiyaEngeika: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eUekiya Engeika&7."
+    SumireSuzuki: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSumire Suzuki&7."
+    DafuniBureiku: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDafuni Bureiku&7."
+    TakamiChika: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTakami Chika&7."
+    HonokaKousaka: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHonoka Kousaka&7."
+    KotoriMinami: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKotori Minami&7."
+    MakiNishikino: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMaki Nishikino&7."
+    RinHoshizora: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRin Hoshizora&7."
+    HanayoKoizumi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHanay Koizumi&7."
+    EliAyase: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eEli Ayase&7."
+    SoniaNevermind: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSonia Nevermind&7."
+    GundhamTanaka: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eGundham Tanaka&7."
+    RentaroSatomi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRentaro Satomi&7."
+    KagetaneHiruko: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKagetane Hiruko&7."
+    ReiAyanami: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRei Ayanami&7."
+    AsukaLangley: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAsuka Langley&7."
+    ShinjiIkari: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eShinji Ikari&7."
+    MondoOowda: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMondo Oowda&7."
+    EnjuAihara: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eEnju Aihara&7."
+    TsubakiUesugi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTsubali Uesugi&7."
+    YusakuKitamura: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eYusaku Kitamura&7."
+    AmiKawashima: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAmi Kawashima&7."
+    RyuujiTakasu: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRyuuji Takasu&7."
+    MinoriKushieda: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMinori Kushieda&7."
+    TanyaDergurechaff: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTanya Dergurechaff&7."
+    HatsuneMiku: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHatsune Miku&7."
+    KenKaneki: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKen Kaneki&7."
+    LeviAckerman: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLevi Ackerman&7."
+    HimariFujita: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eHimari Fujita&7."
+    Grifter: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eGrifter&7."
+    Deadshot: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDeadshot&7."
+    Flash: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eFlash&7."
+    Zatanna: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eZatanna&7."
+    Shintaro: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eShintaro&7."
+    Kano: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKano&7."
+    Momo: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMomo&7."
+    Seto: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSeto&7."
+    Ayano: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eAyano&7."
+    Takane: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTakane&7."
+    Kratos: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eKratos&7."
+

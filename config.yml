@@ -1,0 +1,78 @@
+Gui:
+  General:
+    Nom: "&3HubUtility"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever tout les cosmétiques"
+      Lore: "&7Cliquez pour enlever tout les cosmétiques."
+      Slot: 40 
+
+    Particules:
+      Stat: true
+      Item: blaze powder
+      Name: "&6Particules"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux.||&7Vous avez &e[CountJoueur] &7sur &e[CountTotal]"
+      Slot: 10
+    
+    Chapeaux:
+      Stat: true
+      Item: diamond helmet
+      Name: "&6Chapeaux"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux.||&7Vous avez &e[CountJoueur] &7sur &e[CountTotal]"
+      Slot: 12
+    
+    Emotes:
+      Stat: true
+      Item: player head
+      Name: "&6Emotes"
+      Lore: "&7Cliquez pour afficher le menu des chapeaux.||&7Vous avez &e[CountJoueur] &7sur &e[CountTotal]"
+      Slot: 14 
+
+    Banners:
+      Stat: true
+      Item: white banner item
+      Name: "&6Bannières"
+      Lore: "&7Cliquez pour afficher le menu des bannières.||&7Vous avez &e[CountJoueur] &7sur &e[CountTotal]"
+      Slot: 16
+
+    Costumes:
+      Stat: true
+      Item: diamond leggings
+      Name: "&6Costumes"
+      Lore: "&7Cliquez pour afficher le menu des costumes.||&7Vous avez &e[CountJoueur] &7sur &e[CountTotal]"
+      Slot: 28
+
+Item:
+  Join:
+    Item: nether star
+    Name: "&6HubUtility"
+    Lore: "&7Cliquez pour afficher le menu des cosmétiques"
+    Slot: 0

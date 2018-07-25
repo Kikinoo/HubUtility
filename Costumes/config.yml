@@ -1,0 +1,923 @@
+Gui:
+  General:
+    Nom: "&3Emoticônes"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 1
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+
+    Grenouille:
+      Stat: true
+      Obtenu:
+        Name: "&6Grenouille"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Grenouille"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Grenouille"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"54f123de-f7f0-4d30-9844-221233f807d3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlYmM3YWFkNWE2NTZkNTg0MmQ0ODExNjdiNWI3Yjk4ZWFmOWQ5MjRjMmRiYjkzNDhhMzEyMDMzMzAyNjMifX19"}]}}}'
+        Name: "&6Grenouille"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:4097576}}"
+        Name: "&6Grenouille"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:4097576}}"
+        Name: "&6Grenouille"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:4097576}}"
+        Name: "&6Grenouille"
+        Lore: ""
+      Page: 1
+      Slot: 10
+
+    Ninja:
+      Stat: true
+      Obtenu:
+        Name: "&6Ninja"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ninja"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ninja"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"062ce076-ad55-4bad-9737-769604748aba",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3MzMyNjk2MTRmZThhOWFlODlmNWM1ODI4NmFhNTNiOWUzODNmYzRkYzU3ZTM3ZWNiZmE1ZTkzYSJ9fX0="}]}}}'
+        Name: "&6Ninja"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:0}}"
+        Name: "&6Ninja"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:0}}"
+        Name: "&6Ninja"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Ninja"
+        Lore: ""
+      Page: 1
+      Slot: 11
+
+    Flash:
+      Stat: true
+      Obtenu:
+        Name: "&6Flash"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Flash"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Flash"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"8ca79c92-db48-4148-9c30-17c3b929227f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5MjMxZTkzOTkwZTQ0MzllMWJhZDIyNzI4ODQ2ZDQ5N2Q4ZDI4NzU2NDQ2NDg2MTljOWE1Nzg4YjM3In19fQ=="}]}}}'
+        Name: "&6Flash"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:7679017}}"
+        Name: "&6Flash"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:7679017}}"
+        Name: "&6Flash"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: golden Boots
+        Nbt: '{display:{color:}}'
+        Name: "&6Flash"
+        Lore: ""
+      Page: 1
+      Slot: 12
+
+    Fantôme:
+      Stat: true
+      Obtenu:
+        Name: "&6Fantôme"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Fantôme"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Fantôme"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"2162e87b-c3d0-4176-ba36-db42996f39e7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgxOTc3OTE4YTExODBlMGRlYzg3OWU2YmNkMWFhMzk0OTQ5NzdiYjkxM2JlMmFiMDFhZmYxZGIxZmE0In19fQ=="}]}}}'
+        Name: "&6Fantôme"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:15389401}}"
+        Name: "&6Fantôme"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:9802643}}"
+        Name: "&6Fantôme"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:9802643}}"
+        Name: "&6Fantôme"
+        Lore: ""
+      Page: 1
+      Slot: 13
+
+    Disco:
+      Stat: true
+      Obtenu:
+        Name: "&6Disco"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Disco"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Disco"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: leather helmet 
+        Nbt: '{display:{color:11806751}}'
+        Name: "&6Disco"
+        Lore: ""
+
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:16776202}}"
+        Name: "&6Disco"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:663807}}"
+        Name: "&6Disco"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:2594567}}"
+        Name: "&6Disco"
+        Lore: ""
+      Page: 1
+      Slot: 14
+
+    Spiderman:
+      Stat: true
+      Obtenu:
+        Name: "&6Spiderman"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Spiderman"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Spiderman"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"fb881cd3-ef71-4a76-a492-ec64f0611125",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc0MGM5ZjkxYmM5YmFiYzYzM2JmYWQ0NWNhNWFkOWU5ZDYyZDk0YjdkNDM1OTM2OWYyNTBhOGI2NjA4In19fQ=="}]}}}'
+        Name: "&6Spiderman"
+        Lore: ""
+
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:11806751}}"
+        Name: "&6Spiderman"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:359359}}"
+        Name: "&6Spiderman"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:11806751}}"
+        Name: "&6Spiderman"
+        Lore: ""
+      Page: 1
+      Slot: 15
+
+    Guerrier:
+      Stat: true
+      Obtenu:
+        Name: "&6Guerrier"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Guerrier"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Guerrier"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"ab15cd7d-5d11-425f-baad-95a1557dc3e8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFmMmZmYTU4NDRhMmYzNzEyNzU0Yjc5ZThkNGI3NTg3OWVhOTdmNzY2OTdmYTljNmQxODJjYTk5MzZkNSJ9fX0="}]}}}'
+        Name: "&6Guerrier"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:10040115}}"
+        Name: "&6Guerrier"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:10040115}}"
+        Name: "&6Guerrier"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:10040115}}"
+        Name: "&6Guerrier"
+        Lore: ""
+      Page: 1
+      Slot: 16
+
+    Necromancien:
+      Stat: true
+      Obtenu:
+        Name: "&6Necromancien"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Necromancien"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Necromancien"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"81d5cf1f-331c-438c-b444-868ad1454005",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRkYmQwYmI5NjIyY2UxMjRkYWJiNmJhM2JhYTlhOWVhNzE0MzBmODcwZmVjMTViM2VhODFmMTk2MWE0MTJiMiJ9fX0="}]}}}'
+        Name: "&6Necromancien"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:10040115}}"
+        Name: "&6Necromancien"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:0}}"
+        Name: "&6Necromancien"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Necromancien"
+        Lore: ""
+      Page: 1
+      Slot: 19
+
+    Thor:
+      Stat: true
+      Obtenu:
+        Name: "&6Thor"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Thor"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Thor"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"7529b65e-a551-4f43-90d3-7f38318953f6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE5ZjgzMzI5YTJlNDc1YTc1MzM1YjM5NDlhYTRkMDU0ZjlkZTQxM2JmYjI4YWE2MGRlMmU1MjU5ZWNhYWQxIn19fQ=="}]}}}'
+        Name: "&6Thor"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:10040115}}"
+        Name: "&6Thor"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:0}}"
+        Name: "&6Thor"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Thor"
+        Lore: ""
+      Page: 1
+      Slot: 20
+
+    Boulanger:
+      Stat: true
+      Obtenu:
+        Name: "&6Boulanger"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Boulanger"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Boulanger"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"9dae1f16-30b1-4d74-8434-3f0067837035",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhkZWE2MjJmYjBmYmJkMjYzOTM4NGMxNjA0ZjVmMWEzYzExMWFhOTkzNDQ3MzE5ZmJhYzQ5NGJmZjQ0NzcifX19"}]}}}'
+        Name: "&6Boulanger"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: "{display:{color:16777215}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:1205455}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Page: 1
+      Slot: 21
+
+    Luigi:
+      Stat: true
+      Obtenu:
+        Name: "&6Luigi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Luigi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Luigi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"3cd03848-ad84-47ba-8f60-4e3eb6051356",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA5ZWIwNTMyNTkzYmVjZjU0YzZjN2I1OGY4MzFhYTkzN2I4ZDMzM2JjMTMyYmQ1MjIxOTU1NzliZmYzM2YzOSJ9fX0="}]}}}'
+        Name: "&6Luigi"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:4715541}}'
+        Name: "&6Luigi"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:1205455}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Page: 1
+      Slot: 22
+
+    Mario:
+      Stat: true
+      Obtenu:
+        Name: "&6Mario"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mario"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mario"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"663b38a4-9eb2-4681-8fa0-451c99035485",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBjMjU0OWE4OTM3MjY5ODhmMzQyOGJlZjc5OTg3NWJhODcxNjg4YWU2NGViMGNmZGM0M2Y3ZDZlMjRjNmMifX19"}]}}}'
+        Name: "&6Mario"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:13508135}}'
+        Name: "&6Mario"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: "{display:{color:1205455}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: "{display:{color:0}}"
+        Name: "&6Boulanger"
+        Lore: ""
+      Page: 1
+      Slot: 23
+
+    MarcheurSurGlace:
+      Stat: true
+      Obtenu:
+        Name: "&6Marcheur Sur Glace"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Marcheur Sur Glace"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Marcheur Sur Glace"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"23b422d3-8b5b-4d57-a71e-2a2beb6d0133",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDc2OTQxZGNiMjI2NjY3NDcyMTMxMjE1NDk0ZDBjYzE1ODVjM2UzM2ViMGNjNmY1NGNkMGQ2NjA2ZmVmNGZjZiJ9fX0="}]}}}'
+        Name: "&6Marcheur Sur Glace"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:15461355}}'
+        Name: "&6Marcheur Sur Glace"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:15461355}}'
+        Name: "&6Marcheur Sur Glace"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:15461355}}'
+        Name: "&6Marcheur Sur Glace"
+        Lore: ""
+      Page: 1
+      Slot: 24
+
+    PapaNoël:
+      Stat: true
+      Obtenu:
+        Name: "&6PapaNoël"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4PapaNoël"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Papa Noël"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"986f0d53-6462-43bc-827f-beba9afdd7f4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlNDI0YjE2NzZmZWVjM2EzZjhlYmFkZTllN2Q2YTZmNzFmNzc1NmE4NjlmMzZmN2RmMGZjMTgyZDQzNmUifX19"}]}}}'
+        Name: "&6Papa Noël"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:14354977}}'
+        Name: "&6Papa Noël"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:14354977}}'
+        Name: "&6Papa Noël"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:14354977}}'
+        Name: "&6Papa Noël"
+        Lore: ""
+      Page: 1
+      Slot: 25
+
+    Astronaute:
+      Stat: true
+      Obtenu:
+        Name: "&6Astronaute"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Astronaute"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Astronaute"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"a39b695d-b4f7-4c12-a236-6182637ec65c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U4YWFkNjczMTU3YzkyMzE3YTg4YjFmODZmNTI3MWYxY2Q3Mzk3ZDdmYzhlYzMyODFmNzMzZjc1MTYzNCJ9fX0="}]}}}'
+        Name: "&6Astronaute"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:15459835}}'
+        Name: "&6Astronaute"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:15459835}}'
+        Name: "&6Astronaute"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:15459835}}'
+        Name: "&6Astronaute"
+        Lore: ""
+      Page: 1
+      Slot: 28
+
+    IceClimber:
+      Stat: true
+      Obtenu:
+        Name: "&6Ice Climber"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ice Climber"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ice Climber"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"f567a583-ce3d-40ac-b1bc-02fef423568b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI3MDcxYjlkYzY0YmUyZGQwNWY2Y2I3MjUyMTMzMjg5Y2NmN2JkOWYyMGQxZjI2YWJkYjA3ZTk0NmE0ODNjIn19fQ=="}]}}}'
+        Name: "&6Ice Climber"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:5707773}}'
+        Name: "&6Ice Climber"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:5707773}}'
+        Name: "&6Ice Climber"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:5707773}}'
+        Name: "&6"
+        Lore: "Ice Climber"
+      Page: 1
+      Slot: 29
+
+    DeadPool:
+      Stat: true
+      Obtenu:
+        Name: "&6DeadPool"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4DeadPool"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4DeadPool"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"e8bac65d-b477-44a7-bb6c-5dfc27f93aae",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1YTdjNzI4NGRlNDk1NjhiNTE5NWRmOWQ0YTUwYzM3M2I3YWUyZmFiNGI1ZGVjMjg1M2M1ZDQ0ODdjNiJ9fX0="}]}}}'
+        Name: "&6DeadPool"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:10427677}}'
+        Name: "&6DeadPool"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:10427677}}'
+        Name: "&6DeadPool"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:10427677}}'
+        Name: "&6DeadPool"
+        Lore: ""
+      Page: 1
+      Slot: 30
+
+    Hulk:
+      Stat: true
+      Obtenu:
+        Name: "&6Hulk"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hulk"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hulk"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"63300c21-55e4-41ce-80b9-cdc3cc184818",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhM2U2MmM1ODEwYTU2N2MyNjU0ZGFmN2FlMTM3NjVlN2JjOTY0ZTRmZjEyNGE5YWE2NjA4MDI2NTU0YjdhIn19fQ=="}]}}}'
+        Name: "&6Hulk"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:3508261}}'
+        Name: "&6Hulk"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:3508261}}'
+        Name: "&6Hulk"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:3508261}}'
+        Name: "&6Hulk"
+        Lore: ""
+      Page: 1
+      Slot: 31
+
+    Yoda:
+      Stat: true
+      Obtenu:
+        Name: "&6Yoda"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Yoda"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Yoda"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"35523718-b324-4097-8b19-76e47b9ba824",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTgxZWQ5ZjY4YWE4YTEwNWRkNTNmNGQ1ODg5ZTU4NjYyMTVhNWRlOWE5ZjY0NDFmODUyMTYyOTQ5NzUyZmYifX19"}]}}}'
+        Name: "&6Yoda"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:10307340}}'
+        Name: "&6Yoda"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:10307340}}'
+        Name: "&6Yoda"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:3508261}}'
+        Name: "&6Yoda"
+        Lore: ""
+      Page: 1
+      Slot: 32
+
+    SpidermanNoir:
+      Stat: true
+      Obtenu:
+        Name: "&6Spiderman Noir"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Spiderman Noir"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Spiderman Noir"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"f86dde10-1ac6-4be5-b4f0-a9d36d03ef8e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJjMjkyNjkxYmRlYWI1ZGU0ODY4M2U1OGM4MjI0YjE2OTQ4MmRiNzRjNzQzNTU0ZmYwZGZkNTJlYzE5MDVhIn19fQ=="}]}}}'
+        Name: "&6Spiderman Noir"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:0}}'
+        Name: "&6Spiderman Noir"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:0}}'
+        Name: "&6Spiderman Noir"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:0}}'
+        Name: "&6Spiderman Noir"
+        Lore: ""
+      Page: 1
+      Slot: 33
+
+    DarkVador:
+      Stat: true
+      Obtenu:
+        Name: "&6Dark Vador"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Dark Vador"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Dark Vador"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Tete: 
+        Stat: true 
+        Item: player head 
+        Nbt: '{SkullOwner:{Id:"8d0d9feb-8866-48d5-ab7f-28f4a8947925",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFjM2UxZjIyNGI0NDZjY2FjNmE2Y2MzY2Q5ODkxMDE5YTEyMmY5OTY5MWMzOTA3OTkyYTNhZjk5YTIxYjAifX19"}]}}}'
+        Name: Dark Vador"&6"
+        Lore: ""
+      Chestplate:
+        Stat: true
+        Item: leather Chestplate
+        Nbt: '{display:{color:0}}'
+        Name: Dark Vador"&6"
+        Lore: ""
+      Leggings:
+        Stat: true
+        Item: leather Leggings
+        Nbt: '{display:{color:0}}'
+        Name: Dark Vador"&6"
+        Lore: ""
+      Boots:
+        Stat: true
+        Item: leather Boots
+        Nbt: '{display:{color:0}}'
+        Name: "&6Dark Vador"
+        Lore: ""
+      Page: 1
+      Slot: 34

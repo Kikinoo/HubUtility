@@ -1,0 +1,999 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Food And Drinks"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+   
+    Sucre:
+      Stat: true
+      Obtenu:
+        Name: "&6Sucre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sucre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sucre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2bccc287-57c8-4d93-9a5a-f378f9668f4d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYyNWRmYjczNjgxNzkxYTc2NmFlMzE1OTkyMGFkYjQyYWQwYjY2YmNlZjY5OGU5Njk3NzYyYTI0MmZjNTU3OSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 10
+
+
+    HotDog:
+      Stat: true
+      Obtenu:
+        Name: "&6HotDog"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4HotDog"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4HotDog"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4a569794-63df-4d39-af75-f39c1ad48170",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI1MDVjNTUwNTFjZWQzODI0ZTBlMzA3MDkyYTFkOGQ2ZTA4MzFhZGNmNWFlOGU5MWU2MDY3NGY2YjdhY2Q4OCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 11
+
+    Doritos:
+      Stat: true
+      Obtenu:
+        Name: "&6Doritos"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Doritos"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Doritos"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c7fe1ca8-ac02-44d1-a92a-9a6bb152ece4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcxZTZkOGE2NzYxNzAzMDcwNWM2ODExOGE5NWFiMzY0ZTQzNjFlNWViYzhhNGZlYTZjNzkyYzBjMzZlNDVhZiJ9fX0="}]}}}'
+      Page: 1 
+      Slot: 12
+
+    Water:
+      Stat: true
+      Obtenu:
+        Name: "&6Water"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Water"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Water"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"122a5b6e-2346-4aca-b963-dc308ca1bb65",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlNzNkZWIyNDQ1NWJhYWYzMmZkNzJjMjdiYTA1ZDE2NDA2OGExMGFkNTA1NzA5YzkyNGZlM2MyYmQ1MWE4OCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    ChocolatChaud:
+      Stat: true
+      Obtenu:
+        Name: "&6Chocolat Chaud"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chocolat Chaud"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chocolat Chaud"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b2b227f0-477c-409b-9607-9f474ebf2f64",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE5MGZjMGEwODg0MTEzYTI4OWZiYTE5NDQ1MjFmYzhjZDliNzFmZDUxOWYyZmFlMWUzMDI4ODViYjE0NzBlMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 14
+
+    Fanta:
+      Stat: true
+      Obtenu:
+        Name: "&6Fanta"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Fanta"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Fanta"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b687f7df-4c45-4030-8f8b-fcf02259b1f8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3ZGI3MDdjYzUzNmEzMDM4MWVkNzIzNjkyOGQ4MmZlNTYxYWM1NTgyYTJhMzIwNWRjMGE1ODVjMDBiNGRhYSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15
+
+    Oreo:
+      Stat: true
+      Obtenu:
+        Name: "&6Oreo"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Oreo"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Oreo"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"26663870-9d79-4d6c-a8f8-b676a1940466",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNmYWQ5MmI4OTllYWM5MWVmNTk1ZmNmMGEwMGFlZmY4ZDE3YmNhNzRkZDU4YjRlYmE3OGUwOWNkODU3OTk2OSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 16
+
+    CookieBoite:
+      Stat: true
+      Obtenu:
+        Name: "&6Cookie Boite"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cookie Boite"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cookie Boite"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2a6b3619-b845-4ba8-83ad-b6b36e9c1233",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUzZGEyNzU5ZGY0NGM1MTdiM2U2MzgxYjBmY2IyMjRjYTY0ODE0N2EzYTFkOGY2YTdmZjIzNjQ2ZGI3NDY2MCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+
+    Coca:
+      Stat: true
+      Obtenu:
+        Name: "&6Coca"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Coca"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Coca"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"bb0664c6-5ddb-436f-addf-2d654c61c5a0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmYTMxNjM1YTZiY2JkNjAwNjEzNTYxNTQ5YTMwYzE4ODg4ZWQ2MmZiMDViZjJkYTIzMTM5OGY4ODJlYTNkIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 20
+
+    Pepsi:
+      Stat: true
+      Obtenu:
+        Name: "&6Pepsi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pepsi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pepsi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"44c62a36-8638-4a60-8300-9e84cd698618",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE0YmVmZDRkMzc5N2E4YTZhYjUzY2VlZGViYWIzYzEyYjdiMWYwMzQ0MGJmMDA4NTAxMDAyNWMzNTcxNzYyOCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 21
+
+    Sprite:
+      Stat: true
+      Obtenu:
+        Name: "&6Sprite"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sprite"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sprite"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a0d8ab1a-e6e7-4f26-91ad-bde2de9bc93d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ3MzNhNDc2YjdjNDYwOTY2Y2QxZWU1ZWJlMmUwNzcwYWY1NzRjZTlhMTc1NzZhN2MyMDBkODY4YWNmZmYzZiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 22
+
+    Muffin:
+      Stat: true
+      Obtenu:
+        Name: "&6Muffin"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Muffin"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Muffin"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"65f12974-66a7-4a29-a637-3075839277bc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFmNDFiYzVmMmQyMTZlOWRiZjA4MzA1OGQyNTNjOTdmMGU4ZTEyNTJiOGJkZTFmMDA2YTZjNzY2NzY0ZTRhZSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 23
+
+    Caramel:
+      Stat: true
+      Obtenu:
+        Name: "&6Caramel"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Caramel"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Caramel"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9e79c8d2-6707-443b-b928-81edae01b01e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE0MTc2ZTEzMTUzMmRlNzY3OWUyNzkxNTU0YTFlMGY5NjNmYTRiMzViZTc0ODk2YTVkYjNjNTI0NTJmN2Y5OCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 24
+
+    Strawberry:
+      Stat: true
+      Obtenu:
+        Name: "&6Strawberry"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Strawberry"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Strawberry"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"22639d99-b2d8-4ce0-be86-29b35e519c3d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg4ZDdhY2Y1ZjFmYTM1ZjRmN2U1MjE4ODMyMmZlYjI2OGVhNWJhZTQ2YjgwNzYxYmU1MWExZmUyNTMwYjhlNCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 25
+
+    Chocolat:
+      Stat: true
+      Obtenu:
+        Name: "&6Chocolat"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chocolat"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chocolat"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"5e7bb5ae-9c06-4dbb-be88-63fd51dcb97b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI1NjI0YzI1NTZlMDkwNzYyM2UwYjg1NzU2ODBjNmFlZDFiNmJlNDE5ZTYyZmI0ZTZkYzQ3YTcxNjg4Y2MzMyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28
+
+
+    IceCream:
+      Stat: true
+      Obtenu:
+        Name: "&6Ice Cream"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Ice Cream"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Ice Cream"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1385ddd9-a489-47b8-9441-f297f115935c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ3YmI3NWJhY2JjMmM4YzA2MTczZmEwYjRiZWZjOTg2Mjc0NWYyMzZiN2I4NmQyMjE0ZTk1ZmNkNmU5MDk3NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 29
+
+    Brownie:
+      Stat: true
+      Obtenu:
+        Name: "&6Brownie"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Brownie"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Brownie"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"df8a60c4-ea20-4fb7-8e92-9e3a66dc58a8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUwYzQxYmUwODdlYWNiODJhZjkxNTQ2ZWYzMDRmZjYxYzU1ZWZkNzJhZDU5ODE1YjM4MjM3ZDI5MmYzMDdhMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    Cake:
+      Stat: true
+      Obtenu:
+        Name: "&6Cake"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cake"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cake"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"3b86700f-5f80-430d-bb7b-dac96274765f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI3OTI0ZDM5MjBkZDU3NDYxZTk5NDU3ZjIyNjFmMDI5ZWNlOGQzNTE2OWM3Zjc1NDU0ZmJjMmYxOGYxYmQ3OCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 31
+
+    Pasta:
+      Stat: true
+      Obtenu:
+        Name: "&6Pasta"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pasta"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pasta"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"adbe7ab0-6db7-4324-8bfc-bef56c880fe2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEzODBhZTdlMWU2ZWViZmI2NjAzYzkxZmEyOWQyYzg2ZGVmNjAxNjU3MmJjZDg2MDVjMmVlNWRjNjgyOTAwNyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    PopCorn:
+      Stat: true
+      Obtenu:
+        Name: "&6PopCorn"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4PopCorn"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4PopCorn"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d4d71612-e6fe-4bb6-bed4-a5110d527d6b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThlYmNkZWJhMWNmNjViZDVmODE1Mjc2YjRhNDZmMzdiYTZiY2E4NTY3M2MzNGQ0ZGQ5Nzc2MWZjNjI4YzJjMiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 33
+
+    Frites:
+      Stat: true
+      Obtenu:
+        Name: "&6Frites"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Frites"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Frites"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"76e607e6-1912-4aab-9e97-1a97bea30d68",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThmYTU2Mjg1Njk1OWRmZWZiYzEzMjhjZGZkOWQ0MzBiNjVhZjdmMjRjZjMyNjQwMDc2NzMwNWIzNGM1YjJlNSJ9fX0="}]}}}'
+      Page: 1
+      Slot:  34
+
+    Poisson:
+      Stat: true
+      Obtenu:
+        Name: "&6Poisson"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Poisson"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Poisson"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"774e3507-4493-40cc-ab0a-a97235c8f887",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVkMjljMGI0ZjE3NWI2NDBhZmNhYjQ0NWJkMTI5YzhmYjhiYTdjNDY1MTJjYTU2M2YxMDExOTU5MzJhZDdmNCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 10
+
+
+    Pineapple:
+      Stat: true
+      Obtenu:
+        Name: "&6Pineapple"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pineapple"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pineapple"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a93ecc5d-d5c4-49fd-8dc1-d8c9c816e28a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdlZGRkODJlNTc1ZGZkNWI3NTc5ZDg5ZGNkMjM1MGM5OTFmMDQ4M2E3NjQ3Y2ZmZDNkMmM1ODdmMjEifX19"}]}}}'
+      Page: 2
+      Slot: 11
+
+    Pizza:
+      Stat: true
+      Obtenu:
+        Name: "&6Pizza"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Pizza"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Pizza"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"619a43a2-ef04-4675-8307-d3fa56e5e9b9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY2ZDcyZTM5YWVjNzdjZDYxZWJiNDlhNDQyZGI5YWNmYTRjZDc1MmVkODUxZDk1NDg4Zjk1NGNjMzZlNTIifX19"}]}}}'
+      Page: 2 
+      Slot: 12
+
+    Cheese:
+      Stat: true
+      Obtenu:
+        Name: "&6Cheese"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cheese"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cheese"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"83f876c2-71db-4230-bdda-d49267e3af67",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWEyNGVjOGIzOTI5MjU0YTE3ZmE1ODliMWU3M2UxYzUzZGI1NzA2M2JlZGI4N2M2NzhjYTM5OTg1ZDVhNzc3YSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    Tiramisu:
+      Stat: true
+      Obtenu:
+        Name: "&6Tiramisu"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tiramisu"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tiramisu"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1c9f1847-4e5f-4022-b5de-2646900c79e6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZiNTg1NDBmZThkZjIyZDJkZTlmZTI2MmM0MTA3YmQ5ZTdjN2UzNzUyZmY4YTZlNzhmNjM4ZGE0MGEyZTQifX19"}]}}}'
+      Page: 2
+      Slot: 14
+
+    ChocolatBlanc:
+      Stat: true
+      Obtenu:
+        Name: "&6Chocolat Blanc"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chocolat Blanc"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chocolat Blanc"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f49f04f5-94cd-4a52-996b-a464c743d526",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1MjUyMjc4YWRmZDgzNzU2NWJjNmM0YTAzMTFlZWRlMmQ0MjQ3Y2YxNmY1NGRhZWUwMjVmZjdhZGFlNCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 15
+
+    Burger:
+      Stat: true
+      Obtenu:
+        Name: "&6Burger"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Burger"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Burger"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1202b724-70db-48fa-a0cd-6c0a9798a118",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkM2E3ZTA3ZjVkYWRkNDdiYWRiMTM4MmE1YjE2Mjc4MThlZTE2YTE5YTdjMGJmMjc2OGFlNjI2MjczN2I2In19fQ=="}]}}}'
+      Page: 2
+      Slot: 16
+
+    NoixDeCoco:
+      Stat: true
+      Obtenu:
+        Name: "&6Noix de Coco"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Noix de Coco"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Noix de Coco"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f601c08c-22d5-47d8-a0cd-6bf5677e4df0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY1YTIzZjAzYzQ4MWVkNWY3YTA1NzJkMmNlOWE3Zjg3MTM5Yjg1ZGQ4MTI0MTQ0MTU0MmJlOTc3MzExZDExYSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 19
+
+
+    CupCake:
+      Stat: true
+      Obtenu:
+        Name: "&6CupCake"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4CupCake"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4CupCake"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"da26e048-82ac-494f-9759-beba7f291128",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI2YzYyOGE0OGY2NDE2MDk5MTU0NGQyYTc4NGVjMmNhMDk1NjNlOGQ2ZGE0OTE5MTU4MjczYWJhYmI5MSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 20
+
+    Sushi:
+      Stat: true
+      Obtenu:
+        Name: "&6Sushi"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sushi"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sushi"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f9f3f50b-6b22-4095-9425-1f9ecf140048",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ5OTZkNDg4MmY0N2M4NzMyMDFmZDBjNzM2MmE1MzJiOWQ3OWE0YzU2YzhjZDkxMTdmMzE3MWVmNGU5In19fQ=="}]}}}'
+      Page: 2
+      Slot: 21
+
+    Cookie:
+      Stat: true
+      Obtenu:
+        Name: "&6Cookie"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cookie"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cookie"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fe114f90-6d5e-4fb4-8d96-c7272ea64a30",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA3MWE0ZDM5MzZkNTc0Y2RkNWQ2MzRhMTc1YTM4YTRkNDg5NDM0YmI1NThkNzFjOTQyNzEyOWE3ZDY4Yzg5In19fQ=="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Mayonnaise:
+      Stat: true
+      Obtenu:
+        Name: "&6Mayonnaise"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mayonnaise"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mayonnaise"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"b3f0c2df-0d24-4143-8ed3-f422bc72a823",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRkNjdlMjg3OTk4NTg1ZjNkMWFiNWU4YzI4MWYxZDQyMzk4OTA2N2MwODEyY2MxZWRmNzhhNjg5N2MyMjg0In19fQ=="}]}}}'
+      Page: 2
+      Slot: 23
+
+    Fruit:
+      Stat: true
+      Obtenu:
+        Name: "&6Fruit"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Fruit"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Fruit"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"02150b31-6a93-4fa9-a913-155c55f2a401",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE0ZDk5NWI3ZGM5ZGNlNTE0YzZhOWU5ZmZkNzM0NDE1MDViMmM1YTgyYzk3NGEyY2Y0YTczNGY1OGI5Zjc0YSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    Cereale:
+      Stat: true
+      Obtenu:
+        Name: "&6Cereale"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Cereale"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Cereale"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"50be1657-ab97-4685-92ae-2936d205849f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FhY2I3NjY2NDA4OWJiYjVmMTEwOGUxMzNjOTRhNDU3ZDMzNDQ3YThmNGQyYWQ2ZTUzZGRlNjhlZTU4YSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 25
+
+    GoldenOreo:
+      Stat: true
+      Obtenu:
+        Name: "&6Golden Oreo"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Golden Oreo"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Golden Oreo"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"36d4452a-14dc-4239-b6ac-f7b7b1a51912",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzAzM2ZlNzY5MjVhMWM5YzRjMThkZWRhNWE5ODRkYmQ0NzQ4MmJjYmNkNTM2ODljMTY0YzQ4OTVlN2E4MmVlYSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 28
+
+
+    Tacos:
+      Stat: true
+      Obtenu:
+        Name: "&6Tacos"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Tacos"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Tacos"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a4238931-1f53-4dcb-bc77-24b439dbac51",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiZDE2OWU0ZWQxZmQ5MGY1OWY0MWQyYTRlZjYxNTg2YzU1Yjc0ZGVlODY5YTQxYTUwODk4OTgyZWNhMzU3In19fQ=="}]}}}'
+      Page: 2
+      Slot: 29
+
+    Donut:
+      Stat: true
+      Obtenu:
+        Name: "&6Donut"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Donut"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Donut"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d10e9f82-0653-4f6d-8b25-aa5a82161753",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc3ODI1YzA1N2U2ZWZkM2I4Mjc0ZmJmNDc5MDI1ZWRmYTYwYjJjNTVmMWVmNzBkZDBkYWZhODRmODQxMTkifX19"}]}}}'
+      Page: 2
+      Slot: 30
+
+    Sundae:
+      Stat: true
+      Obtenu:
+        Name: "&6Sundae"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Sundae"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Sundae"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"bc3bbd71-89f5-4c02-a5dd-2f467b8e685b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFkMzc2N2Y4NjZkMWI1OWEzZGYyYjQ3ZDM5Njk3YWFjZjdlNWYyYTdiMzAzN2ViMzE2NGY1Y2FmZDY3N2Q0MyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 31
+
+    Coffee:
+      Stat: true
+      Obtenu:
+        Name: "&6Coffee"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Coffee"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Coffee"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"97a48b0e-10fe-4eb5-8b92-698883130fca",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhMGY3NzU3MTg1YmU5ZGY1YjJmYzlkODVkNDA2NDJlYTRmZGI0NTE1ZjMxNGRhMThmNTljNjk2ZTViZTkifX19"}]}}}'
+      Page: 2
+      Slot: 32
+
+    Bagel:
+      Stat: true
+      Obtenu:
+        Name: "&6Bagel"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Bagel"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Bagel"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"03251cc3-7cb9-4a6c-b954-fcd04acf7b2d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAyZTkyZjEzZGUzYmVlNjkyMjhjMzg0NDc4ZTc2MTIzMDY4MWU1ZmNlOWJkYTE5NWRhZWFmODQ4NDEzOTMzMSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 33
+
+    RedBull:
+      Stat: true
+      Obtenu:
+        Name: "&6RedBull"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4RedBull"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4RedBull"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a749e452-069a-47d6-b6a9-b886c6a5d887",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY2ODQ0ZDVlODRmNjQ5NDUxYTg3ZGFjY2E3YTczYmVhYTA0ZWVhODQ3ZDQzOGRlMjZjMmQ0NGQxZTk0OWRlIn19fQ=="}]}}}'
+      Page: 2
+      Slot:  34
+    
+Message:
+  Activer:
+    Sucre: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSucre&7."
+    HotDog: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ehotDog&7."
+    Doritos: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDoritos&7."
+    Water: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eWater&7."
+    ChocolatChaud: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChocolat Chaud&7."
+    Fanta: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFanta&7."
+    Oreo: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eOreo&7."
+    CookieBoite: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCookie Boîte&7."
+    Coca: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCoco&7."
+    Pepsi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePepsi&7."
+    Sprite: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSprite&7."
+    Muffin: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMuffin&7."
+    Caramel: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCaramel&7."
+    Strawberry: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eStrawberry&7."
+    Chocolat: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChocolat&7."
+    IceCream: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eIce Cream&7."
+    Brownie: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBrownie&7."
+    Cake: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCake&7."
+    Pasta: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePasta&7."
+    PopCorn: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePopCorn&7."
+    Frites: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFrites&7."
+    Poisson: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePoisson&7."
+    Pineapple: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePineApple&7."
+    Pizza: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &ePizza&7."
+    Cheese: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCheese&7."
+    Tiramisu: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTiramisu&7."
+    ChocolatBlanc: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChocolat Blanc&7."
+    Burger: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBurger&7."
+    NoixDeCoco: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eNoix de Coco&7."
+    CupCake: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCupCake&7."
+    Sushi: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSushi&7."
+    Cookie: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCookie&7."
+    Mayonnaise: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eMayonnaise&7."
+    Fruit: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eFruit&7."
+    Cereale: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCereale&7."
+    GoldenOreo: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eGolden Oreo&7."
+    Tacos: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eTacos&7."
+    Donut: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eDonut&7."
+    Sundae: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSundae&7."
+    Coffee: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eCoffee&7."
+    Bagel: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eBagel&7."
+    RedBull: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eRedBull&7."
+
+  Desactiver:
+    Sucre: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSucre&7."
+    HotDog: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ehotDog&7."
+    Doritos: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDoritos&7."
+    Water: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eWater&7."
+    ChocolatChaud: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChocolat Chaud&7."
+    Fanta: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eFanta&7."
+    Oreo: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eOreo&7."
+    CookieBoite: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCookie Boîte&7."
+    Coca: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCoco&7."
+    Pepsi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePepsi&7."
+    Sprite: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSprite&7."
+    Muffin: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMuffin&7."
+    Caramel: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCaramel&7."
+    Strawberry: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eStrawberry&7."
+    Chocolat: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChocolat&7."
+    IceCream: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eIce Cream&7."
+    Brownie: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBrownie&7."
+    Cake: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCake&7."
+    Pasta: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePasta&7."
+    PopCorn: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePopCorn&7."
+    Frites: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eFrites&7."
+    Poisson: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePoisson&7."
+    Pineapple: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePineApple&7."
+    Pizza: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &ePizza&7."
+    Cheese: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCheese&7."
+    Tiramisu: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTiramisu&7."
+    ChocolatBlanc: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChocolat Blanc&7."
+    Burger: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBurger&7."
+    NoixDeCoco: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eNoix de Coco&7."
+    CupCake: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCupCake&7."
+    Sushi: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSushi&7."
+    Cookie: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCookie&7."
+    Mayonnaise: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eMayonnaise&7."
+    Fruit: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eFruit&7."
+    Cereale: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCereale&7."
+    GoldenOreo: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eGolden Oreo&7."
+    Tacos: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eTacos&7."
+    Donut: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eDonut&7."
+    Sundae: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSundae&7."
+    Coffee: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eCoffee&7."
+    Bagel: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eBagel&7."
+    RedBull: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eRedBull&7."
+    
+  AchatPossible:
+    Sucre: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSucre&7."
+    HotDog: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ehotDog&7."
+    Doritos: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDoritos&7."
+    Water: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eWater&7."
+    ChocolatChaud: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChocolat Chaud&7."
+    Fanta: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eFanta&7."
+    Oreo: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eOreo&7."
+    CookieBoite: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCookie Boîte&7."
+    Coca: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCoco&7."
+    Pepsi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePepsi&7."
+    Sprite: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSprite&7."
+    Muffin: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMuffin&7."
+    Caramel: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCaramel&7."
+    Strawberry: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eStrawberry&7."
+    Chocolat: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChocolat&7."
+    IceCream: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eIce Cream&7."
+    Brownie: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBrownie&7."
+    Cake: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCake&7."
+    Pasta: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePasta&7."
+    PopCorn: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePopCorn&7."
+    Frites: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eFrites&7."
+    Poisson: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePoisson&7."
+    Pineapple: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePineApple&7."
+    Pizza: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &ePizza&7."
+    Cheese: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCheese&7."
+    Tiramisu: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTiramisu&7."
+    ChocolatBlanc: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChocolat Blanc&7."
+    Burger: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBurger&7."
+    NoixDeCoco: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eNoix de Coco&7."
+    CupCake: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCupCake&7."
+    Sushi: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSushi&7."
+    Cookie: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCookie&7."
+    Mayonnaise: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eMayonnaise&7."
+    Fruit: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eFruit&7."
+    Cereale: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCereale&7."
+    GoldenOreo: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eGolden Oreo&7."
+    Tacos: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eTacos&7."
+    Donut: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eDonut&7."
+    Sundae: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSundae&7."
+    Coffee: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eCoffee&7."
+    Bagel: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eBagel&7."
+    RedBull: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eRedBull&7."
+
+  AchatImpossible:
+    Sucre: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSucre&7."
+    HotDog: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ehotDog&7."
+    Doritos: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDoritos&7."
+    Water: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eWater&7."
+    ChocolatChaud: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChocolat Chaud&7."
+    Fanta: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eFanta&7."
+    Oreo: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eOreo&7."
+    CookieBoite: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCookie Boîte&7."
+    Coca: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCoco&7."
+    Pepsi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePepsi&7."
+    Sprite: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSprite&7."
+    Muffin: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMuffin&7."
+    Caramel: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCaramel&7."
+    Strawberry: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eStrawberry&7."
+    Chocolat: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChocolat&7."
+    IceCream: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eIce Cream&7."
+    Brownie: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBrownie&7."
+    Cake: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCake&7."
+    Pasta: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePasta&7."
+    PopCorn: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePopCorn&7."
+    Frites: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eFrites&7."
+    Poisson: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePoisson&7."
+    Pineapple: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePineApple&7."
+    Pizza: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &ePizza&7."
+    Cheese: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCheese&7."
+    Tiramisu: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTiramisu&7."
+    ChocolatBlanc: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChocolat Blanc&7."
+    Burger: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBurger&7."
+    NoixDeCoco: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eNoix de Coco&7."
+    CupCake: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCupCake&7."
+    Sushi: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSushi&7."
+    Cookie: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCookie&7."
+    Mayonnaise: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eMayonnaise&7."
+    Fruit: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eFruit&7."
+    Cereale: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCereale&7."
+    GoldenOreo: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eGolden Oreo&7."
+    Tacos: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eTacos&7."
+    Donut: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eDonut&7."
+    Sundae: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSundae&7."
+    Coffee: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eCoffee&7."
+    Bagel: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eBagel&7."
+    RedBull: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eRedBull&7."

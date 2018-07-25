@@ -1,0 +1,549 @@
+#❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+
+Gui:
+  General:
+    Nom: "&3Particule Trails"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever les particules"
+      Lore: "&7Cliquez pour enlever les particules"
+      Slot: 40 
+
+    Cloud:
+      Stat: true
+      Obtenu:
+        Item: string
+        Name: "&6Cloud"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: string
+          Name: "&4Cloud"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: string
+          Name: "&4Cloud"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 10
+
+    SpellWitch:
+      Stat: true
+      Obtenu:
+        Item: Nether brick slab
+        Name: "&6Spell Witch"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Nether brick slab
+          Name: "&4Spell Witch"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Nether brick slab
+          Name: "&4Spell Witch"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+
+      Slot: 11
+
+    Crit:
+      Stat: true
+      Obtenu:  
+        Item: stone sword
+        Name: "&6Crit"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: stone sword
+          Name: "&4Crit"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: stone sword
+          Name: "&4Crit"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 12
+
+    CritMagic: 
+      Stat: true
+      Obtenu:
+        Item: cauldron_item
+        Name: "&6Crit Magic"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: cauldron_item
+          Name: "&4Crit Magic"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: cauldron_item
+          Name: "&4Crit Magic"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 13  
+
+    DripLava:
+      Stat: true
+      Obtenu:
+        Item: lava bucket
+        Name: "&6Drip lava"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: lava bucket
+          Name: "&4Drip lava"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: lava bucket
+          Name: "&4Drip lava"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 14
+
+    DripWater:
+      Stat: true
+      Obtenu:  
+        Item: water bucket
+        Name: "&6Drip Water"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: water bucket
+          Name: "&4Drip Water"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: water bucket
+          Name: "&4Drip Water"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 15
+
+    EnchantmentTable:
+      Stat: true
+      Obtenu:  
+        Item: Enchantment Table
+        Name: "&6Enchantment Table"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Enchantment Table
+          Name: "&4Enchantment Table"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Enchantment Table
+          Name: "&4Enchantment Table"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 16
+
+    FireworksSparks:
+      Stat: true
+      Obtenu: 
+        Item: Firework_rocket
+        Name: "&6Fireworks Sparks"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Firework_rocket
+          Name: "&4Fireworks Sparks"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Firework_rocket
+          Name: "&4Fireworks Sparks"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 19
+
+    Flame:
+      Stat: true
+      Obtenu:  
+        Item: flint and steel
+        Name: "&6Flamme"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: flint and steel
+          Name: "&4Flamme"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: flint and steel
+          Name: "&4Flamme"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 20
+
+    Heart:
+      Stat: true
+      Obtenu:
+        Item: red tulip
+        Name: "&6Coeur"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: red tulip
+          Name: "&4Coeur"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: red tulip
+          Name: "&4Coeur"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 21
+
+    Note:
+      Stat: true
+      Obtenu:  
+        Item: Jukebox
+        Name: "&6Notes"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Jukebox
+          Name: "&4Notes"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Jukebox
+          Name: "&4Notes"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 22
+
+    Portal:
+      Stat: true
+      Obtenu:
+        Item: end portal frame
+        Name: "&6Portal"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: end portal frame
+          Name: "&4Portal"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: end portal frame
+          Name: "&4Portal"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 23
+
+    Redstone:
+      Stat: true
+      Obtenu:  
+        Item: redstone
+        Name: "&6Redstone"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: redstone
+          Name: "&4Redstone"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: redstone
+          Name: "&4Redstone"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 24
+
+    Slime:
+      Stat: true
+      Obtenu:  
+        Item: slimeball
+        Name: "&6Slime"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: slimeball
+          Name: "&4Slime"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: slimeball
+          Name: "&4Slime"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 25
+    
+    SmokeNormal:
+      Stat: true
+      Obtenu:  
+        Item: GunPowder
+        Name: "&6Fumée"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: GunPowder
+          Name: "&4Fumée"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: GunPowder
+          Name: "&4Fumée"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 28
+
+    Spell:
+      Stat: true
+      Obtenu:  
+        Item: feather
+        Name: "&6Spell"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: feather
+          Name: "&4Spell"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: feather
+          Name: "&4Spell"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 29
+
+    SpellMob:
+      Stat: true
+      Obtenu:  
+        Item: coal
+        Name: "&6Spell Mob"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: coal
+          Name: "&4Spell Mob"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: coal
+          Name: "&4Spell Mob"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 30
+
+    SpellInstant:
+      Stat: true
+      Obtenu:
+        Item: bonemeal
+        Name: "&6Spell Instant"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: bonemeal
+          Name: "&4Spell Instant"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: bonemeal
+          Name: "&4Spell Instant"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 31
+
+    VillagerAngry:
+      Stat: true
+      Obtenu:  
+        Item: fire charge
+        Name: "&6Villager Angry"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: fire charge
+          Name: "&4Villager Angry"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: fire charge
+          Name: "&4Villager Angry"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 32
+
+    VillagerHappy:
+      Stat: true
+      Obtenu:  
+        Item: emerald
+        Name: "&6Villager Happy"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:
+          Item: emerald
+          Name: "&4Villager Happy"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: emerald
+          Name: "&4Villager Happy"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 33
+
+    Snowball:
+      Stat: true
+      Obtenu:  
+        Item: Snowball
+        Name: "&6Snowball"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Snowball
+          Name: "&4Snowball"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Snowball
+          Name: "&4Snowball"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 34
+
+
+Message:
+  Activer:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eCrit Magic&7." 
+    DripLava: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eDrip Lava&7." 
+    DripWater: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eDrip Water&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eFlame&7." 
+    Heart: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eHeart&7." 
+    Note: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eNote&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eRedstone&7." 
+    Slime: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSlime&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eFumée&7."
+    Spell: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSpell&7." 
+    SpellMob: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSpell Mob&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSpell Instant&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eVillager Happy&7." 
+    VillagerAngry: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eVillager Angry &7." 
+    Snowball: "&8[&6Particules&8] &7Vous venez d'activer le trail de particule &eSnowball &7."
+
+  Desactiver:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eCrit Magic&7." 
+    DripLava: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eDrip Lava&7." 
+    DripWater: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eDrip Water&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eFlame&7." 
+    Heart: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eHeart&7." 
+    Note: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eNote&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eRedstone&7." 
+    Slime: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSlime&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eFumée&7."
+    Spell: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSpell&7." 
+    SpellMob: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSpell Mob&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSpell Instant&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eVillager Happy&7." 
+    VillagerAngry: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eVillager Angry &7." 
+    Snowball: "&8[&6Particules&8] &7Vous venez de désactiver le trail de particule &eSnowball &7."
+
+  AchatPossible:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eCrit Magic&7." 
+    DripLava: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eDrip Lava&7." 
+    DripWater: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eDrip Water&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eFlame&7." 
+    Heart: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eHeart&7." 
+    Note: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eNote&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eRedstone&7." 
+    Slime: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSlime&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eFumée&7."
+    Spell: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSpell&7." 
+    SpellMob: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSpell Mob&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSpell Instant&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eVillager Happy&7." 
+    VillagerAngry: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eVillager Angry &7." 
+    Snowball: "&8[&6Particules&8] &7Vous venez d'acheter le trail de particule &eSnowball &7."
+    
+
+  AchatImpossible:
+    Cloud: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eCrit Magic&7." 
+    DripLava: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eDrip Lava&7." 
+    DripWater: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eDrip Water&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eFlame&7." 
+    Heart: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eHeart&7." 
+    Note: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eNote&7." 
+    Portal: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eRedstone&7." 
+    Slime: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSlime&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eFumée&7."
+    Spell: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSpell&7." 
+    SpellMob: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSpell Mob&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSpell Instant&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eVillager Happy&7." 
+    VillagerAngry: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eVillager Angry &7." 
+    Snowball: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter le trail de particule &eSnowball &7."
+    
+
+
+

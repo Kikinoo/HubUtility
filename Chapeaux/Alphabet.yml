@@ -1,0 +1,997 @@
+Gui:
+  General:
+    Nom: "&3Chapeaux Alphabet"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 2
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+
+    LettreA:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre A"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre A"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre A"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"340ffcc6-1d6c-42d1-a1ab-11d103c936c4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE4MjdlOTY1ZGEzZjlkOGFkYTQxMzMzNWU0YWE2YTA3MThmMzg3MjVlNzQ5ODdhZTMwMzZjYjkyNWQ2Y2M2MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 10
+
+    LettreB:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre B"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre B"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre B"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"aa000b06-ea79-4d42-acc3-4d63b00da588",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBjNGExM2Y3ZTJlNjk4ZDljMmNjYjJiZTY0MjFlOTFlMzJhZDhkM2U2ODVhNzg5ZDU0MDRhMmZmMzYzYzliNiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 11
+
+    LettreC:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre C"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre C"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre C"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"410de10b-01a6-4de7-beea-369680564bd7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY3YmViNGQ0OGIxODViNmVjNTdkYjA2MmM2ZjFlM2QyNjZiZTg4NjIyOTU5ODU0NTVlM2I4YzBlNzdmOGEzNCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 12
+
+    LettreD:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre D"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre D"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre D"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d73f3288-bc61-409d-9023-30b6595eceec",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg0M2UzZTgzNmFkMDUwODI3ZGYzMTg5MmYxZmUxNTdmNTEzY2ZkY2UwNDdkZTRjNGQ4ZTUzMWNjNTgwODcyZSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 13
+
+    LettreE:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre E"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre E"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre E"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e1b5eb49-c6f0-4973-862b-944dbe205a58",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcyMzJkYTdiMzU3ODRiYjA3NmMwOTQyYjU3MjRkOGQwMDg1OTQwNzgyZTMxYTRlOTBlZGU1Y2ExMjdiNTZlYSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 14
+
+    LettreF:
+      Stat: true
+      Obtenu:
+        Name: "&6Letre F"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Letre F"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Letre F"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"9bef4804-4d59-4ae8-b7da-c1f4da7b30c1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg5MDU4ZjYyYTNkMDk2NWViNDVlNjlmYjRiNGZhMjY5MTU5MDE0ZWZhODJjOTQ0YmIwOGFhNzNmZjUxNDQ1MyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 15 
+
+    LettreG:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre G"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre G"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre G"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4c1a6153-2c0e-4ddc-9d68-455528021523",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNhMmI2OWZjYWU0ODI1NmJlMzc3MDY3MDZjNjc0ODU3NmUxODYwYjFmNWM5NjM0YjVjMjIwN2Q1ZTFjNzBlOSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 16
+
+    LettreH:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre H"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre H"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre H"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a96c1aae-c109-465b-9250-9efbee53dd3a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVkNTA4ZTI1NmU2ZjliYjU0OWExMzVlYWE4ZGJkN2EyODRjNzhiZjBkMjNmMDA1MjIyMTFkNjliYTU5Mjk2MSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 19
+
+    LettreI:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre I"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre I"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre I"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"27f741fd-a35e-481f-be8c-f33aa2f5c4e4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJmNDM2OTE4MjUwYjc1MDk4OWNlMTcyMDk1MGUwNWY5NmNjZWQwNjNkNTJkMWY1ZjExNTJiMDQ0OTQwNDU4YiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 20
+
+    LettreJ:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre J"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre J"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre J"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f48a614c-ad79-46f2-8cbb-5fe89ea6f081",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M2NGNhMTIxNWMwYzUwZDAwYjA2YTRhNDY0OTM0NmQ2MGMxNWE2NmMxYTYwYjhlZTJlOGE4Y2RhOGVhZjU3ZSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 21
+
+    LettreK:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre K"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre K"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre K"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1b75a2da-8b66-4974-ba93-29f2b6b65e8f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBkYzU3ZTVmMTZiM2I2MWQ2MTdmMGY1YWZiODJmZjA0NGYyY2NhZjA5N2U0ZGE2NzM0NWYyYzc4M2Q1Y2Q1YSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 22
+
+    LettreL:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre L"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre L"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre L"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"0affc8ee-deee-45f2-93dd-c7bc1974f6bc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFhNjk3NjZjOThlNzhhNmEzYzA2NWRmNTFiMTdkNWE4MWM1ZGVjNDEwNWY2MDY0OWYxMThiNGIzNjhkZTlmIn19fQ=="}]}}}'
+      Page: 1
+      Slot: 23
+
+    LettreM:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre M"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre M"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre M"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"d1c64aaf-423d-4399-a381-d66d863a9a54",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY1YzY5MmQ1NDg2OTNlYmZiYWYxMDQwMGQyZThhYTkwOTFhOTA1OTBjZTQzZWQ2YjQ3YzJjMDcxYzhkZmUxMSJ9fX0="}]}}}'
+      Page: 1
+      Slot: 24
+
+    LettreN:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre N"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre N"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre N"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"50e6004c-1ba9-477a-902f-857d056375d7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlNTM1MTFkYTRiYmFjZTkxODMxYzU4YTRhMDFhZDlhYTNiNmYxMTMyNTBjNTNkZGE5NjZkNWU5NDA1YzFhOSJ9fX0="}]}}}' 
+      Page: 1
+      Slot: 25
+
+    LettreO:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre O"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre O"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre O"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2ecc2c29-c66d-42bc-b431-dc3490ef9856",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4ODcwMDAyOWZjNGQwY2EwZDM0N2ZhODJlNDM2ZTdhMzZjOTYxNGM4ZjczNDUzNGY3NTg2MTIzMWRmM2I3YiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 28
+
+    LettreP:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre P"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre P"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre P"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a8c7d9f5-912e-451e-b1d6-495352f42751",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYzMjNlYzZkODQ4YzI0OTUwZmM3YWE1MWI2Y2FjYTA1YTIyZmQ3MDY4ZDEyNTA0ZGJiOTcyMTNmMWYyMDk4MCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 29
+
+    LettreQ:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre Q"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre Q"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre Q"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f1f9defe-80d8-42fb-b841-6631ccfc9e92",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc5NmRhYTZiYTJmZTgwNDkzZDY2ZDc4OTJlMTgzMmI2NjI3M2RkZjRmMTFmMDk4ZTg0N2Q1MjQ5NDc2NzIzMiJ9fX0="}]}}}'
+      Page: 1
+      Slot: 30
+
+    LettreR:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre R"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre R"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre R"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"75657c92-0af4-4c83-bff6-b37b4c0cf1c4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI2YTJjN2RiNGYwOThiY2MxYTQ1NDkyODlhMDljYzEyZDNhY2Q0MTZjZTczM2VmOTU4NzY5NTM3NzgyOTkwMCJ9fX0="}]}}}'
+      Page: 1
+      Slot: 31
+
+    LettreS:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre S"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre S"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre S"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"47eb2f9b-6159-4c00-9ce9-c8c3563d96fa",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZiZTAyNmNhM2M5ZjBmZTk0Njc4NjljMGZlMjU3ODNmZWRjMmI3ZTBkODg1N2VkMzlkNWJhMGRmYmM4ZDQyNyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 32
+
+    LettreT:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre T"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre T"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre T"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"5f2d1373-06b5-4b91-9df6-f6e2653f05cc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI5MjFjMjY0NTY5NmYyMTZiMmVlYjRiYTZkOWUwYmQ2N2FiOGZlMjQ4NTNjYjBlMzBlZDRlOTQ5NTFkNmU3In19fQ=="}]}}}'
+      Page: 1
+      Slot: 33
+
+    LettreU:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre U"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre U"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre U"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"743e043d-1ea5-437c-b069-1574383d0cc0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M4NzEzY2M1MjMxMTQ4M2Y5YTk3NTBkNjQ3OGFjYzU1NGRhMTEzMTllYTRkMTYyYzJjYzM1MzAzOWY0YjI5NyJ9fX0="}]}}}'
+      Page: 1
+      Slot: 34
+
+    LettreV:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre V"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre V"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre V"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"84e28de4-0ec7-4164-adde-128971537971",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJjN2YxNGVhODU1Zjc3OTU3ODNjNzcwOGNhMzM2NzA0Y2UzODI3ZGY4NTE0ZTUxMmMwNTIwOGEzMDAzMjA5In19fQ=="}]}}}'
+      Page: 2
+      Slot: 10
+
+    LettreW:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre W"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre W"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre W"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"beaa3c1f-10b3-4809-b4d6-298df770db55",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVkYTliYjQwZTdjYWJmYjNlNGU4MGNlZWIyYjQ1NGUzNmIzMDZlOGRhNzRmMDQxMzcyZGY2ZTRkNTgyZGUwZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 11
+
+    LettreX:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre X"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre X"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre X"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"09981b26-754e-439e-a1b0-66d09042b352",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRmOWM5YTU4NTJiNDVkNzY4NmRmYzYzNjg5ODhmMDY5NDE3MGMyNDY3ZTJhODJiYzQwYzRjZjk3YzVlNjc0In19fQ=="}]}}}'
+      Page: 2
+      Slot: 12
+
+    LettreY:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre Y"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre Y"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre Y"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a47675a3-d01f-45e4-b0e4-3b5999180961",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI5ZmY0MmNkZmQzYWRhYWM5ZjhjODYyZjkwY2RkNjI3ZDIyZDBhYmExMDZkNzFiN2E0NDIxM2VlNmU0M2E5OSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 13
+
+    LettreZ:
+      Stat: true
+      Obtenu:
+        Name: "&6Lettre Z"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Lettre Z"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Lettre Z"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"e51af024-b0a4-4a01-903f-86fe08039038",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ4Zjc3NzEwN2YzMDFjMjQwZjgxNTRmZDk0ZTcyZThiMjJkYTFlZTQ4NzA1YTYxZWZiZmNmOWVlMjA3ZjkyZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 14
+
+
+    Chiffre1:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 1"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 1"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 1"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"efe21dc7-319d-41da-a897-31514df308b8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBhNGM5NGRkNjVhN2NhZGM0MTcyY2VkZjM5OTBhODU0Mjc3MmJiMTEzY2RmMWEwZjc4ZWY2NTJjNmFiZTZjYiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 15
+
+    Chiffre2:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 2"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 2"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 2"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"48c3bea6-e337-4309-bd5b-1a7d8e0d8eac",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3YzU1MDY0ZjFkMDc2MjVhZjA1Y2RiYzBmYzdjODQxNzNiMTA1NDEwMjRjODg1NWVkNzEzMmNhNzc2NzI0NiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 16
+
+    Chiffre3:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 3"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 3"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 3"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"72fe5dfd-2d85-4032-9f0a-6613cf579dd7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljYjk0ZDg3MjkxOTdhMThhNzY4ODJjMjQ5MThhOGMwNDQ5NGQzNDcyN2Y0ZGYwNjBmYjdhNDVhMWZmODUzNyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 19
+
+    Chiffre4:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 4"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 4"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 4"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"efc7aa26-812e-4a23-9951-bc97bb677270",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZDc1NjVmYTY4OTQyZDJmZjVmMDRlZmRhODBkOWU5Zjg4ZDMzNDAxNjgwZjE4MmUwZjM3YWYzMmI4YzI5NCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 20
+
+    Chiffre5:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 5"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 5"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 5"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"1d397f1a-357e-4e71-937f-fdc140b908c3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyMDNiMTI0YWNlZmQwOGM0NDZhMDQ5MmE1YzlkODAwZWUwY2Q4YzI2MGMzYzEyMzc3NzMxNjU5MjUxYWQ0ZSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 21
+
+    Chiffre6:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 6"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 6"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 6"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"a634dff4-3bb5-4031-923e-d3b788b2c3d5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ5MTAxN2ZkNTI2N2ZjOWE2NDFjY2UwMjUwZDQ2ODM4MDRlM2IxMzk5YjJiNWI1OGYxMzBmNTc3NGRlMjgyMSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 22
+
+    Chiffre7:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 7"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 7"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 7"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"97274284-9c0b-4e19-957d-f76ec740fa0e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNWFjYzQyY2FmOGIxZTk1Y2NiMTZkMzc5YWYwYjc2Zjk1ZWQyOWVmMmE0OTQwNzNkMGIwN2IxNWRjMjJmZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 23
+
+    Chiffre8:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 8"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 8"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 8"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"f6a87ff1-9e66-441d-bc0a-e9f306cc22f4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5MDRkNWRlZTM3ODJkNGQ2YzZmZWJlNzI3ODNkOTYxNDgyNzdlZmJlNzhjMTUxNGNjMjAwODhkOGZmMGQwOSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 24
+
+    Chiffre9:
+      Stat: true
+      Obtenu:
+        Name: "&6Chiffre 9"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chiffre 9"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chiffre 9"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"16f99603-dbca-4fbd-b421-1e4e8e24cb60",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkYzY1YzNiODk2YWI2NmRmMWVkN2JhNDI1MGQxNmJiODM1MmE2ZDI4NWE1NGMwMDIxOGVhNzJhNGJiNzE0OSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 25
+
+    SymbolePoint:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole ."
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole ."
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole ."
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"dfea88e5-9414-4215-91c7-4ff7a9da2cbf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTczMzBmNjgwNTlhYmE5YWNiZDViZjQ2YTJkMzk3YmE4MWQxYzg3MmJmZTE1MTI5M2IwMjFiYTFiNmNlNDJiOSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 28
+
+    SymboleVirgule:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole ,"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole ,"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole ,"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fd9170d1-3484-43ee-aa32-e49fe0d842ff",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk5NDFjMWNkNzhhZGU1ZDUxYWMwZTBmNWU3ZDdjYTVlYWY2MmU0NjIyZGZiMTZhMzM2YWE4MjA3NzFkOTM2ZCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 29
+
+    SymboleApostrophe:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole '"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole '"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole '"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"fc225ed9-cae2-47a8-baf5-3bb26e7a086d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU0ZWU1ZGM2NDUyYWExYjI0ZTgyYjNiNjY2Yjg0NzM3Yzk2ODU5MWQ3NTc3MjE4Zjk3NDg4ZGE2OTg2MmU5MCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 30
+
+    SymboleDeuxPoint:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole :"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole :"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole :"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"2452262c-6cd0-4e2f-be6b-cca2d885df04",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFiYjZhZWM2N2Q5MTBhMDk4YmVlYTg4NmZjZTAxYjYwN2VkMDI2ZWJjZTI1ZjUwMjE3NWFmYTRjMjFlNDBiMCJ9fX0="}]}}}'
+      Page: 2
+      Slot: 31
+
+    SymboleInterrogation:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole ?"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole ?"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole ?"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"322e7c8f-3374-4b4f-9cf5-547f0304fafa",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYwODg4ZmRjYmJmZjcxYzQ3NGQ0Y2Y4NjBmODg4NThiYWFkMWRiOWU1YzE5YzY1MGJhMTViZjk0NWVmNWYwMiJ9fX0="}]}}}'
+      Page: 2
+      Slot: 32
+    SymboleExclamation:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole !"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole !"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole !"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"4c8004f8-1166-4227-874f-0db63fa49474",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU1YWM3NmMxNDlhMjY2MDgyN2EyYzI3MjE4OWY3Nzk3M2ZhZmNiODgyZDRhN2QyMDc3OGUxZWM2ZjQyMzJmNSJ9fX0="}]}}}'
+      Page: 2
+      Slot: 33
+
+    SymbolePointVirgule:
+      Stat: true
+      Obtenu:
+        Name: "&6Symbole ;"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Symbole ;"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Symbole ;"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Nbt: '{SkullOwner:{Id:"c477d250-b8ca-4582-b309-ffd07f9873c2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAwNmJiNTdiNTg4MDVmNTdhMzg0MDBiNGRmYjNkOWNhYmVjOWM2ZTg4YjJhMDE3YjM2ZjYzMDJlZGFlNjEyNyJ9fX0="}]}}}'
+      Page: 2
+      Slot: 34
+
+    
+
+
+
+Message:
+  Activer:
+    LettreA: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre A&7."
+    LettreB: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre B&7."
+    LettreC: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre C&7."
+    LettreD: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre D&7."
+    LettreE: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre E&7."
+    LettreF: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre F&7."
+    LettreG: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre G&7."
+    LettreH: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre H&7."
+    LettreI: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre I&7."
+    LettreJ: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre J&7."
+    LettreK: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre K&7."
+    LettreL: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre L&7."
+    LettreM: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre M&7."
+    LettreN: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre N&7."
+    LettreO: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre O&7."
+    LettreP: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre P&7."
+    LettreQ: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre Q&7."
+    LettreR: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre R&7."
+    LettreS: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre S&7."
+    LettreT: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre T&7."
+    LettreU: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre U&7."
+    LettreV: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre V&7."
+    LettreW: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre W&7."
+    LettreX: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre X&7."
+    LettreY: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre Y&7."
+    LettreZ: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eLettre Z&7."
+    Chiffre1: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 1&7."
+    Chiffre2: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 2&7."
+    Chiffre3: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 3&7."
+    Chiffre4: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 4&7."
+    Chiffre5: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 5&7."
+    Chiffre6: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 6&7."
+    Chiffre7: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 7&7."
+    Chhiffre8: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 8&7."
+    Chiffre9: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eChiffre 9&7."
+    SymboleExclamation: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole !&7."
+    SymboleInterrogation: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole ?&7."
+    SymboleApostrophe: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole '&7."
+    SymbolePointVirgule: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole ;&7."
+    SymboleDeuxPoint: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole :&7."
+    SymbolePoint: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole .&7."
+    SymboleVirgule: "&8[&6Chapeaux&8] &7Vous venez d'activer le chapeau &eSymbole ,&7."
+
+  Desactiver:
+    LettreA: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre A&7."
+    LettreB: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre B&7."
+    LettreC: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre C&7."
+    LettreD: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre D&7."
+    LettreE: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre E&7."
+    LettreF: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre F&7."
+    LettreG: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre G&7."
+    LettreH: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre H&7."
+    LettreI: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre I&7."
+    LettreJ: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre J&7."
+    LettreK: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre K&7."
+    LettreL: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre L&7."
+    LettreM: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre M&7."
+    LettreN: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre N&7."
+    LettreO: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre O&7."
+    LettreP: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre P&7."
+    LettreQ: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre Q&7."
+    LettreR: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre R&7."
+    LettreS: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre S&7."
+    LettreT: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre T&7."
+    LettreU: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre U&7."
+    LettreV: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre V&7."
+    LettreW: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre W&7."
+    LettreX: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre X&7."
+    LettreY: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre Y&7."
+    LettreZ: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eLettre Z&7."
+    Chiffre1: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 1&7."
+    Chiffre2: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 2&7."
+    Chiffre3: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 3&7."
+    Chiffre4: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 4&7."
+    Chiffre5: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 5&7."
+    Chiffre6: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 6&7."
+    Chiffre7: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 7&7."
+    Chhiffre8: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 8&7."
+    Chiffre9: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eChiffre 9&7."
+    SymboleExclamation: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole !&7."
+    SymboleInterrogation: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole ?&7."
+    SymboleApostrophe: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole '&7."
+    SymbolePointVirgule: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole ;&7."
+    SymboleDeuxPoint: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole :&7."
+    SymbolePoint: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole .&7."
+    SymboleVirgule: "&8[&6Chapeaux&8] &7Vous venez de désactiver le chapeau &eSymbole ,&7."
+
+  AchatPossible:
+    LettreA: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre A&7."
+    LettreB: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre B&7."
+    LettreC: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre C&7."
+    LettreD: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre D&7."
+    LettreE: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre E&7."
+    LettreF: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre F&7."
+    LettreG: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre G&7."
+    LettreH: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre H&7."
+    LettreI: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre I&7."
+    LettreJ: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre J&7."
+    LettreK: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre K&7."
+    LettreL: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre L&7."
+    LettreM: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre M&7."
+    LettreN: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre N&7."
+    LettreO: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre O&7."
+    LettreP: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre P&7."
+    LettreQ: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre Q&7."
+    LettreR: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre R&7."
+    LettreS: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre S&7."
+    LettreT: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre T&7."
+    LettreU: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre U&7."
+    LettreV: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre V&7."
+    LettreW: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre W&7."
+    LettreX: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre X&7."
+    LettreY: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre Y&7."
+    LettreZ: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eLettre Z&7."
+    Chiffre1: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 1&7."
+    Chiffre2: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 2&7."
+    Chiffre3: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 3&7."
+    Chiffre4: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 4&7."
+    Chiffre5: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 5&7."
+    Chiffre6: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 6&7."
+    Chiffre7: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 7&7."
+    Chhiffre8: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 8&7."
+    Chiffre9: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eChiffre 9&7."
+    SymboleExclamation: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole !&7."
+    SymboleInterrogation: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole ?&7."
+    SymboleApostrophe: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole '&7."
+    SymbolePointVirgule: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole ;&7."
+    SymboleDeuxPoint: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole :&7."
+    SymbolePoint: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole .&7."
+    SymboleVirgule: "&8[&6Chapeaux&8] &7Vous venez d'acheter le chapeau &eSymbole ,&7."
+
+  AchatImpossible:
+    LettreA: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre A&7."
+    LettreB: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre B&7."
+    LettreC: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre C&7."
+    LettreD: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre D&7."
+    LettreE: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre E&7."
+    LettreF: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre F&7."
+    LettreG: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre G&7."
+    LettreH: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre H&7."
+    LettreI: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre I&7."
+    LettreJ: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre J&7."
+    LettreK: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre K&7."
+    LettreL: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre L&7."
+    LettreM: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre M&7."
+    LettreN: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre N&7."
+    LettreO: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre O&7."
+    LettreP: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre P&7."
+    LettreQ: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre Q&7."
+    LettreR: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre R&7."
+    LettreS: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre S&7."
+    LettreT: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre T&7."
+    LettreU: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre U&7."
+    LettreV: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre V&7."
+    LettreW: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre W&7."
+    LettreX: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre X&7."
+    LettreY: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre Y&7."
+    LettreZ: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eLettre Z&7."
+    Chiffre1: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 1&7."
+    Chiffre2: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 2&7."
+    Chiffre3: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 3&7."
+    Chiffre4: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 4&7."
+    Chiffre5: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 5&7."
+    Chiffre6: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 6&7."
+    Chiffre7: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 7&7."
+    Chhiffre8: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 8&7."
+    Chiffre9: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eChiffre 9&7."
+    SymboleExclamation: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole !&7."
+    SymboleInterrogation: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole ?&7."
+    SymboleApostrophe: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole '&7."
+    SymbolePointVirgule: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole ;&7."
+    SymboleDeuxPoint: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole :&7."
+    SymbolePoint: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole .&7."
+    SymboleVirgule: "&8[&6Chapeaux&8] &7Vous n'avez pas assez d'argent pour acheter le chapeau &eSymbole ,&7."

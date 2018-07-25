@@ -1,0 +1,71 @@
+
+Gui:
+  General:
+    Nom: "&3Particules"
+    Fond: 
+      Style:
+        Ligne1: "@@-@@@-@@"
+        Ligne2: "@---@---@"
+        Ligne3: "@@-@@@-@@"
+        Ligne4: "@@-@@@-@@"
+        Ligne5: "@---@---@"
+        Ligne6: "@@-@@@-@@"
+    Remplissage:
+      Item1:
+        Symbole: "@"
+        Item: red stained glass pane
+        Name: "&6Choisissez vos particules."
+        Lore: "&7Choisissez vos particules."
+      Item2:
+        Symbole: "-"
+        Item: white stained glass pane
+        Name: "&6Choisissez vos particules."
+        Lore: "&7Choisissez vos particules."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+
+  Selection:
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever les particules"
+      Lore: "&7Cliquez pour enlever les particules"
+      Slot: 40
+
+    Trails:
+      Stat: true
+      Item: blaze powder
+      Name: "&6Trails"
+      Lore: "&7Cliquez pour afficher le menu des trails||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 11
+
+    Wings:
+      Stat: true
+      Item: feather
+      Name: "&6Ailes"
+      Lore: "&7Cliquez pour afficher le menu des Ailes||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 38
+
+    Capes:
+      Stat: true
+      Item: white banner item
+      Name: "&6Capes"
+      Lore: "&7Cliquez pour afficher le menu des capes||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 15
+
+    Specials:
+      Stat: true
+      Item: enchantment table
+      Name: "&6Spéciales"
+      Lore: "&7Cliquez pour afficher le menu des spécials||&7Vous possédez [CountJoueur] sur [CountTotal]"
+      Slot: 42

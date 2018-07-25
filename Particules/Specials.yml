@@ -1,0 +1,550 @@
+#❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+
+Gui:
+  General:
+    Nom: "&3Particules Spéciales"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@------2@"
+        Ligne3: "@-------@"
+        Ligne4: "@------1@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever les particules"
+      Lore: "&7Cliquez pour enlever les particules"
+      Slot: 40 
+
+    SuperHero:
+      Stat: true
+      Obtenu:
+        Item: black dye
+        Name: "&6Super Heros"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: black dye
+          Name: "&4Super Heros"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: black dye
+          Name: "&4Super Heros"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 10
+
+    Mystique:
+      Stat: true
+      Obtenu:
+        Item: book
+        Name: "&6Mystique"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: book
+          Name: "&4Mystique"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: book
+          Name: "&4Mystique"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 11
+
+    FireWings:
+      Stat: true
+      Obtenu:
+        Item: blaze powder
+        Name: "&6FireWings"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: blaze powder
+          Name: "&4FireWings"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: blaze powder
+          Name: "&4FireWings"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 12
+
+    Demon:
+      Stat: true
+      Obtenu:
+        Item: redstone
+        Name: "&6Demon"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: redstone
+          Name: "&4Demon"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: redstone
+          Name: "&4Demon"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 13 
+
+    Glacial:
+      Stat: true
+      Obtenu:
+        Item: snowball
+        Name: "&6Glacial"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: snowball
+          Name: "&4Glacial"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: snowball
+          Name: "&4Glacial"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 14 
+
+    IceWings:
+      Stat: true
+      Obtenu:
+        Item: Ice
+        Name: "&6Ice Wings"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Ice
+          Name: "&4Ice Wings"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Ice
+          Name: "&4Ice Wings"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 15
+
+    Shaman:
+      Stat: true
+      Obtenu:
+        Item: bone
+        Name: "&6Shaman"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: bone
+          Name: "&4Shaman"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: bone
+          Name: "&4Shaman"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 16 
+
+    CircleFire:
+      Stat: true
+      Obtenu:
+        Item: flint and steel
+        Name: "&6Circle Fire"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: flint and steel
+          Name: "&4Circle Fire"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: flint and steel
+          Name: "&4Circle Fire"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 19
+
+    Scanner:
+      Stat: true
+      Obtenu:
+        Item: beacon
+        Name: "&6Scanner"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: beacon
+          Name: "&4Scanner"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: beacon
+          Name: "&4Scanner"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 20 
+
+    BloodHelix:
+      Stat: true
+      Obtenu:
+        Item: red dye
+        Name: "&6Blood Helix"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: red dye
+          Name: "&4Blood Helix"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: red dye
+          Name: "&4Blood Helix"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 21
+
+    FireRings:
+      Stat: true
+      Obtenu:
+        Item: blaze rod
+        Name: "&6Anneaux de Feu"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: blaze rod
+          Name: "&4Anneaux de Feu"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: blaze rod
+          Name: "&4Anneaux de Feu"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 22
+
+    Neige:
+      Stat: true
+      Obtenu:
+        Item: snow block
+        Name: "&6Neige"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: snow block
+          Name: "&4Neige"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: snow block
+          Name: "&4Neige"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 23 
+
+    Pluie:
+      Stat: true
+      Obtenu:
+        Item: ghast tear
+        Name: "&6Pluie"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: ghast tear
+          Name: "&4Pluie"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: ghast tear
+          Name: "&4Pluie"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 24 
+
+    Orage:
+      Stat: true
+      Obtenu:
+        Item: Glowstone Dust
+        Name: "&6Orage"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Glowstone Dust
+          Name: "&4Orage"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Glowstone Dust
+          Name: "&4Orage"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 25
+
+    DemonHelix:
+      Stat: true
+      Obtenu:
+        Item: wither skeleton head
+        Name: "&6Demon Helix"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: wither skeleton head
+          Name: "&4Demon Helix"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: wither skeleton head
+          Name: "&4Demon Helix"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 28
+
+    AuraEau:
+      Stat: true
+      Obtenu:
+        Item: Water Bucket
+        Name: "&6Aura d'eau"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Water Bucket
+          Name: "&4Aura d'eau"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Water Bucket
+          Name: "&4Aura d'eau"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 29
+
+    ConeDeFeu:
+      Stat: true
+      Obtenu:
+        Item: Lava Bucket
+        Name: "&6Cône de feu"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Lava Bucket
+          Name: "&4Cône de feu"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Lava Bucket
+          Name: "&4Cône de feu"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 30 
+
+    Enfer:
+      Stat: true
+      Obtenu:
+        Item: Brewing stand item
+        Name: "&6Pluie en Enfer"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Brewing stand item
+          Name: "&4Pluie en Enfer"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Brewing stand item
+          Name: "&4Pluie en Enfer"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 31
+
+    RaimbowWings:
+      Stat: true
+      Obtenu:
+        Item: magma cream
+        Name: "&6Aile Arc-en-Ciel"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: magma cream
+          Name: "&4Aile Arc-en-Ciel"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: magma cream
+          Name: "&4Aile Arc-en-Ciel"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 32
+
+    Soleil:
+      Stat: true
+      Obtenu:
+        Item: SunFlower
+        Name: "&6Soleil"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: SunFlower
+          Name: "&4Soleil"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: SunFlower
+          Name: "&4Soleil"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 33
+
+    Spirale:
+      Stat: true
+      Obtenu:
+        Item: slimeball
+        Name: "&6Spirale"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: slimeball
+          Name: "&4Spirale"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: slimeball
+          Name: "&4Spirale"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 5000
+        Rarete: 4
+      Slot: 34
+
+
+
+
+    
+
+
+Message:
+  Activer:
+    SuperHero: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eSuper Héros&7."
+    Mystique: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eMystique&7."
+    FireWings: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eAiles de Feu&7."
+    Demon: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eDémon&7."
+    Glacial: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eGlacial&7."
+    IceWings: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eAiles de Glaçe&7."
+    Shaman: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eShaman&7."
+    CircleFire: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eCercle de Feu&7."
+    Scanner: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eScanner&7."
+    BloodHelix: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eBlood Helix&7."
+    FireRings: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eAnneaux de Feu&7."
+    Neige: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eNeige&7."
+    Pluie: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &ePluie&7."
+    Orage: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eOrage&7."
+    DemonHelix: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eDemon Helix&7."
+    AuraEau: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eAura d'Eau&7."
+    ConeDeFeu: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eCône de Feu&7."
+    Enfer: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eEnfer&7."
+    RaimbowWings: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eAiles Arc-en-Ciel&7."
+    Soleil: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eSoleil&7."
+    Spirale: "&8[&6Particules&8] &7Vous venez d'activer les particules spéciales &eSpirale&7."
+    
+  Desactiver:
+    SuperHero: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eSuper Héros&7."
+    Mystique: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eMystique&7."
+    FireWings: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eAiles de Feu&7."
+    Demon: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eDémon&7."
+    Glacial: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eGlacial&7."
+    IceWings: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eAiles de Glaçe&7."
+    Shaman: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eShaman&7."
+    CircleFire: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eCercle de Feu&7."
+    Scanner: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eScanner&7."
+    BloodHelix: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eBlood Helix&7."
+    FireRings: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eAnneaux de Feu&7."
+    Neige: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eNeige&7."
+    Pluie: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &ePluie&7."
+    Orage: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eOrage&7."
+    DemonHelix: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eDemon Helix&7."
+    AuraEau: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eAura d'Eau&7."
+    ConeDeFeu: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eCône de Feu&7."
+    Enfer: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eEnfer&7."
+    RaimbowWings: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eAiles Arc-en-Ciel&7."
+    Soleil: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eSoleil&7."
+    Spirale: "&8[&6Particules&8] &7Vous venez de désactiver les particules spéciales &eSpirale&7."
+
+  AchatPossible:
+    SuperHero: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eSuper Héros&7."
+    Mystique: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eMystique&7."
+    FireWings: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eAiles de Feu&7."
+    Demon: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eDémon&7."
+    Glacial: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eGlacial&7."
+    IceWings: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eAiles de Glaçe&7."
+    Shaman: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eShaman&7."
+    CircleFire: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eCercle de Feu&7."
+    Scanner: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eScanner&7."
+    BloodHelix: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eBlood Helix&7."
+    FireRings: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eAnneaux de Feu&7."
+    Neige: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eNeige&7."
+    Pluie: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &ePluie&7."
+    Orage: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eOrage&7."
+    DemonHelix: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eDemon Helix&7."
+    AuraEau: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eAura d'Eau&7."
+    ConeDeFeu: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eCône de Feu&7."
+    Enfer: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eEnfer&7."
+    RaimbowWings: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eAiles Arc-en-Ciel&7."
+    Soleil: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eSoleil&7."
+    Spirale: "&8[&6Particules&8] &7Vous venez d'acheter les particules spéciales &eSpirale&7."
+    
+
+  AchatImpossible:
+    SuperHero: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eSuper Héros&7."
+    Mystique: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eMystique&7."
+    FireWings: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eAiles de Feu&7."
+    Demon: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eDémon&7."
+    Glacial: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eGlacial&7."
+    IceWings: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eAiles de Glaçe&7."
+    Shaman: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eShaman&7."
+    CircleFire: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eCercle de Feu&7."
+    Scanner: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eScanner&7."
+    BloodHelix: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eBlood Helix&7."
+    FireRings: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eAnneaux de Feu&7."
+    Neige: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eNeige&7."
+    Pluie: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &ePluie&7."
+    Orage: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eOrage&7."
+    DemonHelix: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eDemon Helix&7."
+    AuraEau: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eAura d'Eau&7."
+    ConeDeFeu: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eCône de Feu&7."
+    Enfer: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eEnfer&7."
+    RaimbowWings: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eAiles Arc-en-Ciel&7."
+    Soleil: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eSoleil&7."
+    Spirale: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter les particules spéciales &eSpirale&7."
+    
+
+
+

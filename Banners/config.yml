@@ -1,0 +1,553 @@
+Gui:
+  General:
+    Nom: "&3Emoticônes"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez votre chapeau."
+          Lore: "&7Choisissez votre chapeau."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    
+    
+
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever le chapeau"
+      Lore: "&7Cliquez pour enlever le chapeau"
+      Slot: 40 
+
+    PageSuivante:
+      Stat: true
+      Item: arrow
+      Name: "&ePage suivante"
+      Lore: ""
+      NombrePage: 1
+      Slot: 41
+
+    PagePrecedente:
+      Stat: true
+      Item: arrow
+      Name: "&ePage précédente"
+      Lore: ""
+      Slot: 39
+
+    Marguerite:
+      Stat: true
+      Obtenu:
+        Name: "&6Marguerite"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Marguerite"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Marguerite"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:10,Pattern:"dls"},{Color:12,Pattern:"ld"},{Color:12,Pattern:"hh"},{Color:15,Pattern:"flo"},{Color:11,Pattern:"mc"}]}}'
+      Page: 1
+      Slot: 10
+
+    Creeper:
+      Stat: true
+      Obtenu:
+        Name: "&6Creeper"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Creeper"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Creeper"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light green banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"moj"},{Color:0,Pattern:"flo"},{Color:0,Pattern:"hh"}]}}'
+      Page: 1
+      Slot: 11
+
+    Creep:
+      Stat: true
+      Obtenu:
+        Name: "&6Creep"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Creep"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Creep"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: black banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"moj"},{Color:0,Pattern:"flo"},{Color:0,Pattern:"hh"}]}}'
+      Page: 1
+      Slot: 12
+
+    Inca:
+      Stat: true
+      Obtenu:
+        Name: "&6Inca"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Inca"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Inca"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: orange banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"cbo"},{Color:1,Pattern:"tt"},{Color:1,Pattern:"bt"},{Color:15,Pattern:"tts"},{Color:15,Pattern:"mc"}]}}'
+      Page: 1
+      Slot: 13
+
+    Mojang:
+      Stat: true
+      Obtenu:
+        Name: "&6Mojang"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mojang"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mojang"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: purple banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:12,Pattern:"hh"},{Color:3,Pattern:"rud"},{Color:3,Pattern:"rd"},{Color:4,Pattern:"ms"},{Color:12,Pattern:"cr"},{Color:1,Pattern:"moj"}]}}'
+      Page: 1
+      Slot: 14
+
+    Trident:
+      Stat: true
+      Obtenu:
+        Name: "&6Trident"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Trident"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Trident"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:12,Pattern:"ss"},{Color:4,Pattern:"hhb"},{Color:12,Pattern:"sc"},{Color:4,Pattern:"bo"},{Color:4,Pattern:"gru"}]}}'
+      Page: 1
+      Slot: 15
+
+    Russe:
+      Stat: true
+      Obtenu:
+        Name: "&6Russe"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Russe"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Russe"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: red banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:4,Pattern:"cr"},{Color:1,Pattern:"bo"},{Color:11,Pattern:"flo"},{Color:2,Pattern:"mc"}]}}'
+      Page: 1
+      Slot: 16
+
+    Happy:
+      Stat: true
+      Obtenu:
+        Name: "&6Happy"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:
+          Name: "&4Happy"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Happy"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: white banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:11,Pattern:"sku"},{Color:11,Pattern:"cre"},{Color:15,Pattern:"hh"},{Color:11,Pattern:"cre"},{Color:15,Pattern:"flo"}]}}'
+      Page: 1
+      Slot: 19
+
+    Mort:
+      Stat: true
+      Obtenu:
+        Name: "&6Mort"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Mort"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Mort"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: cyan banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:12,Pattern:"bri"},{Color:4,Pattern:"bt"},{Color:4,Pattern:"tt"},{Color:6,Pattern:"bo"},{Color:15,Pattern:"sku"}]}}'
+      Page: 1
+      Slot: 20
+
+    Enfer:
+      Stat: true
+      Obtenu:
+        Name: "&6Enfer"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Enfer"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Enfer"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: white banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:8,Pattern:"cs"},{Color:15,Pattern:"hhb"},{Color:0,Pattern:"sku"},{Color:1,Pattern:"bts"}]}}'
+      Page: 1
+      Slot: 21
+
+    Hiver:
+      Stat: true
+      Obtenu:
+        Name: "&6Hiver"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Hiver"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Hiver"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"mc"},{Color:12,Pattern:"flo"},{Color:15,Pattern:"sku"},{Color:12,Pattern:"bs"},{Color:15,Pattern:"bt"},{Color:12,Pattern:"tts"}]}}'
+      Page: 1
+      Slot: 22
+
+    Nike:
+      Stat: true
+      Obtenu:
+        Name: "&6Nike"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Nike"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Nike"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: black banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"mr"},{Color:0,Pattern:"hh"},{Color:0,Pattern:"ld"},{Color:0,Pattern:"mc"}]}}'
+      Page: 1
+      Slot: 23
+
+    Foret:
+      Stat: true
+      Obtenu:
+        Name: "&6Foret"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Foret"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Foret"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:3,Pattern:"ss"},{Color:2,Pattern:"bts"},{Color:2,Pattern:"tts"},{Color:0,Pattern:"gra"}]}}'
+      Page: 1
+      Slot: 24
+
+    Chat:
+      Stat: true
+      Obtenu:
+        Name: "&6Chat"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Chat"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Chat"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: yellow banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:7,Pattern:"sku"},{Color:14,Pattern:"cre"},{Color:11,Pattern:"hh"},{Color:14,Pattern:"cre"}]}}'
+      Page: 1
+      Slot: 25
+
+    Enderman:
+      Stat: true
+      Obtenu:
+        Name: "&6Enderman"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Enderman"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Enderman"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: purple banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:0,Pattern:"ss"},{Color:0,Pattern:"tt"},{Color:0,Pattern:"mc"},{Color:5,Pattern:"tts"}]}}'
+      Page: 1
+      Slot: 28
+
+    FleurBleue:
+      Stat: true
+      Obtenu:
+        Name: "&6FleurBleue"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4FleurBleue"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4FleurBleue"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:4,Pattern:"tts"},{Color:4,Pattern:"bts"},{Color:4,Pattern:"flo"}]}}'
+      Page: 1
+      Slot: 29
+
+    Miroir:
+      Stat: true
+      Obtenu:
+        Name: "&6Miroir"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Miroir"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Miroir"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:15,Pattern:"dls"},{Color:12,Pattern:"gru"},{Color:15,Pattern:"gra"},{Color:0,Pattern:"bo"}]}}'
+      Page: 1
+      Slot: 30
+
+    Calamar:
+      Stat: true
+      Obtenu:
+        Name: "&6Calamar"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Calamar"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Calamar"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: pink banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:1,Pattern:"mr"},{Color:9,Pattern:"cr"},{Color:9,Pattern:"ts"},{Color:9,Pattern:"bs"},{Color:12,Pattern:"cbo"},{Color:12,Pattern:"bts"}]}}'
+      Page: 1
+      Slot: 31
+
+    CreeperColoré:
+      Stat: true
+      Obtenu:
+        Name: "&6CreeperColoré"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4CreeperColoré"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4CreeperColoré"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: yellow banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:4,Pattern:"rud"},{Color:1,Pattern:"ts"},{Color:0,Pattern:"cre"}]}}'
+      Page: 1
+      Slot: 32
+
+    CombattantCreeper:
+      Stat: true
+      Obtenu:
+        Name: "&6CombattantCreeper"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4CombattantCreeper"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4CombattantCreeper"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: black banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:1,Pattern:"bri"},{Color:7,Pattern:"cre"},{Color:15,Pattern:"bo"},{Color:1,Pattern:"gru"},{Color:0,Pattern:"gra"},{Color:7,Pattern:"cre"}]}}'
+      Page: 1
+      Slot: 33
+
+    Arbre:
+      Stat: true
+      Obtenu:
+        Name: "&6Arbre"
+        Lore: "&7Cliquez pour activer le chapeau"
+      NonObtenu:
+        Possible:  
+          Name: "&4Arbre"
+          Lore: "&cCliquez pour acheter le chapeau"
+        Impossible:
+          Name: "&4Arbre"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 2000
+        Rarete: 2
+      Item: light blue banner item
+      Nbt: '{BlockEntityTag:{Patterns:[{Color:3,Pattern:"cs"},{Color:2,Pattern:"bts"},{Color:2,Pattern:"tr"},{Color:2,Pattern:"tts"}]}}'
+      Page: 1
+      Slot: 34
+
+
+Message:
+  Activer:
+    Marguerite: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eMarguerite&7."
+    Creeper: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eCreeper&7."
+    Creep: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eCreep&7."
+    Inca: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eInca&7."
+    Mojang: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eMojang&7."
+    Trident: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eTrident&7."
+    Russe: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eRusse&7."
+    Happy: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eHappy&7."
+    Mort: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eMort&7."
+    Enfer: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eEnfer&7."
+    Hiver: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eHiver&7."
+    Nike: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eNike&7."
+    Foret: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eForet&7."
+    Chat: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eChat&7."
+    Enderman: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eEnderman&7."
+    FleurBleue: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eFleur Bleue&7."
+    Miroir: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eMiroir&7."
+    Calamar: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eCalamar&7."
+    CreeperColoré: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eCreeper Coloré&7."
+    CombattantCreeper: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eCombattant Creeper&7."
+    Arbre: "&8[&6Bannières&8] &7Vous venez d'activer la bannière &eArbre&7."
+
+  Desactiver:
+    Marguerite: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eMarguerite&7."
+    Creeper: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eCreeper&7."
+    Creep: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eCreep&7."
+    Inca: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eInca&7."
+    Mojang: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eMojang&7."
+    Trident: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eTrident&7."
+    Russe: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eRusse&7."
+    Happy: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eHappy&7."
+    Mort: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eMort&7."
+    Enfer: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eEnfer&7."
+    Hiver: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eHiver&7."
+    Nike: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eNike&7."
+    Foret: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eForet&7."
+    Chat: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eChat&7."
+    Enderman: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eEnderman&7."
+    FleurBleue: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eFleur Bleue&7."
+    Miroir: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eMiroir&7."
+    Calamar: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eCalamar&7."
+    CreeperColoré: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eCreeper Coloré&7."
+    CombattantCreeper: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eCombattant Creeper&7."
+    Arbre: "&8[&6Bannières&8] &7Vous venez de désactiver la bannière &eArbre&7."
+
+  AchatPossible:
+    Marguerite: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eMarguerite&7."
+    Creeper: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eCreeper&7."
+    Creep: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eCreep&7."
+    Inca: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eInca&7."
+    Mojang: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eMojang&7."
+    Trident: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eTrident&7."
+    Russe: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eRusse&7."
+    Happy: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eHappy&7."
+    Mort: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eMort&7."
+    Enfer: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eEnfer&7."
+    Hiver: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eHiver&7."
+    Nike: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eNike&7."
+    Foret: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eForet&7."
+    Chat: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eChat&7."
+    Enderman: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eEnderman&7."
+    FleurBleue: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eFleur Bleue&7."
+    Miroir: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eMiroir&7."
+    Calamar: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eCalamar&7."
+    CreeperColoré: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eCreeper Coloré&7."
+    CombattantCreeper: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eCombattant Creeper&7."
+    Arbre: "&8[&6Bannières&8] &7Vous venez d'acheter la bannière &eArbre&7."
+
+  AchatImpossible:
+    Marguerite: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eMarguerite&7."
+    Creeper: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eCreeper&7."
+    Creep: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eCreep&7."
+    Inca: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eInca&7."
+    Mojang: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eMojang&7."
+    Trident: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eTrident&7."
+    Russe: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eRusse&7."
+    Happy: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eHappy&7."
+    Mort: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eMort&7."
+    Enfer: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eEnfer&7."
+    Hiver: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eHiver&7."
+    Nike: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eNike&7."
+    Foret: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eForet&7."
+    Chat: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eChat&7."
+    Enderman: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eEnderman&7."
+    FleurBleue: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eFleur Bleue&7."
+    Miroir: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eMiroir&7."
+    Calamar: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eCalamar&7."
+    CreeperColoré: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eCreeper Coloré&7."
+    CombattantCreeper: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eCombattant Creeper&7."
+    Arbre: "&8[&6Bannières&8] &7Vous n'avez pas assez d'argent pour acheter la bannière &eArbre&7."

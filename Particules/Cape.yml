@@ -1,0 +1,546 @@
+#❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+
+Gui:
+  General:
+    Nom: "&3Particules capes"
+    Fond: 
+      Style:
+        Ligne1: "@@@@@@@@@"
+        Ligne2: "@-------@"
+        Ligne3: "@-------@"
+        Ligne4: "@-------@"
+        Ligne5: "@-------@"
+        Ligne6: "@@@@@@@@@"
+    Remplissage:
+        Item1:
+          Symbole: "@"
+          Item: red stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        Item2:
+          Symbole: "-"
+          Item: white stained glass pane
+          Name: "&6Choisissez vos particules."
+          Lore: "&7Choisissez vos particules."
+        #Item3:
+        #  Symbole: "_"
+        #  Item: blue stained glass pane
+        #  Name: "&6Choisissez vos particules."
+        #  Lore: "&7Choisissez vos particules."
+  
+  Selection:
+    Retour:
+      Stat: true
+      Item: arrow
+      Name: "&6Retour"
+      Lore: "&7Cliquez pour retourner au menu précédent."
+      Slot: 45
+
+    Enlever: 
+      Stat: true
+      Item: red glass block
+      Name: "&cEnlever les particules"
+      Lore: "&7Cliquez pour enlever les particules"
+      Slot: 40 
+
+    WhiteClay:
+      Stat: true
+      Obtenu:
+        Item: White clay
+        Name: "&6Blanc"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: White Clay
+          Name: "&4Blanc"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: White Clay
+          Name: "&4Blanc"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 10
+
+    SpellWitch:
+      Stat: true
+      Obtenu:
+        Item: Nether brick slab
+        Name: "&6Spell Witch"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Nether brick slab
+          Name: "&4Spell Witch"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Nether brick slab
+          Name: "&4Spell Witch"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+
+      Slot: 11
+
+    Crit:
+      Stat: true
+      Obtenu:  
+        Item: stone sword
+        Name: "&6Crit"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: stone sword
+          Name: "&4Crit"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: stone sword
+          Name: "&4Crit"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 12
+
+    CritMagic: 
+      Stat: true
+      Obtenu:
+        Item: cauldron_item
+        Name: "&6Crit Magic"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: cauldron_item
+          Name: "&4Crit Magic"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: cauldron_item
+          Name: "&4Crit Magic"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 13  
+
+    OrangeClay:
+      Stat: true
+      Obtenu:
+        Item: orange clay
+        Name: "&6Orange"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: orange clay
+          Name: "&4Orange"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: orange clay
+          Name: "&4Orange"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 14
+
+    MagentaClay:
+      Stat: true
+      Obtenu:  
+        Item: MagentaClay
+        Name: "&6Magenta"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Magenta Clay
+          Name: "&4Magenta"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Magenta Clay
+          Name: "&4Magenta"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 15
+
+    EnchantmentTable:
+      Stat: true
+      Obtenu:  
+        Item: Enchantment Table
+        Name: "&6Enchantment Table"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Enchantment Table
+          Name: "&4Enchantment Table"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Enchantment Table
+          Name: "&4Enchantment Table"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 16
+
+    FireworksSparks:
+      Stat: true
+      Obtenu: 
+        Item: Firework_rocket
+        Name: "&6Fireworks Sparks"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Firework_rocket
+          Name: "&4Fireworks Sparks"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Firework_rocket
+          Name: "&4Fireworks Sparks"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 19
+
+    Flame:
+      Stat: true
+      Obtenu:  
+        Item: flint and steel
+        Name: "&6Flamme"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: flint and steel
+          Name: "&4Flamme"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: flint and steel
+          Name: "&4Flamme"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 20
+
+    LightBlueClay:
+      Stat: true
+      Obtenu:
+        Item: light blue clay
+        Name: "&6Bleu clair"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: light blue clay
+          Name: "&4Bleu clair"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: light blue clay
+          Name: "&4Bleu clair"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Prix: 1500
+        Rarete: 1
+      Slot: 21
+
+    YellowClay:
+      Stat: true
+      Obtenu:  
+        Item: Yellow clay
+        Name: "&6Jaune"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Yellow clay
+          Name: "&4Jaune"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Yellow clay
+          Name: "&4Jaune"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 22
+
+    Portal:
+      Stat: true
+      Obtenu:
+        Item: end portal frame
+        Name: "&6Portal"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: end portal frame
+          Name: "&4Portal"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: end portal frame
+          Name: "&4Portal"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 23
+
+    Redstone:
+      Stat: true
+      Obtenu:  
+        Item: redstone
+        Name: "&6Redstone"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: redstone
+          Name: "&4Redstone"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: redstone
+          Name: "&4Redstone"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 24
+
+    LimeClay:
+      Stat: true
+      Obtenu:  
+        Item: light green clay
+        Name: "&6Lime"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: light green clay
+          Name: "&4Lime"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: light green clay
+          Name: "&4Lime"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 25
+    
+    SmokeNormal:
+      Stat: true
+      Obtenu:  
+        Item: GunPowder
+        Name: "&6Fumée"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: GunPowder
+          Name: "&4Fumée"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: GunPowder
+          Name: "&4Fumée"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 28
+
+    PinkClay:
+      Stat: true
+      Obtenu:  
+        Item: pink clay
+        Name: "&6Rose"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: pink clay
+          Name: "&4Rose"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: pink clay
+          Name: "&4Rose"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 29
+
+    GrayClay:
+      Stat: true
+      Obtenu:  
+        Item: gray clay
+        Name: "&6Gris"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: gray clay
+          Name: "&4Gris"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: gray clay
+          Name: "&4Gris"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 30
+
+    SpellInstant:
+      Stat: true
+      Obtenu:
+        Item: bonemeal
+        Name: "&6Spell Instant"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: bonemeal
+          Name: "&4Spell Instant"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: bonemeal
+          Name: "&4Spell Instant"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 31
+
+    RedClay:
+      Stat: true
+      Obtenu:  
+        Item: Red clay
+        Name: "&6Rouge"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Red clay
+          Name: "&4Rouge"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Red clay
+          Name: "&4Rouge"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 32
+
+    VillagerHappy:
+      Stat: true
+      Obtenu:  
+        Item: emerald
+        Name: "&6Villager Happy"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:
+          Item: emerald
+          Name: "&4Villager Happy"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: emerald
+          Name: "&4Villager Happy"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 33
+
+    GreenClay:
+      Stat: true
+      Obtenu:  
+        Item: Green clay
+        Name: "&6Vert"
+        Lore: "&7Cliquez pour activer les particules"
+      NonObtenu:
+        Possible:  
+          Item: Green clay
+          Name: "&4Vert"
+          Lore: "&cCliquez pour acheter les particules"
+        Impossible:
+          Item: Green clay
+          Name: "&4Vert"
+          Lore: "&cVous n'avez pas assez d'argent"
+        Rarete: 1
+        Prix: 1500
+      Slot: 34
+
+
+Message:
+  Activer:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eCrit Magic&7." 
+    OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eOrange&7." 
+    MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eMagenta Clay&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eFlame&7." 
+    LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eBleu Clair&7." 
+    YellowClay:  "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eJaune&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eRedstone&7." 
+    LimeClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eVert Clair&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eFumée&7."
+    PinkClay:  "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eRose&7." 
+    GrayClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eGris&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eSpell Instant&7." 
+    RedClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eRouge&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eVillager Happy &7." 
+    GreenClay: "&8[&6Particules&8] &7Vous venez d'activer la cape de particule &eVert &7."
+
+  Desactiver:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eCrit Magic&7." 
+    OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eOrange&7." 
+    MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eMagenta Clay&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eFlame&7." 
+    LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eBleu Clair&7." 
+    YellowClay:  "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eJaune&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eRedstone&7." 
+    LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eVert Clair&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eFumée&7."
+    PinkClay:  "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eRose&7." 
+    GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eGris&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eSpell Instant&7." 
+    RedClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eRouge&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eVillager Happy &7." 
+    GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver la cape de particule &eVert &7."
+
+  AchatPossible:
+    Cloud: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eCrit Magic&7." 
+    OrangeClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eOrange&7." 
+    MagentaClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eMagenta Clay&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eFlame&7." 
+    LightBlueClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eBleu Clair&7." 
+    YellowClay:  "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eJaune&7." 
+    Portal: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eRedstone&7." 
+    LimeClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eVert Clair&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eFumée&7."
+    PinkClay:  "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eRose&7." 
+    GrayClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eGris&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eSpell Instant&7." 
+    RedClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eRouge&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eVillager Happy &7." 
+    GreenClay: "&8[&6Particules&8] &7Vous venez d'acheter la cape de particule &eVert &7."
+    
+
+  AchatImpossible:
+    Cloud: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eNuage&7."
+    SpellWitch: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eSpell Witch&7." 
+    Crit: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eCrit&7." 
+    CritMagic: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eCrit Magic&7." 
+    OrangeClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eOrange&7." 
+    MagentaClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eMagenta Clay&7." 
+    EnchantmentTable: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eTable d'Enchantement&7."  
+    FireworksSparks: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eFireworks Sparks&7."
+    Flame: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eFlame&7." 
+    LightBlueClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eBleu Clair&7." 
+    YellowClay:  "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eJaune&7." 
+    Portal: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &ePortal&7." 
+    Redstone: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eRedstone&7." 
+    LimeClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eVert Clair&7."
+    SmokeNormal: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eFumée&7."
+    PinkClay:  "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eRose&7." 
+    GrayClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eGris&7." 
+    SpellInstant: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eSpell Instant&7." 
+    RedClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eRouge&7." 
+    VillagerHappy: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eVillager Happy &7." 
+    GreenClay: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter la cape de particule &eVert &7."
+    
+
+
+

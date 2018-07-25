@@ -1,0 +1,1729 @@
+#❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+
+Gui:
+  Type:
+    General:
+      Nom: "&3Particules Wings"
+      Fond: 
+        Style:
+          Ligne1: "@@@@@@@@@"
+          Ligne2: "@-------@"
+          Ligne3: "@-------@"
+          Ligne4: "@-------@"
+          Ligne5: "@-------@"
+          Ligne6: "@@@@@@@@@"
+      Remplissage:
+          Item1:
+            Symbole: "@"
+            Item: red stained glass pane
+            Name: "&6Choisissez vos particules."
+            Lore: "&7Choisissez vos particules."
+          Item2:
+            Symbole: "-"
+            Item: white stained glass pane
+            Name: "&6Choisissez vos particules."
+            Lore: "&7Choisissez vos particules."
+          #Item3:
+          #  Symbole: "_"
+          #  Item: blue stained glass pane
+          #  Name: "&6Choisissez vos particules."
+          #  Lore: "&7Choisissez vos particules."
+    
+    Selection:
+      Retour:
+        Stat: true
+        Item: arrow
+        Name: "&6Retour"
+        Lore: "&7Cliquez pour retourner au menu précédent."
+        Slot: 45
+
+      Enlever: 
+        Stat: true
+        Item: red glass block
+        Name: "&cEnlever les particules"
+        Lore: "&7Cliquez pour enlever les particules"
+        Slot: 40 
+      
+      1:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 1"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 1"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 1"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 10
+        
+        
+
+      2:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 2"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 2"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 2"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 11
+        
+        
+
+      3:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 3"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 3"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 3"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 12
+        
+        
+
+      4:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 4"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 4"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 4"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 13
+        
+        
+
+      5:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 5"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 5"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 5"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 14
+        
+        
+
+      6:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 6"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 6"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 6"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 15
+        
+        
+
+      7:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 7"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 7"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 7"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 16
+        
+        
+
+      8:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 8"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 8"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 8"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 19
+        
+        
+
+      9:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 9"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 9"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 9"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 20
+        
+        
+
+      10:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 10"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 10"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 10"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 21
+        
+        
+
+      11:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 11"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 11"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 11"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 22
+        
+        
+
+      12:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 12"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 12"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 12"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 23
+        
+        
+
+      13:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 13"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 13"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 13"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 24
+        
+        
+
+      14:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 14"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 14"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 14"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 25
+        
+        
+
+      15:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 15"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 15"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 15"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 28
+        
+        
+
+      16:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 16"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 16"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 16"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 29
+        
+        
+
+      17:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 17"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 17"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 17"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 30
+        
+        
+
+      18:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 18"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 18"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 18"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 31
+        
+        
+
+      19:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 19"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 19"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 19"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 32
+        
+        
+
+      20:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 20"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 20"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 20"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 33
+        
+        
+
+      21:
+        Stat: true
+        Obtenu:
+          Item: enchanted book
+          Name: "&6Aile 21"
+          Lore: "&7Cliquez pour séléctionner la couleur"
+        NonObtenu:
+          Prix: 2000
+          Rarete: 3
+          Possible:
+            Item: enchanted book
+            Name: "&4Aile 21"
+            Lore: "&cCliquez pour acheter ce type d'aile"
+          Impossible:
+            Item: enchanted book
+            Name: "&4Aile 21"
+            Lore: "&cVous n'avez pas assez d'argent pour ce type d'aile"
+        Slot: 34
+        
+        
+
+  Couleur:
+    General:
+      Nom:
+        1: "&3Couleur pour l'aile 1" 
+        2: "&3Couleur pour l'aile 2" 
+        3: "&3Couleur pour l'aile 3" 
+        4: "&3Couleur pour l'aile 4" 
+        5: "&3Couleur pour l'aile 5" 
+        6: "&3Couleur pour l'aile 6" 
+        7: "&3Couleur pour l'aile 7" 
+        8: "&3Couleur pour l'aile 8" 
+        9: "&3Couleur pour l'aile 9" 
+        10: "&3Couleur pour l'aile 10" 
+        11: "&3Couleur pour l'aile 11" 
+        12: "&3Couleur pour l'aile 12" 
+        13: "&3Couleur pour l'aile 13" 
+        14: "&3Couleur pour l'aile 14" 
+        15: "&3Couleur pour l'aile 15" 
+        16: "&3Couleur pour l'aile 16" 
+        17: "&3Couleur pour l'aile 17" 
+        18: "&3Couleur pour l'aile 18" 
+        19: "&3Couleur pour l'aile 19" 
+        20: "&3Couleur pour l'aile 20" 
+        21: "&3Couleur pour l'aile 21" 
+      Fond: 
+        Style:
+          Ligne1: "@@@@@@@@@"
+          Ligne2: "@-------@"
+          Ligne3: "@-------@"
+          Ligne4: "@-------@"
+          Ligne5: "@-------@"
+          Ligne6: "@@@@@@@@@"
+      Remplissage:
+          Item1:
+            Symbole: "@"
+            Item: red stained glass pane
+            Name: "&6Choisissez vos particules."
+            Lore: "&7Choisissez vos particules."
+          Item2:
+            Symbole: "-"
+            Item: white stained glass pane
+            Name: "&6Choisissez vos particules."
+            Lore: "&7Choisissez vos particules."
+          #Item3:
+          #  Symbole: "_"
+          #  Item: blue stained glass pane
+          #  Name: "&6Choisissez vos particules."
+          #  Lore: "&7Choisissez vos particules."
+    
+    Selection:
+      Retour:
+        Stat: true
+        Item: arrow
+        Name: "&6Retour"
+        Lore: "&7Cliquez pour retourner au menu précédent."
+        Slot: 45
+
+      Enlever: 
+        Stat: true
+        Item: red glass block
+        Name: "&cEnlever les particules"
+        Lore: "&7Cliquez pour enlever les particules"
+        Slot: 40
+
+      WhiteClay:
+        Stat: true
+        Item: White clay
+        Name: "&6Couleur Blanche (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 10
+
+      OrangeClay:
+        Stat: true
+        Item: Orange Clay
+        Name: "&6Couleur Orange (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 11
+      MagentaClay:
+        Stat: true
+        Item: Magenta Clay
+        Name: "&6Couleur Magenta (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 12
+
+      LightBlueClay:
+        Stat: true
+        Item: Light Blue Clay
+        Name: "&6Couleur Bleue Claire (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 13
+
+      YellowClay:
+        Stat: true
+        Item: Yellow Clay
+        Name: "&6Couleur Jaune (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 14
+
+      LimeClay:
+        Stat: true
+        Item: Light green Clay
+        Name: "&6Couleur Lime (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 15
+
+      PinkClay:
+        Stat: true
+        Item: Pink Clay
+        Name: "&6Couleur Rose (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 16
+
+      GrayClay:
+        Stat: true
+        Item: Gray clay
+        Name: "&6Couleur Grise (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 19
+
+      GreenClay:
+        Stat: true
+        Item: Green Clay
+        Name: "&6Couleur Verte (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 20
+
+      RedClay:
+        Stat: true
+        Item: Red Clay
+        Name: "&6Couleur Rouge (Clay)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 21
+
+      OrangeWool:
+        Stat: true
+        Item: Orange Wool
+        Name: "&6Couleur Orange (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 22
+
+      LimeWool:
+        Stat: true
+        Item: Light green wool
+        Name: "&6Couleur Lime (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 23
+
+      LightGrayWool:
+        Stat: true
+        Item: Light Gray Wool
+        Name: "&6Couleur Grise Claire (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 24
+
+      PinkWool:
+        Stat: true
+        Item: Pink wool
+        Name: "&6Couleur Rose (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 25
+
+      CyanWool:
+        Stat: true
+        Item: Cyan Wool
+        Name: "&6Couleur Cyan (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 28
+
+      PurpleWool:
+        Stat: true
+        Item: purple wool
+        Name: "&6Couleur Violette (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 29
+
+      BlueWool:
+        Stat: true
+        Item: Blue wool
+        Name: "&6Couleur Bleue (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 30
+
+      BrownWool:
+        Stat: true
+        Item: Brown Wool
+        Name: "&6Couleur Marron (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 31
+
+      GreenWool:
+        Stat: true
+        Item: Green Wool
+        Name: "&6Couleur Verte (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 32
+
+      RedWool:
+        Stat: true
+        Item: Red Wool
+        Name: "&6Couleur Rouge (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 33
+
+      BlackWool:
+        Stat: true
+        Item: Black Wool
+        Name: "&6Couleur Noire (Wool)"
+        Lore: "&7Cliquez pour afficher les particules"
+        Slot: 34
+
+
+
+
+
+
+
+
+
+
+
+
+Message:
+  Activer:
+    1:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 1 couleur &eNoire (Wool)&7."
+
+    2:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 2 couleur &eNoire (Wool)&7."
+
+    3:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 3 couleur &eNoire (Wool)&7."
+    4:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 4 couleur &eNoire (Wool)&7."
+
+    5:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 5 couleur &eNoire (Wool)&7."
+
+    6:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 6 couleur &eNoire (Wool)&7."
+
+    7:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 7 couleur &eNoire (Wool)&7."
+
+    8:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 8 couleur &eNoire (Wool)&7."
+
+    9:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 9 couleur &eNoire (Wool)&7."
+
+    10:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 10 couleur &eNoire (Wool)&7."
+
+    11:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 11 couleur &eNoire (Wool)&7."
+
+    12:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 12 couleur &eNoire (Wool)&7."
+
+    13:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 13 couleur &eNoire (Wool)&7."
+
+    14:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 14 couleur &eNoire (Wool)&7."
+
+    15:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 15 couleur &eNoire (Wool)&7."
+
+    16:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 16 couleur &eNoire (Wool)&7."
+
+    17:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 17 couleur &eNoire (Wool)&7."
+
+    18:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 18 couleur &eNoire (Wool)&7."
+
+    19:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 19 couleur &eNoire (Wool)&7."
+
+    20:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 20 couleur &eNoire (Wool)&7."
+
+    21:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez d'activer l'aile 21 couleur &eNoire (Wool)&7."
+
+  Desactiver:
+    1:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 1 couleur &eNoire (Wool)&7."
+
+    2:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eGrise Claire (Wool)&7."  
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 2 couleur &eNoire (Wool)&7."
+
+    3:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 3 couleur &eNoire (Wool)&7."
+
+    4:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 4 couleur &eNoire (Wool)&7."
+
+    5:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 5 couleur &eNoire (Wool)&7."
+
+    6:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 6 couleur &eNoire (Wool)&7."
+
+    7:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 7 couleur &eNoire (Wool)&7."
+
+    8:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 8 couleur &eNoire (Wool)&7."
+
+    9:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 9 couleur &eNoire (Wool)&7."
+
+    10:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 10 couleur &eNoire (Wool)&7."
+
+    11:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 11 couleur &eNoire (Wool)&7."
+
+    12:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 12 couleur &eNoire (Wool)&7."
+
+    13:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 13 couleur &eNoire (Wool)&7."
+
+    14:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 14 couleur &eNoire (Wool)&7."
+
+    15:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 15 couleur &eNoire (Wool)&7."
+
+    16:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 16 couleur &eNoire (Wool)&7."
+
+    17:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 17 couleur &eNoire (Wool)&7."
+
+    18:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 18 couleur &eNoire (Wool)&7."
+
+    19:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 19 couleur &eNoire (Wool)&7."
+
+    20:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 20 couleur &eNoire (Wool)&7."
+
+    21:
+      WhiteClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eBlanche (Clay)&7."
+      OrangeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eOrange (Clay)&7."
+      MagentaClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eMagenta (Clay)&7."
+      LightBlueClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21  couleur &eBleue Claire (Clay)&7."
+      YellowClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eJaune (Clay)&7."
+      LimeClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eLime (Clay)&7."
+      PinkClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eRose (Clay)&7."
+      GrayClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eGrise (Clay)&7."
+      GreenClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eVerte (Clay)&7."
+      RedClay: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eRouge (Clay)&7."
+      OrangeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eOrange (Wool)&7."
+      LimeWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eLime (Wool)&7."
+      LightGrayWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eGrise Claire (Wool)&7."
+      PinkWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eRose (Wool)&7."
+      CyanWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eCyan (Wool)&7."
+      PurpleWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eViolette (Wool)&7."
+      BlueWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eBleue (Wool)&7."
+      BrownWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eMarron (Wool)&7."
+      GreenWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eVerte (Wool)&7."
+      RedWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eRouge (Wool)&7."
+      BlackWool: "&8[&6Particules&8] &7Vous venez de désactiver l'aile 21 couleur &eNoire (Wool)&7."
+
+  AchatPossible:
+    1: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 1&7."
+    2: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 2&7."
+    3: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 3&7."
+    4: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 4&7."
+    5: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 5&7."
+    6: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 6&7."
+    7: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 7&7."
+    8: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 8&7."
+    9: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 9&7."
+    10: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 10&7."
+    11: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 11&7."
+    12: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 12&7."
+    13: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 13&7."
+    14: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 14&7."
+    15: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 15&7."
+    16: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 16&7."
+    17: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 17&7."
+    18: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 18&7."
+    19: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 19&7."
+    20: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 20&7."
+    21: "&8[&6Particules&8] &7Vous venez d'acheter &el'aile 21&7."
+    
+
+  AchatImpossible:
+    1: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 1&7."
+    2: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 2&7."
+    3: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 3&7."
+    4: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 4&7."
+    5: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 5&7."
+    6: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 6&7."
+    7: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 7&7."
+    8: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 8&7."
+    9: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 9&7."
+    10: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 10&7."
+    11: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 11&7."
+    12: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 12&7."
+    13: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 13&7."
+    14: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 14&7."
+    15: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 15&7."
+    16: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 16&7."
+    17: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 17&7."
+    18: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 18&7."
+    19: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 19&7."
+    20: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 20&7."
+    21: "&8[&6Particules&8] &7Vous n'avez pas assez d'argent pour acheter &el'aile 21&7."
+    
+
+
+
